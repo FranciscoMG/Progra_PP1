@@ -9,12 +9,12 @@ package vista;
  *
  * @author vini
  */
-public class PanelJuego extends javax.swing.JPanel {
+public class PanelJuego1 extends javax.swing.JPanel {
 
     /**
-     * Creates new form PanelJuego
+     * Creates new form PanelJuego1
      */
-    public PanelJuego() {
+    public PanelJuego1() {
         initComponents();
     }
 
@@ -27,19 +27,30 @@ public class PanelJuego extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel1 = new javax.swing.JLabel();
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/jugador1_+x.gif"))); // NOI18N
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1000, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(182, 182, 182)
+                .addComponent(jLabel1)
+                .addContainerGap(758, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 700, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(477, Short.MAX_VALUE)
+                .addComponent(jLabel1)
+                .addGap(136, 136, 136))
         );
     }// </editor-fold>//GEN-END:initComponents
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
 }
