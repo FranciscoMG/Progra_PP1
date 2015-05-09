@@ -9,11 +9,14 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.imageio.ImageIO;
 import modelo.HiloJugador;
+import modelo.HiloTortuga;
 import modelo.Jugador;
+import modelo.Tortuga;
 import vista.PanelJuego;
 
 /**
@@ -23,21 +26,26 @@ import vista.PanelJuego;
 public class ControlTecla implements KeyListener {
 
     PanelJuego panelJuego;
-    private Jugador jugador;
-HiloJugador hilo = new HiloJugador(panelJuego, jugador);
+    private ArrayList<Tortuga> jugador = new ArrayList<>();
+    ArrayList<HiloTortuga> hilo = new ArrayList<>();
+//HiloJugador hilo = new HiloJugador(panelJuego, jugador.get(0));
 
     public ControlTecla(PanelJuego panel) {
         this.panelJuego = panel;
         try {
-            jugador = new Jugador(600, 100, 3, ImageIO.read(new File("jugador1_derecha.png")));
-
+            jugador.add(new Tortuga(3, 6, 423, 6, 248));
+            jugador.add(new Tortuga(3, 514, 423, 514, 756));
+            jugador.add(new Tortuga(3, 193, 263, 193, 569));
         } catch (IOException ex) {
-
+            Logger.getLogger(ControlTecla.class.getName()).log(Level.SEVERE, null, ex);
         }
-        panelJuego.setJugador(jugador);
-        HiloJugador hilo = new HiloJugador(panelJuego, jugador);
-        hilo.start();
 
+        panelJuego.setTortuga(jugador);
+
+        for (int i = 0; i < jugador.size(); i++) {
+            hilo.add(new HiloTortuga(panelJuego, jugador.get(i)));
+            hilo.get(i).start();
+        }
     }
 
     public void keyTyped(KeyEvent e) {
@@ -54,10 +62,10 @@ HiloJugador hilo = new HiloJugador(panelJuego, jugador);
 
         }
         if (e.getKeyCode() == KeyEvent.VK_A || e.getKeyCode() == KeyEvent.VK_LEFT) {
-hilo.movIzquierda();
+//hilo.movIzquierda();
         }
         if (e.getKeyCode() == KeyEvent.VK_D || e.getKeyCode() == KeyEvent.VK_RIGHT) {
-            hilo.movDerecha();
+            //  hilo.movDerecha();
         }
     }
 

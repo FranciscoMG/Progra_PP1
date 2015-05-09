@@ -6,7 +6,9 @@
 package vista;
 
 import java.awt.Graphics;
+import java.util.ArrayList;
 import modelo.Jugador;
+import modelo.Tortuga;
 
 /**
  *
@@ -15,6 +17,7 @@ import modelo.Jugador;
 public class PanelJuego extends javax.swing.JPanel {
 
     private Jugador jugador;
+    private ArrayList<Tortuga> tortugas;
 
     /**
      * Creates new form PanelJuego1
@@ -26,7 +29,10 @@ public class PanelJuego extends javax.swing.JPanel {
 
     public void paint(Graphics g) {
         super.paint(g);
-        jugador.pintarPersonaje(g);
+        //jugador.pintarPersonaje(g);
+        for (int i = 0; i < tortugas.size(); i++) {
+            tortugas.get(i).pintarPersonaje(g);
+        }
     }
 
     /**
@@ -47,14 +53,14 @@ public class PanelJuego extends javax.swing.JPanel {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(182, 182, 182)
+                .addGap(821, 821, 821)
                 .addComponent(jLabel1)
-                .addContainerGap(758, Short.MAX_VALUE))
+                .addContainerGap(511, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(492, Short.MAX_VALUE)
+                .addContainerGap(566, Short.MAX_VALUE)
                 .addComponent(jLabel1)
                 .addGap(136, 136, 136))
         );
@@ -62,6 +68,10 @@ public class PanelJuego extends javax.swing.JPanel {
 
     public void setJugador(Jugador jugador) {
         this.jugador = jugador;
+    }
+
+    public void setTortuga(ArrayList<Tortuga> tortugas) {
+        this.tortugas = tortugas;
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

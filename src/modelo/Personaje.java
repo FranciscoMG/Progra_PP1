@@ -14,48 +14,51 @@ import java.awt.Image;
  */
 public abstract class Personaje {
 
+    private int vidas;
     private int posX;
     private int posY;
-    private int vidas;
-    private Image imagenPersonaje;
+    private Image imgPers;
+    public static Image imgPersIzq;
+    public static Image imgPersDer;
 
-    public Personaje(int x, int y, int vida, Image imagenPersonaje) {
-        this.posX = x;
-        this.posY = y;
-        this.vidas = vida;
-        this.imagenPersonaje = imagenPersonaje;
-    }
-
-    public int getPosX() {
-        return posX;
-    }
-
-    public void setPosX(int x) {
-        this.posX = x;
-    }
-
-    public int getPosY() {
-        return posY;
-    }
-
-    public void setPosY(int y) {
-        this.posY = y;
+    public Personaje(int vidas, int posX, int posY, Image imgPersIzq, Image imgPersDer) {
+        this.vidas = vidas;
+        this.posX = posX;
+        this.posY = posY;
+        this.imgPersIzq = imgPersIzq;
+        this.imgPersDer = imgPersDer;
     }
 
     public int getVidas() {
         return vidas;
     }
 
-    public void setVidas(byte vidas) {
+    public void setVidas(int vidas) {
         this.vidas = vidas;
     }
 
-    public Image getImagenPersonaje() {
-        return imagenPersonaje;
+    public int getPosX() {
+        return posX;
     }
 
-    public void setImagenPersonaje(Image imagenPersonaje) {
-        this.imagenPersonaje = imagenPersonaje;
+    public void setPosX(int posX) {
+        this.posX = posX;
+    }
+
+    public int getPosY() {
+        return posY;
+    }
+
+    public void setPosY(int posY) {
+        this.posY = posY;
+    }
+
+    public Image getImgPers() {
+        return imgPers;
+    }
+
+    public void setImgPers(Image imgPers) {
+        this.imgPers = imgPers;
     }
 
     public abstract void pintarPersonaje(Graphics g);
