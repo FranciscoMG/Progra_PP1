@@ -5,17 +5,28 @@
  */
 package vista;
 
+import java.awt.Graphics;
+import modelo.Jugador;
+
 /**
  *
  * @author vini
  */
-public class PanelJuego1 extends javax.swing.JPanel {
+public class PanelJuego extends javax.swing.JPanel {
+
+    private Jugador jugador;
 
     /**
      * Creates new form PanelJuego1
      */
-    public PanelJuego1() {
+    public PanelJuego() {
         initComponents();
+
+    }
+
+    public void paint(Graphics g) {
+        super.paint(g);
+        jugador.pintarPersonaje(g);
     }
 
     /**
@@ -43,14 +54,18 @@ public class PanelJuego1 extends javax.swing.JPanel {
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(477, Short.MAX_VALUE)
+                .addContainerGap(492, Short.MAX_VALUE)
                 .addComponent(jLabel1)
                 .addGap(136, 136, 136))
         );
     }// </editor-fold>//GEN-END:initComponents
 
+    public void setJugador(Jugador jugador) {
+        this.jugador = jugador;
+    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
+
 }
