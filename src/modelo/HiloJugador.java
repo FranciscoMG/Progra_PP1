@@ -14,46 +14,27 @@ import vista.PanelJuego;
 public class HiloJugador extends Thread {
 
     private PanelJuego panelJuego;
-    private Personaje jugador;
-    private static int direccionX = 0;
-    private int direccionY = 0;
+    private Jugador jugador;
+    public static int direccionX;
+    public static int direccionY;
 
-    public HiloJugador(PanelJuego panelJuego, Personaje jugador) {
+    public HiloJugador(PanelJuego panelJuego, Jugador jugador) {
         this.panelJuego = panelJuego;
         this.jugador = jugador;
-        System.out.println("crea");
+        this.jugador.setImgPers(Jugador.imgPersIzq);
     }
 
     public void run() {
         while (true) {
             try {
-                sleep(1);
-                if (this.jugador.getPosX() == 0) {
-                    direccionX = 1;
-                }
-                if (this.jugador.getPosY() == 0) {
-                    direccionY = 1;
-                }
-                if (this.jugador.getPosX() == panelJuego.getWidth()) {
-                    direccionX = -1;
-                }
-                if (this.jugador.getPosY() == panelJuego.getHeight()) {
-                    direccionY = -1;
-
-                }
-                this.jugador.setPosX(jugador.getPosX() + direccionX);
+                sleep(50);
+                this.jugador.setPosX(jugador.getPosX() + direccionX * 2);
+                //this.jugador.setPosY(jugador.getPosY() + direccionY * 164);
                 direccionX = 0;
+                direccionY = 0;
             } catch (InterruptedException ex) {
             }
             this.panelJuego.repaint();
         }
-    }
-
-    public void movDerecha() {
-        this.direccionX = 1;
-    }
-
-    public void movIzquierda() {
-        this.direccionX = -1;
     }
 }

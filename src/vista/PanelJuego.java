@@ -24,12 +24,11 @@ public class PanelJuego extends javax.swing.JPanel {
      */
     public PanelJuego() {
         initComponents();
-
     }
 
     public void paint(Graphics g) {
         super.paint(g);
-        //jugador.pintarPersonaje(g);
+        jugador.pintarPersonaje(g);
         for (int i = 0; i < tortugas.size(); i++) {
             tortugas.get(i).pintarPersonaje(g);
         }
@@ -44,25 +43,15 @@ public class PanelJuego extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel1 = new javax.swing.JLabel();
-
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/jugador1_+x.gif"))); // NOI18N
-
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(821, 821, 821)
-                .addComponent(jLabel1)
-                .addContainerGap(511, Short.MAX_VALUE))
+            .addGap(0, 815, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(566, Short.MAX_VALUE)
-                .addComponent(jLabel1)
-                .addGap(136, 136, 136))
+            .addGap(0, 715, Short.MAX_VALUE)
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -75,7 +64,6 @@ public class PanelJuego extends javax.swing.JPanel {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
 
 }

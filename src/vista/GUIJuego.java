@@ -5,21 +5,21 @@
  */
 package vista;
 
-import controlador.ControlTecla;
+import controlador.ControlJuego;
+import javax.swing.JOptionPane;
 
 /**
  *
- * @author vini
+ * @author francisco
  */
 public class GUIJuego extends javax.swing.JFrame {
 
     /**
-     * Creates new form GUIEJuego
+     * Creates new form GUIJuego
      */
     public GUIJuego() {
         initComponents();
-        ControlTecla controlTecla = new ControlTecla(panelJuego1);
-        this.addKeyListener(controlTecla);
+        ControlJuego controlJuego = new ControlJuego(this, panelJuego1, panelInfo2);
     }
 
     /**
@@ -32,21 +32,27 @@ public class GUIJuego extends javax.swing.JFrame {
     private void initComponents() {
 
         panelJuego1 = new vista.PanelJuego();
+        panelInfo2 = new vista.PnlInfoJuego();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setName("GUIJuego"); // NOI18N
+        setResizable(false);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(panelJuego1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(panelJuego1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(panelInfo2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(panelJuego1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(panelJuego1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(panelInfo2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
@@ -79,7 +85,6 @@ public class GUIJuego extends javax.swing.JFrame {
             java.util.logging.Logger.getLogger(GUIJuego.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
-        //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
@@ -90,6 +95,11 @@ public class GUIJuego extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private vista.PnlInfoJuego panelInfo2;
     private vista.PanelJuego panelJuego1;
     // End of variables declaration//GEN-END:variables
+
+    public static void mensaje(String mensaje, int tipoMensaje) {
+        JOptionPane.showMessageDialog(null, mensaje, null, tipoMensaje);
+    }
 }

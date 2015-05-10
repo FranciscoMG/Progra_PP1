@@ -25,8 +25,8 @@ public abstract class Personaje {
         this.vidas = vidas;
         this.posX = posX;
         this.posY = posY;
-        this.imgPersIzq = imgPersIzq;
-        this.imgPersDer = imgPersDer;
+        Personaje.imgPersIzq = imgPersIzq;
+        Personaje.imgPersDer = imgPersDer;
     }
 
     public int getVidas() {
