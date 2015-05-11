@@ -54,6 +54,9 @@ public class ControlJuego implements ActionListener, KeyListener {
     }
 
     public void actionPerformed(ActionEvent e) {
+        if (e.getActionCommand().equalsIgnoreCase(PnlInfoJuego.BTN_NUEVA)) {
+            registroJuego.iniciarTiempo();
+        }
     }
 
 }

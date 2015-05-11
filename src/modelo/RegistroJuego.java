@@ -62,6 +62,10 @@ public class RegistroJuego {
     }
 
     /////////////////////////////////////////////////////////////////////////
-    
+     public void iniciarTiempo () {
+         hiloTiempo = new HiloTiempo(panelInfo);
+         hiloTiempo.iniciarRelog();
+         hiloTiempo.start();
+     }
 
 }
