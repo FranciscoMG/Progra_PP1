@@ -29,7 +29,7 @@ public class ControlJuego implements ActionListener, KeyListener {
         panelJuego.setFocusable(true);
         this.guiJuego = guiJuego;
         this.panelInfo = panelInfo;
-        this.registroJuego = new RegistroJuego(panelJuego, panelInfo);
+        this.registroJuego = new RegistroJuego(panelJuego, this.panelInfo);
     }
 
     public void keyTyped(KeyEvent e) {
@@ -54,6 +54,9 @@ public class ControlJuego implements ActionListener, KeyListener {
     }
 
     public void actionPerformed(ActionEvent e) {
+        if (e.getActionCommand().equalsIgnoreCase(PnlInfoJuego.BTN_NUEVA)) {
+            registroJuego.iniciarTiempo();
+        }
     }
 
 }

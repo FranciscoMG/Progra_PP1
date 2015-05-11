@@ -24,6 +24,8 @@ public class RegistroJuego {
     private ArrayList<Tortuga> tortugas = new ArrayList<>();
     private ArrayList<HiloTortuga> hiloTortugas = new ArrayList<>();
 
+    private HiloTiempo hiloTiempo;
+
     public RegistroJuego(PanelJuego panelJuego, PnlInfoJuego panelInfo) {
         this.panelJuego = panelJuego;
         this.panelInfo = panelInfo;
@@ -58,5 +60,12 @@ public class RegistroJuego {
         HiloJugador.direccionX = 1;
         this.jugador.setImgPers(jugador.imgPersDer);
     }
+
+    /////////////////////////////////////////////////////////////////////////
+     public void iniciarTiempo () {
+         hiloTiempo = new HiloTiempo(panelInfo);
+         hiloTiempo.iniciarRelog();
+         hiloTiempo.start();
+     }
 
 }
