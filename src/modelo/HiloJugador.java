@@ -27,7 +27,7 @@ public class HiloJugador extends Thread {
     public void run() {
         while (true) {
             try {
-                sleep(50);
+                sleep(20);
                 this.jugador.setPosX(jugador.getPosX() + direccionX * 2);
                 //this.jugador.setPosY(jugador.getPosY() + direccionY * 164);
                 direccionX = 0;
