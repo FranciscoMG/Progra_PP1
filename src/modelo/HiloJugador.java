@@ -21,7 +21,7 @@ public class HiloJugador extends Thread {
     public HiloJugador(PanelJuego panelJuego, Jugador jugador) {
         this.panelJuego = panelJuego;
         this.jugador = jugador;
-        this.jugador.setImgPers(Jugador.imgPersIzq);
+        this.jugador.setImgPers(jugador.imgPersIzq);
     }
 
     public void run() {
@@ -29,7 +29,7 @@ public class HiloJugador extends Thread {
             try {
                 sleep(50);
                 this.jugador.setPosX(jugador.getPosX() + direccionX * 2);
-                //this.jugador.setPosY(jugador.getPosY() + direccionY * 164);
+                this.jugador.setPosY(jugador.getPosY() + direccionY * 164);
                 direccionX = 0;
                 direccionY = 0;
             } catch (InterruptedException ex) {

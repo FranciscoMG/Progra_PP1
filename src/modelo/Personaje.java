@@ -18,15 +18,15 @@ public abstract class Personaje {
     private int posX;
     private int posY;
     private Image imgPers;
-    public static Image imgPersIzq;
-    public static Image imgPersDer;
+    public Image imgPersIzq;
+    public Image imgPersDer;
 
     public Personaje(int vidas, int posX, int posY, Image imgPersIzq, Image imgPersDer) {
         this.vidas = vidas;
         this.posX = posX;
         this.posY = posY;
-        Personaje.imgPersIzq = imgPersIzq;
-        Personaje.imgPersDer = imgPersDer;
+        this.imgPersIzq = imgPersIzq;
+        this.imgPersDer = imgPersDer;
     }
 
     public int getVidas() {
