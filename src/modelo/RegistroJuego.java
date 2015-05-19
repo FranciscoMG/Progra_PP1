@@ -25,6 +25,7 @@ public class RegistroJuego {
     private ArrayList<HiloTortuga> hiloTortugas = new ArrayList<>();
 
     private HiloTiempo hiloTiempo;
+    private HiloColicionador hiloColicionador;
 
     public RegistroJuego(PanelJuego panelJuego, PnlInfoJuego panelInfo) {
         this.panelJuego = panelJuego;
@@ -46,6 +47,8 @@ public class RegistroJuego {
             hiloTortugas.get(i).start();
         }
 
+        hiloColicionador = new HiloColicionador(tortugas, jugador);
+        hiloColicionador.start();
         
     }
 
