@@ -16,6 +16,7 @@ import vista.PnlInfoJuego;
 public class HiloTiempo extends Thread {
 
     private String tiempo = "";
+    private int suma = 0;
     private PnlInfoJuego pnlInfoJuego;
 
     public HiloTiempo(PnlInfoJuego panelInfo) {
@@ -33,11 +34,15 @@ public class HiloTiempo extends Thread {
     }
 
     ///////////////////////////////////////////////////////////////////////////
-    private void retraso() {
-        try {
-            this.sleep(1); // el tiempo debe ser de 1000
-        } catch (InterruptedException ex) {
-            Logger.getLogger(HiloTiempo.class.getName()).log(Level.SEVERE, null, ex);
+    public void run() {
+        while (true) {
+            try {
+                this.sleep(1000); // el tiempo debe ser de 1000
+                suma++;
+                System.out.println(suma);
+            } catch (InterruptedException ex) {
+                Logger.getLogger(HiloTiempo.class.getName()).log(Level.SEVERE, null, ex);
+            }
         }
     }
 
@@ -48,9 +53,9 @@ public class HiloTiempo extends Thread {
 
             for (int segundos = 0; segundos < 60; segundos++) {
                 this.tiempo = minutos + ":" + segundos;
-                
+
                 System.err.println(tiempo);
-                retraso();
+                //retraso();
 
             }
         }

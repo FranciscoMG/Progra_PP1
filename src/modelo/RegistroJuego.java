@@ -45,9 +45,12 @@ public class RegistroJuego {
             hiloTortugas.add(new HiloTortuga(panelJuego, tortugas.get(i)));
             hiloTortugas.get(i).start();
         }
+
+        
     }
 
     public void movJugAba() {
+        
         HiloJugador.direccionY = -1;
     }
 

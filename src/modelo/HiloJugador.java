@@ -28,8 +28,10 @@ public class HiloJugador extends Thread {
         while (true) {
             try {
                 sleep(20);
-                this.jugador.setPosX(jugador.getPosX() + direccionX * 2);
-                this.jugador.setPosY(jugador.getPosY() + direccionY * 164);
+                this.jugador.setPosX(jugador.getPosX() + direccionX * 3);
+                for (int i = 0; i < 163; i++) {
+                    this.jugador.setPosY(jugador.getPosY() + direccionY);
+                }
                 direccionX = 0;
                 direccionY = 0;
             } catch (InterruptedException ex) {
