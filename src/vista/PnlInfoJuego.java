@@ -41,6 +41,7 @@ public class PnlInfoJuego extends javax.swing.JPanel {
         jLabel_UltimasPartidas = new javax.swing.JLabel();
         jButton_Guardar = new javax.swing.JButton();
         jButton_Salir = new javax.swing.JButton();
+        jLabel_TiempoDeJuego = new javax.swing.JLabel();
 
         jButton_Cargar.setText("Cargar partida");
 
@@ -60,6 +61,8 @@ public class PnlInfoJuego extends javax.swing.JPanel {
 
         jButton_Salir.setText("Salir del juego");
 
+        jLabel_TiempoDeJuego.setText("0");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
@@ -71,15 +74,19 @@ public class PnlInfoJuego extends javax.swing.JPanel {
                         .addComponent(jLabel3)
                         .addGap(45, 45, 45)
                         .addComponent(jLabel_Usuario))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel4)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel_UltimasPartidas))
                     .addComponent(jButton_Guardar)
                     .addComponent(jButton_Cargar)
                     .addComponent(jButton_Nueva)
-                    .addComponent(jLabel7)
-                    .addComponent(jButton_Salir))
+                    .addComponent(jButton_Salir)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                                .addComponent(jLabel7)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jLabel_TiempoDeJuego, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addComponent(jLabel4))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel_UltimasPartidas)))
                 .addContainerGap(243, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -90,7 +97,9 @@ public class PnlInfoJuego extends javax.swing.JPanel {
                     .addComponent(jLabel3)
                     .addComponent(jLabel_Usuario))
                 .addGap(10, 10, 10)
-                .addComponent(jLabel7)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel7)
+                    .addComponent(jLabel_TiempoDeJuego))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel4)
@@ -116,6 +125,7 @@ public class PnlInfoJuego extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel_TiempoDeJuego;
     private javax.swing.JLabel jLabel_UltimasPartidas;
     private javax.swing.JLabel jLabel_Usuario;
     // End of variables declaration//GEN-END:variables
@@ -147,5 +157,14 @@ public class PnlInfoJuego extends javax.swing.JPanel {
     public void setjLabel_UltimasPartidas(String jLabel_UltimasPartidas) {
         this.jLabel_UltimasPartidas.setText(jLabel_UltimasPartidas);
     }
+
+    public String getjLabel_TiempoDeJuego() {
+        return jLabel_TiempoDeJuego.getText();
+    }
+
+    public void setjLabel_TiempoDeJuego(String jLabel_TiempoDeJuego) {
+        this.jLabel_TiempoDeJuego.setText(jLabel_TiempoDeJuego);
+    }
+    
 
 }
