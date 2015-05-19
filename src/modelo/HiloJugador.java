@@ -30,7 +30,7 @@ public class HiloJugador extends Thread {
     public void run() {
         while (true) {
             try {
-                sleep(20);
+                sleep(10);
                 if (salto) {
                     altura++;
                     direccionY = -1;
@@ -49,7 +49,7 @@ public class HiloJugador extends Thread {
                         caida = false;
                     }
                 }
-                this.jugador.setPosX(jugador.getPosX() + direccionX * 3);
+                this.jugador.setPosX(jugador.getPosX() + direccionX * 10);
                 direccionX = 0;
                 direccionY = 0;
             } catch (InterruptedException ex) {
