@@ -17,7 +17,7 @@ public class GUIJuego extends javax.swing.JFrame {
     /**
      * Creates new form GUIJuego
      */
-    public GUIJuego() {
+    public GUIJuego() {  //////////////////////CAMBIO ///////////////////////
         initComponents();
         ControlJuego controlJuego = new ControlJuego(this, panelJuego1, panelInfo2);
         panelInfo2.escuchar(controlJuego);
