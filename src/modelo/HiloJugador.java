@@ -35,7 +35,7 @@ public class HiloJugador extends Thread {
                     altura++;
                     direccionY = -1;
                     this.jugador.setPosY(jugador.getPosY() + direccionY*3);
-                    if (altura == 50) {
+                    if (altura == 56) {
                         //altura = 0;
                         salto = false;
                         caida = true;
@@ -44,7 +44,7 @@ public class HiloJugador extends Thread {
                 if (caida) {
                     altura--;
                     direccionY = 1;
-                    this.jugador.setPosY(jugador.getPosY() + direccionY*2);
+                    this.jugador.setPosY(jugador.getPosY() + direccionY*3);
                     if (altura == 0) {
                         caida = false;
                     }
