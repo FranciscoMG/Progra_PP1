@@ -51,16 +51,16 @@ public class RegistroJuego {
 
     public void movJugAba() {
         
-        HiloJugador.direccionY = -1;
+        hiloJugador.salto = true;
     }
 
     public void movJugIzq() {
-        HiloJugador.direccionX = -1;
+        hiloJugador.direccionX = -1;
         this.jugador.setImgPers(jugador.imgPersIzq);
     }
 
     public void movJugDer() {
-        HiloJugador.direccionX = 1;
+        hiloJugador.direccionX = 1;
         this.jugador.setImgPers(jugador.imgPersDer);
     }
 
