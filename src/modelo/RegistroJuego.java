@@ -47,11 +47,6 @@ public class RegistroJuego {
             hiloTortugas.get(i).start();
         }
 
-
-        hiloColicionador = new HiloColicionador(tortugas, jugador);
-        hiloColicionador.start();
-        
-
     }
 
     public void movJugAba() {
