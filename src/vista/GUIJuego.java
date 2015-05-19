@@ -21,6 +21,7 @@ public class GUIJuego extends javax.swing.JFrame {
         initComponents();
         ControlJuego controlJuego = new ControlJuego(this, panelJuego1, panelInfo2);
         panelInfo2.escuchar(controlJuego);
+        this.setLocationRelativeTo(null);
     }
 
   
