@@ -20,6 +20,8 @@ public class HiloColicionador extends Thread {
     private Jugador jugador;
 
     private Rectangle colicionadorTortugas;
+//    private Rectangle colicionadorTortugas2;
+//    private Rectangle colicionadorTortugas3;
     private Rectangle colicionadorJugador;
     private int cantidadColiciones = 0;
 
@@ -30,6 +32,7 @@ public class HiloColicionador extends Thread {
         this.jugador = jugador;
 
         this.colicionadorJugador = new Rectangle(jugador.getPosX(), jugador.getPosY(), 60, 108);
+        this.colicionadorTortugas = new Rectangle();
     }
 
     //////////////////////////////////////////////////////////////////////////
@@ -42,13 +45,16 @@ public class HiloColicionador extends Thread {
 
         try {
             while (true) {
-                sleep(10);
+                sleep(500);
+                
+                this.colicionadorJugador.setBounds(jugador.getPosX(), jugador.getPosY(), 60, 108);
 
                 for (int index = 0; index < listaT.size(); index++) {
-                    colicionadorTortugas = new Rectangle(listaT.get(index).getPosX(), listaT.get(index).getPosY(), 60, 108);
+                    colicionadorTortugas.setBounds(listaT.get(index).getPosX(), listaT.get(index).getPosY(), 60, 108);
                     if (isColision()) {
                         cantidadColiciones++;
                         System.err.println("======>> "+cantidadColiciones);
+                        sleep(5000);
                     }
                 } // fin de for
             }

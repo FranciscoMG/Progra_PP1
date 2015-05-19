@@ -46,6 +46,9 @@ public class RegistroJuego {
             hiloTortugas.add(new HiloTortuga(panelJuego, tortugas.get(i)));
             hiloTortugas.get(i).start();
         }
+        
+        hiloColicionador = new HiloColicionador(tortugas, jugador);
+        hiloColicionador.start();
 
     }
 
