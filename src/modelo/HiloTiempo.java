@@ -40,6 +40,7 @@ public class HiloTiempo extends Thread {
                 this.sleep(1000); // el tiempo debe ser de 1000
                 suma++;
                 System.out.println(suma);
+                pnlInfoJuego.setjLabel_TiempoDeJuego(String.valueOf(suma));
             } catch (InterruptedException ex) {
                 Logger.getLogger(HiloTiempo.class.getName()).log(Level.SEVERE, null, ex);
             }
