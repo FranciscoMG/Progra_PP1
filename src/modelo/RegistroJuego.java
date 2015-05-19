@@ -47,14 +47,17 @@ public class RegistroJuego {
             hiloTortugas.get(i).start();
         }
 
+
         hiloColicionador = new HiloColicionador(tortugas, jugador);
         hiloColicionador.start();
         
+
     }
 
     public void movJugAba() {
-        
-        hiloJugador.salto = true;
+        if (hiloJugador.salto == false) {
+            hiloJugador.salto = true;
+        }
     }
 
     public void movJugIzq() {
@@ -68,10 +71,10 @@ public class RegistroJuego {
     }
 
     /////////////////////////////////////////////////////////////////////////
-     public void iniciarTiempo () {
-         hiloTiempo = new HiloTiempo(panelInfo);
-         hiloTiempo.iniciarRelog();
-         hiloTiempo.start();
-     }
+    public void iniciarTiempo() {
+        hiloTiempo = new HiloTiempo(panelInfo);
+        hiloTiempo.iniciarRelog();
+        hiloTiempo.start();
+    }
 
 }
