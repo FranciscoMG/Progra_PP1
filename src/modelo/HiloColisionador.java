@@ -14,7 +14,7 @@ import java.util.logging.Logger;
  *
  * @author vini
  */
-public class HiloColicionador extends Thread {
+public class HiloColisionador extends Thread {
 
     private ArrayList<Tortuga> listaT;
     private Jugador jugador;
@@ -27,7 +27,7 @@ public class HiloColicionador extends Thread {
 
     
     ///----------------------------------------------------------------------
-    public HiloColicionador(ArrayList<Tortuga> listaTortugas, Jugador jugador) {
+    public HiloColisionador(ArrayList<Tortuga> listaTortugas, Jugador jugador) {
         this.listaT = listaTortugas;
         this.jugador = jugador;
 
@@ -63,7 +63,7 @@ public class HiloColicionador extends Thread {
                 } // fin de for
             }
         } catch (InterruptedException ex) {
-            Logger.getLogger(HiloColicionador.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(HiloColisionador.class.getName()).log(Level.SEVERE, null, ex);
         }
     } // Fin de metodo run
 

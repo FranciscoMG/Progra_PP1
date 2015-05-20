@@ -25,7 +25,7 @@ public class RegistroJuego {
     private ArrayList<HiloTortuga> hiloTortugas = new ArrayList<>();
 
     private HiloTiempo hiloTiempo;
-    private HiloColicionador hiloColicionador;
+    private HiloColisionador hiloColicionador;
     private Bala bala;
     private HiloBala hiloBala;
     private HiloColisionDisparo hiloColisionDisparo;
@@ -51,7 +51,7 @@ public class RegistroJuego {
             hiloTortugas.get(i).start();
         }
         
-        hiloColicionador = new HiloColicionador(tortugas, jugador);
+        hiloColicionador = new HiloColisionador(tortugas, jugador);
         hiloColicionador.start();
         
         panelJuego.setBala(bala);
@@ -71,13 +71,21 @@ public class RegistroJuego {
 
     public void movJugIzq() {
         hiloJugador.direccionX = -1;
+        if (jugador.getIsFirstPlayer()){
         this.jugador.setImgPers(jugador.imgPersIzq);
+        } else {
+            //se agrega la imagen del segundo jugador
+        }
         this.jugador.setDerecha(false);
     }
 
     public void movJugDer() {
         hiloJugador.direccionX = 1;
+        if (jugador.getIsFirstPlayer()){
         this.jugador.setImgPers(jugador.imgPersDer);
+        } else {
+            // se agrega la imagen del segundo jugador
+        }
         this.jugador.setDerecha(true);
     }
 

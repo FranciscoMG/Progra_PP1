@@ -26,6 +26,7 @@ public class PanelJuego extends javax.swing.JPanel {
      */
     public PanelJuego() {
         initComponents();
+        
     }
 
     public void paint(Graphics g) {

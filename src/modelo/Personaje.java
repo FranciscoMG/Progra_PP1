@@ -20,6 +20,9 @@ public abstract class Personaje {
     private Image imgPers;
     public Image imgPersIzq;
     public Image imgPersDer;
+    public Image imagPersIzq;
+    public Image imgPerDer;
+    private Boolean isFirstPlayer = true;
     
     private boolean derecha;
 
@@ -65,6 +68,14 @@ public abstract class Personaje {
 
     public void setDerecha(boolean derecha) {
         this.derecha = derecha;
+    }
+
+    public Boolean getIsFirstPlayer() {
+        return isFirstPlayer;
+    }
+
+    public void setIsFirstPlayer(Boolean isFirstPlayer) {
+        this.isFirstPlayer = isFirstPlayer;
     }
     
     

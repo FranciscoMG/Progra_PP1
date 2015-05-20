@@ -34,7 +34,7 @@ public class HiloJugador extends Thread {
                 if (salto) {
                     altura++;
                     direccionY = -1;
-                    this.jugador.setPosY(jugador.getPosY() + direccionY*3);
+                    this.jugador.setPosY(jugador.getPosY() + direccionY * 3);
                     if (altura == 56) {
                         //altura = 0;
                         salto = false;
@@ -44,7 +44,7 @@ public class HiloJugador extends Thread {
                 if (caida) {
                     altura--;
                     direccionY = 1;
-                    this.jugador.setPosY(jugador.getPosY() + direccionY*3);
+                    this.jugador.setPosY(jugador.getPosY() + direccionY * 3);
                     if (altura == 0) {
                         caida = false;
                     }
@@ -52,6 +52,14 @@ public class HiloJugador extends Thread {
                 this.jugador.setPosX(jugador.getPosX() + direccionX * 10);
                 direccionX = 0;
                 direccionY = 0;
+
+                if (jugador.getPosX() < 0) { // evita que se salga de -x
+                    this.jugador.setPosX(jugador.getPosX() +10);
+                }
+                if (jugador.getPosX() > 760) { // evita que se salga de +x
+                    this.jugador.setPosX(jugador.getPosX() -10);
+                }
+
             } catch (InterruptedException ex) {
             }
             this.panelJuego.repaint();
