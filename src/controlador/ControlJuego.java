@@ -37,9 +37,12 @@ public class ControlJuego implements ActionListener, KeyListener {
 
     public void keyPressed(KeyEvent e) {
         if (e.getKeyCode() == KeyEvent.VK_ESCAPE) {
-
+            
         }
-        if (e.getKeyChar() == KeyEvent.VK_SPACE) {
+        if (e.getKeyCode() == KeyEvent.VK_SPACE) {
+            this.registroJuego.dispara();
+        }
+        if (e.getKeyCode()== KeyEvent.VK_W || e.getKeyCode() == KeyEvent.VK_UP) {
             this.registroJuego.movJugAba();
         }
         if (e.getKeyCode() == KeyEvent.VK_A || e.getKeyCode() == KeyEvent.VK_LEFT) {

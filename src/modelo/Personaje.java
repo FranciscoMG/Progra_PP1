@@ -20,6 +20,8 @@ public abstract class Personaje {
     private Image imgPers;
     public Image imgPersIzq;
     public Image imgPersDer;
+    
+    private boolean derecha;
 
     public Personaje(int vidas, int posX, int posY, Image imgPersIzq, Image imgPersDer) {
         this.vidas = vidas;
@@ -40,7 +42,7 @@ public abstract class Personaje {
     public int getPosX() {
         return posX;
     }
-
+    
     public void setPosX(int posX) {
         this.posX = posX;
     }
@@ -56,6 +58,16 @@ public abstract class Personaje {
     public Image getImgPers() {
         return imgPers;
     }
+
+    public boolean isDerecha() {
+        return derecha;
+    }
+
+    public void setDerecha(boolean derecha) {
+        this.derecha = derecha;
+    }
+    
+    
 
     public void setImgPers(Image imgPers) {
         this.imgPers = imgPers;

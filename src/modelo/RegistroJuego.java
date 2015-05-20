@@ -26,11 +26,15 @@ public class RegistroJuego {
 
     private HiloTiempo hiloTiempo;
     private HiloColicionador hiloColicionador;
+    private Bala bala;
+    private HiloBala hiloBala;
+    private HiloColisionDisparo hiloColisionDisparo;
 
     public RegistroJuego(PanelJuego panelJuego, PnlInfoJuego panelInfo) {
         this.panelJuego = panelJuego;
         this.panelInfo = panelInfo;
         try {
+            this.bala = new Bala(-100, -100);
             jugador = new Jugador(3, 670, 578);
             tortugas.add(new Tortuga(1, 6, 423, 6, 248));
             tortugas.add(new Tortuga(1, 514, 423, 514, 756));
@@ -49,6 +53,13 @@ public class RegistroJuego {
         
         hiloColicionador = new HiloColicionador(tortugas, jugador);
         hiloColicionador.start();
+        
+        panelJuego.setBala(bala);
+        this.hiloBala = new HiloBala(100, 100, bala, jugador ,panelJuego);
+        this.hiloBala.start();
+        
+        this.hiloColisionDisparo = new HiloColisionDisparo(bala, tortugas);
+        this.hiloColisionDisparo.start();
 
     }
 
@@ -61,17 +72,24 @@ public class RegistroJuego {
     public void movJugIzq() {
         hiloJugador.direccionX = -1;
         this.jugador.setImgPers(jugador.imgPersIzq);
+        this.jugador.setDerecha(false);
     }
 
     public void movJugDer() {
         hiloJugador.direccionX = 1;
         this.jugador.setImgPers(jugador.imgPersDer);
+        this.jugador.setDerecha(true);
     }
 
     /////////////////////////////////////////////////////////////////////////
     public void iniciarTiempo() {
         hiloTiempo = new HiloTiempo(panelInfo);
         hiloTiempo.start();
+    }
+    
+    /////////////////////////////////////////////////////////////////////////
+    public void dispara () {
+        hiloBala.setDisparar(true);
     }
 
 }
