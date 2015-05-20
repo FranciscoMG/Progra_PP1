@@ -20,8 +20,8 @@ public abstract class Personaje {
     private Image imgPers;
     public Image imgPersIzq;
     public Image imgPersDer;
-    public Image imagPersIzq;
-    public Image imgPerDer;
+    public Image imagPersIzq2;
+    public Image imgPerDer2;
     private Boolean isFirstPlayer = true;
     
     private boolean derecha;
