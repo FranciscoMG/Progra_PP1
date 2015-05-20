@@ -53,7 +53,11 @@ public class HiloColicionador extends Thread {
                     colicionadorTortugas.setBounds(listaT.get(index).getPosX(), listaT.get(index).getPosY(), 60, 108);
                     if (isColision()) {
                         cantidadColiciones++;
-                        System.err.println("======>> "+cantidadColiciones);
+                        jugador.setVidas(jugador.getVidas()-1);
+                        if (jugador.getVidas() == 0) {
+                            //terminar juego
+                        }
+                        System.err.println("vidas del jugador "+jugador.getVidas());
                         sleep(5000);
                     }
                 } // fin de for
