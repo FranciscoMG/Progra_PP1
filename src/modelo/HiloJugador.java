@@ -43,8 +43,9 @@ public class HiloJugador extends Thread {
                 }
                 if (jugador.getPosX() <= 258 || jugador.getPosX() >= 504) {
                     caida = false;
+                } else {
+                    caida = true;
                 }
-
                 if (caida) {
                     altura--;
                     direccionY = 1;
