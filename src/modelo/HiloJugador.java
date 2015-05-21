@@ -30,12 +30,12 @@ public class HiloJugador extends Thread {
     public void run() {
         while (true) {
             try {
-                sleep(20);
+                sleep(10);
                 if (salto) {
                     altura++;
                     direccionY = -1;
                     this.jugador.setPosY(jugador.getPosY() + direccionY * 3);
-                    if (altura == 58) {
+                    if (altura == 56) {
                         //altura = 0;
                         salto = false;
                         caida = true;
@@ -56,10 +56,17 @@ public class HiloJugador extends Thread {
                         caida = false;
                     }
                 }
-                this.jugador.setPosX(jugador.getPosX() + direccionX * 3);
-                //System.out.println(jugador.getPosX() + "," + jugador.getPosY());
+                this.jugador.setPosX(jugador.getPosX() + direccionX * 10);
                 direccionX = 0;
                 direccionY = 0;
+
+                if (jugador.getPosX() < 0) { // evita que se salga de -x
+                    this.jugador.setPosX(jugador.getPosX() +10);
+                }
+                if (jugador.getPosX() > 760) { // evita que se salga de +x
+                    this.jugador.setPosX(jugador.getPosX() -10);
+                }
+
             } catch (InterruptedException ex) {
             }
             this.panelJuego.repaint();

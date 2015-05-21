@@ -7,6 +7,7 @@ package vista;
 
 import java.awt.Graphics;
 import java.util.ArrayList;
+import modelo.Bala;
 import modelo.Jugador;
 import modelo.Tortuga;
 
@@ -18,12 +19,14 @@ public class PanelJuego extends javax.swing.JPanel {
 
     private Jugador jugador;
     private ArrayList<Tortuga> tortugas;
+    private Bala bala;
 
     /**
      * Creates new form PanelJuego1
      */
     public PanelJuego() {
         initComponents();
+        
     }
 
     public void paint(Graphics g) {
@@ -32,6 +35,8 @@ public class PanelJuego extends javax.swing.JPanel {
         for (int i = 0; i < tortugas.size(); i++) {
             tortugas.get(i).pintarPersonaje(g);
         }
+        bala.pintarBala(g);
+        
     }
 
     /**
@@ -51,11 +56,15 @@ public class PanelJuego extends javax.swing.JPanel {
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel2)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 815, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel2)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 715, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -65,6 +74,10 @@ public class PanelJuego extends javax.swing.JPanel {
 
     public void setTortuga(ArrayList<Tortuga> tortugas) {
         this.tortugas = tortugas;
+    }
+    
+    public void setBala (Bala bala) {
+        this.bala = bala;
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
