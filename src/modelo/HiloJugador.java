@@ -34,22 +34,30 @@ public class HiloJugador extends Thread {
                 if (salto) {
                     altura++;
                     direccionY = -1;
-                    this.jugador.setPosY(jugador.getPosY() + direccionY*3);
-                    if (altura == 56) {
+                    this.jugador.setPosY(jugador.getPosY() + direccionY * 3);
+                    if (altura == 58) {
                         //altura = 0;
                         salto = false;
+                        caida = true;
+                    }
+                }
+                if (jugador.getPosY() == 413 && jugador.getPosX() <= 268 || jugador.getPosX() >= 484) {
+                    caida = false;
+                } else {
+                    if (jugador.getPosY() != 578) {
                         caida = true;
                     }
                 }
                 if (caida) {
                     altura--;
                     direccionY = 1;
-                    this.jugador.setPosY(jugador.getPosY() + direccionY*3);
+                    this.jugador.setPosY(jugador.getPosY() + direccionY * 3);
                     if (altura == 0) {
                         caida = false;
                     }
                 }
                 this.jugador.setPosX(jugador.getPosX() + direccionX * 3);
+                //System.out.println(jugador.getPosX() + "," + jugador.getPosY());
                 direccionX = 0;
                 direccionY = 0;
             } catch (InterruptedException ex) {
