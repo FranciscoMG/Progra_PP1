@@ -41,13 +41,10 @@ public class HiloJugador extends Thread {
                         caida = true;
                     }
                 }
-                if (jugador.getPosY() == 413 && jugador.getPosX() <= 268 || jugador.getPosX() >= 484) {
+                if (jugador.getPosX() <= 258 || jugador.getPosX() >= 504) {
                     caida = false;
-                } else {
-                    if (jugador.getPosY() != 578) {
-                        caida = true;
-                    }
                 }
+
                 if (caida) {
                     altura--;
                     direccionY = 1;
@@ -61,10 +58,10 @@ public class HiloJugador extends Thread {
                 direccionY = 0;
 
                 if (jugador.getPosX() < 0) { // evita que se salga de -x
-                    this.jugador.setPosX(jugador.getPosX() +10);
+                    this.jugador.setPosX(jugador.getPosX() + 10);
                 }
                 if (jugador.getPosX() > 760) { // evita que se salga de +x
-                    this.jugador.setPosX(jugador.getPosX() -10);
+                    this.jugador.setPosX(jugador.getPosX() - 10);
                 }
 
             } catch (InterruptedException ex) {
