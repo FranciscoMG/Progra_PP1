@@ -18,16 +18,14 @@ public class HiloPlataformas extends Thread {
     private HiloJugador hiloJugador;
 
     private Rectangle colisionadorJugador;
-    private ArrayList<Rectangle> colisionadorPlataformas = new ArrayList<>();
+    private Rectangle suelo = new Rectangle(5, 634, 801, 52);
+    private Rectangle plataforma1 = new Rectangle(5, 474, 293, 27);
+    private Rectangle plataforma2 = new Rectangle(512, 474, 293, 27);
 
     public HiloPlataformas(Jugador jugador, HiloJugador hilo) {
         this.jugador = jugador;
         this.hiloJugador = hilo;
         this.colisionadorJugador = new Rectangle();
-        this.colisionadorPlataformas.add(new Rectangle(5, 634, 801, 52));
-        this.colisionadorPlataformas.add(new Rectangle(5, 474, 293, 27));
-        this.colisionadorPlataformas.add(new Rectangle(512, 474, 293, 27));
-        this.colisionadorPlataformas.add(new Rectangle(0, 0, 293, 27));
     }
 
     public void run() {
@@ -36,10 +34,10 @@ public class HiloPlataformas extends Thread {
                 sleep(150);
                 this.colisionadorJugador.setBounds(jugador.getPosX(), jugador.getPosY(), 60, 60);
 
-                if (colisionadorJugador.intersects(colisionadorPlataformas.get(0))) {
+                if (colisionadorJugador.intersects(suelo)) {
                     hiloJugador.caida = false;
                 }
-                if (colisionadorJugador.intersects(colisionadorPlataformas.get(1)) || colisionadorJugador.intersects(colisionadorPlataformas.get(2)) && hiloJugador.altura >= 54) {
+                if (colisionadorJugador.intersects(plataforma1) || colisionadorJugador.intersects(plataforma2) && hiloJugador.altura >= 54) {
                     hiloJugador.caida = false;
                 }
             } catch (InterruptedException ex) {
