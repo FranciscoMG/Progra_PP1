@@ -29,6 +29,7 @@ public class RegistroJuego {
     private Bala bala;
     private HiloBala hiloBala;
     private HiloColisionDisparo hiloColisionDisparo;
+    private HiloPlataformas hiloPlataformas;
 
     public RegistroJuego(PanelJuego panelJuego, PnlInfoJuego panelInfo) {
         this.panelJuego = panelJuego;
@@ -50,17 +51,19 @@ public class RegistroJuego {
             hiloTortugas.add(new HiloTortuga(panelJuego, tortugas.get(i)));
             hiloTortugas.get(i).start();
         }
+
+        hiloPlataformas = new HiloPlataformas(jugador, hiloJugador);
+        hiloPlataformas.start();
         
         hiloColicionador = new HiloColisionador(tortugas, jugador);
         hiloColicionador.start();
-        
+
         panelJuego.setBala(bala);
-        this.hiloBala = new HiloBala(100, 100, bala, jugador ,panelJuego);
+        this.hiloBala = new HiloBala(100, 100, bala, jugador, panelJuego);
         this.hiloBala.start();
-        
+
         this.hiloColisionDisparo = new HiloColisionDisparo(bala, tortugas);
         this.hiloColisionDisparo.start();
-
     }
 
     public void movJugAba() {
@@ -71,8 +74,8 @@ public class RegistroJuego {
 
     public void movJugIzq() {
         hiloJugador.direccionX = -1;
-        if (jugador.getIsFirstPlayer()){
-        this.jugador.setImgPers(jugador.imgPersIzq);
+        if (jugador.getIsFirstPlayer()) {
+            this.jugador.setImgPers(jugador.imgPersIzq);
         } else {
             //se agrega la imagen del segundo jugador
         }
@@ -81,8 +84,8 @@ public class RegistroJuego {
 
     public void movJugDer() {
         hiloJugador.direccionX = 1;
-        if (jugador.getIsFirstPlayer()){
-        this.jugador.setImgPers(jugador.imgPersDer);
+        if (jugador.getIsFirstPlayer()) {
+            this.jugador.setImgPers(jugador.imgPersDer);
         } else {
             // se agrega la imagen del segundo jugador
         }
@@ -94,9 +97,9 @@ public class RegistroJuego {
         hiloTiempo = new HiloTiempo(panelInfo);
         hiloTiempo.start();
     }
-    
+
     /////////////////////////////////////////////////////////////////////////
-    public void dispara () {
+    public void dispara() {
         hiloBala.setDisparar(true);
     }
 
