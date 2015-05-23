@@ -13,14 +13,14 @@ import java.util.ArrayList;
  * @author francisco
  */
 public class HiloPlataformas extends Thread {
-    
+
     private Jugador jugador;
     private HiloJugador hiloJugador;
-    
+
     private Rectangle colisionadorJugador;
     private Rectangle suelo = new Rectangle(5, 634, 802, 53);
     private ArrayList<Rectangle> plataformas = new ArrayList<>();
-    
+
     public HiloPlataformas(Jugador jugador, HiloJugador hilo) {
         this.jugador = jugador;
         this.hiloJugador = hilo;
@@ -30,10 +30,10 @@ public class HiloPlataformas extends Thread {
         plataformas.add(new Rectangle(5, 340, 80, 27));
         plataformas.add(new Rectangle(725, 340, 80, 27));
         plataformas.add(new Rectangle(194, 314, 424, 27));
-        plataformas.add(new Rectangle (5, 153, 344, 27));
-        plataformas.add(new Rectangle (461, 153, 344, 27));
+        plataformas.add(new Rectangle(5, 153, 344, 27));
+        plataformas.add(new Rectangle(461, 153, 344, 27));
     }
-    
+
     public void run() {
         while (true) {
             try {
@@ -44,9 +44,14 @@ public class HiloPlataformas extends Thread {
                 }
                 for (Rectangle plataforma : plataformas) {
                     if (colisionadorJugador.intersects(plataforma)) {
-                        hiloJugador.caida = false;
-                        hiloJugador.salto = false;
-                        hiloJugador.altura = 0;
+                        if (jugador.getPosY() == 500 || jugador.getPosY() == 365 || jugador.getPosY() == 338 || jugador.getPosY() == 179) {
+                            hiloJugador.salto = false;
+                            hiloJugador.caida = true;
+                        } else {
+                            hiloJugador.caida = false;
+                            hiloJugador.salto = false;
+                            hiloJugador.altura = 0;
+                        }
                     }
                 }
             } catch (InterruptedException ex) {
