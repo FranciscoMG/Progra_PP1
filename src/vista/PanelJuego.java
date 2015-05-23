@@ -26,7 +26,7 @@ public class PanelJuego extends javax.swing.JPanel {
      */
     public PanelJuego() {
         initComponents();
-        
+
     }
 
     public void paint(Graphics g) {
@@ -36,7 +36,6 @@ public class PanelJuego extends javax.swing.JPanel {
             tortugas.get(i).pintarPersonaje(g);
         }
         bala.pintarBala(g);
-        
     }
 
     /**
@@ -75,8 +74,8 @@ public class PanelJuego extends javax.swing.JPanel {
     public void setTortuga(ArrayList<Tortuga> tortugas) {
         this.tortugas = tortugas;
     }
-    
-    public void setBala (Bala bala) {
+
+    public void setBala(Bala bala) {
         this.bala = bala;
     }
 
