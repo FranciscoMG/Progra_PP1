@@ -59,10 +59,10 @@ public class ControlJuego implements ActionListener, KeyListener ,MouseListener 
         }
         if (e.getKeyCode() == KeyEvent.VK_A || e.getKeyCode() == KeyEvent.VK_LEFT) {
             this.registroJuego.movJugIzq(0);
-        }
+             }
         if (e.getKeyCode() == KeyEvent.VK_D || e.getKeyCode() == KeyEvent.VK_RIGHT) {
             this.registroJuego.movJugDer(0);
-        }
+        }   
     }
 
     public void actionPerformed(ActionEvent e) {

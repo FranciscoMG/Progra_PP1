@@ -22,7 +22,6 @@ public class Jugador extends Personaje {
     }
 
     public void pintarPersonaje(Graphics g) {
-        System.err.println("iiiiiiiiiii");
         g.drawImage(this.getImgPers(), this.getPosX(), this.getPosY(), 60, 60, null);
     }
 }
