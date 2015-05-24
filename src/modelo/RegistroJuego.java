@@ -30,6 +30,7 @@ public class RegistroJuego {
     private HiloBala hiloBala;
     private HiloColisionDisparo hiloColisionDisparo;
     private HiloPlataformas hiloPlataformas;
+    private HiloColisionGanoPrimerJugador hiloColisionGanoPrimerJugador;
 
     public RegistroJuego(PanelJuego panelJuego, PnlInfoJuego panelInfo) {
         this.panelJuego = panelJuego;
@@ -64,6 +65,9 @@ public class RegistroJuego {
 
         this.hiloColisionDisparo = new HiloColisionDisparo(bala, tortugas);
         this.hiloColisionDisparo.start();
+        
+        this.hiloColisionGanoPrimerJugador = new HiloColisionGanoPrimerJugador(panelJuego, jugador);
+        this.hiloColisionGanoPrimerJugador.start();
     }
 
     public void movJugAba() {
