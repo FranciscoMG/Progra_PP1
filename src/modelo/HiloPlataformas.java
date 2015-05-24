@@ -16,7 +16,6 @@ public class HiloPlataformas extends Thread {
 
     private Jugador jugador;
     private HiloJugador hiloJugador;
-
     private Rectangle colisionadorJugador;
     private Rectangle suelo = new Rectangle(5, 634, 802, 53);
     private ArrayList<Rectangle> plataformas = new ArrayList<>();
@@ -48,9 +47,13 @@ public class HiloPlataformas extends Thread {
                             hiloJugador.salto = false;
                             hiloJugador.caida = true;
                         } else {
-                            hiloJugador.caida = false;
-                            hiloJugador.salto = false;
-                            hiloJugador.altura = 0;
+                            if (((jugador.getPosX() < 280 || jugador.getPosX() > 480) && jugador.getPosY() == 416) || ((jugador.getPosX() < 60 || jugador.getPosX() > 700) && jugador.getPosY() == 281) || ((jugador.getPosX() > 160 && jugador.getPosX() < 600) && jugador.getPosY() == 257) || ((jugador.getPosX() < 330 || jugador.getPosX() > 430) && jugador.getPosY() == 95)) {
+                                hiloJugador.caida = false;
+                                hiloJugador.salto = false;
+                            } else {
+                                hiloJugador.caida = true;
+                                hiloJugador.salto = false;
+                            }
                         }
                     }
                 }
