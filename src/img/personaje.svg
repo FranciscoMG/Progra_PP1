@@ -33,9 +33,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="631.87211"
-     inkscape:cy="1289.3055"
+     inkscape:zoom="2.8"
+     inkscape:cx="903.75542"
+     inkscape:cy="375.89894"
      inkscape:document-units="px"
      inkscape:current-layer="layer4"
      showgrid="false"
@@ -52,7 +52,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -86,7 +86,7 @@
        id="path2999"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="sccsssss"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -95,7 +95,7 @@
        id="path3001"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="csscc"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -104,7 +104,7 @@
        id="path3771"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="csccccccccccsccssssssscccc"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -112,7 +112,7 @@
        d="m 798.48619,506.37565 3.53311,-1.94763"
        id="path3849"
        inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -120,7 +120,7 @@
        d="m 800.00037,508.46239 2.9653,-1.73895"
        id="path3853"
        inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -128,7 +128,7 @@
        d="m 801.57766,503.52377 1.57728,2.36497"
        id="path3855"
        inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -137,7 +137,7 @@
        id="path3859"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -146,7 +146,7 @@
        id="path3861"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -154,7 +154,7 @@
        d="m 840.00027,507.41902 5.80441,-1.87806"
        id="path3863"
        inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -163,7 +163,7 @@
        id="path3865"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -171,7 +171,7 @@
        d="m 809.33788,497.8896 -3.02837,10.71189"
        id="path3867"
        inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -180,7 +180,7 @@
        id="path3869"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -189,7 +189,7 @@
        id="path3871"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -198,7 +198,7 @@
        id="path3873"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -207,7 +207,7 @@
        id="path3875"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccc"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -216,7 +216,7 @@
        id="path3877"
        d="m 826.01713,521.66809 11.55345,-0.89252 -0.69036,7.72921 c 12.69448,4.27356 -0.76875,8.75819 -6.69254,5.30556 0.14215,-2.79205 0.16925,-3.11406 0.16925,-3.11406 z"
        style="fill:#282828;fill-opacity:1;stroke:none"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -229,7 +229,7 @@
        sodipodi:ry="4.4194174"
        d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
        transform="matrix(0.85451987,0,0,1.1039413,341.42979,29.478788)"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -242,7 +242,7 @@
        id="path3900"
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52146161;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        sodipodi:type="arc"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -255,7 +255,7 @@
        sodipodi:ry="4.4194174"
        d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
        transform="matrix(0.72405055,0,0,0.89679296,428.31303,111.38437)"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -268,7 +268,7 @@
        id="path3904"
        style="fill:#000000;fill-opacity:1;stroke:#473000;stroke-width:3.84441996;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        sodipodi:type="arc"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -278,13 +278,13 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
        transform="matrix(0.99931548,0,0,1.1017405,263.21945,32.021079)"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/2.png"
        sodipodi:nodetypes="sccsssss"
        inkscape:connector-curvature="0"
        id="path3016"
@@ -293,7 +293,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/2.png"
        sodipodi:nodetypes="csscc"
        inkscape:connector-curvature="0"
        id="path3018"
@@ -302,7 +302,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/2.png"
        sodipodi:nodetypes="csccccccccsccsssssssccccc"
        inkscape:connector-curvature="0"
        id="path3020"
@@ -311,7 +311,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/2.png"
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path3028"
@@ -320,7 +320,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/2.png"
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path3030"
@@ -329,7 +329,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/2.png"
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path3034"
@@ -338,7 +338,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/2.png"
        sodipodi:nodetypes="ccc"
        inkscape:connector-curvature="0"
        id="path3038"
@@ -347,7 +347,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/2.png"
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path3040"
@@ -356,7 +356,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/2.png"
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path3042"
@@ -365,7 +365,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/2.png"
        sodipodi:nodetypes="cccccc"
        inkscape:connector-curvature="0"
        id="path3044"
@@ -374,7 +374,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/2.png"
        style="fill:#282828;fill-opacity:1;stroke:none"
        d="m 910.49114,519.77406 11.55345,-0.89252 -0.69036,7.72921 c 4.54597,8.91727 0.13567,7.5714 -12.31151,6.18944 -0.0924,-0.91542 4.27805,-3.0749 4.27299,-4.94495 -1.04675,-5.11095 -1.77782,-6.14647 -2.82457,-8.08118 z"
        id="path3046"
@@ -383,7 +383,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/2.png"
        transform="matrix(0.85451987,0,0,1.1039413,425.77753,28.721174)"
        d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
        sodipodi:ry="4.4194174"
@@ -396,7 +396,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/2.png"
        sodipodi:type="arc"
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52146161;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="path3050"
@@ -409,7 +409,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/2.png"
        transform="matrix(0.72405055,0,0,0.89679296,512.66077,110.62676)"
        d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
        sodipodi:ry="4.4194174"
@@ -422,7 +422,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/2.png"
        sodipodi:type="arc"
        style="fill:#000000;fill-opacity:1;stroke:#473000;stroke-width:3.84441996;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="path3054"
@@ -435,7 +435,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/2.png"
        transform="matrix(0.99931548,0,0,1.1017405,347.56719,31.263465)"
        sodipodi:nodetypes="ccc"
        inkscape:connector-curvature="0"
@@ -447,17 +447,26 @@
        d="m 892.6108,502.28679 -0.89287,6.29464"
        id="path3104"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 889.26258,506.30465 c 0.0163,-0.2218 0.16008,-0.003 0.22321,-0.0446 0.035,-0.0233 0.0543,-0.0659 0.0893,-0.0893 0.0124,-0.008 0.0313,0.007 0.0446,0 0.043,-0.0215 0.21222,-0.14148 0.26786,-0.17857 0.0812,-0.0542 0.0927,-0.166 0.17857,-0.22322 0.0298,-0.0149 0.0595,-0.0298 0.0893,-0.0446 0.0149,0 0.0313,0.007 0.0447,0 0.0684,-0.0342 0.0349,-0.0796 0.0893,-0.13393 0.0105,-0.0105 0.0313,0.007 0.0446,0 0.0188,-0.009 0.0298,-0.0298 0.0446,-0.0446"
        id="path3106"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 889.70901,508.40286 c 0.14151,-0.0348 0.17967,-0.22432 0.26785,-0.3125 0.24232,-0.24232 0.0339,-0.0136 0.22322,-0.0893 0.0498,-0.0199 0.0879,-0.0617 0.13393,-0.0893 0.13088,-0.0785 0.2746,-0.13843 0.40178,-0.22322 0.12775,-0.0852 -0.0684,-0.008 0.13393,-0.0893 0.0437,-0.0175 0.0918,-0.0236 0.13393,-0.0446 0.0188,-0.009 0.0247,-0.038 0.0446,-0.0446 0.13819,-0.0461 0.0848,0.0535 0.17857,-0.13393"
        id="path3108"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
@@ -665,7 +674,7 @@
        id="path3167"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="csccccccccsccssssssssccccc"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/3.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -674,7 +683,7 @@
        id="path3163"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="sccsssss"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/3.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -683,7 +692,7 @@
        id="path3165"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="csscc"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/3.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -692,7 +701,7 @@
        id="path3179"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/3.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -701,7 +710,7 @@
        id="path3169"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/3.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -710,7 +719,7 @@
        id="path3173"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/3.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -719,7 +728,7 @@
        id="path3175"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/3.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -728,7 +737,7 @@
        id="path3177"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/3.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -737,7 +746,7 @@
        id="path3181"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccc"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/3.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -746,7 +755,7 @@
        id="path3183"
        d="m 1015.1681,519.39525 10.7959,-0.26117 c -1.1561,3.91741 -2.3122,6.7418 -3.4683,9.68638 6.2627,6.88068 -9.9759,5.07578 -11.2382,3.60092 -0.092,-0.91542 2.5734,-1.37027 2.5684,-3.24032 -1.0468,-5.11095 2.389,-7.8511 1.3422,-9.78581 z"
        style="fill:#282828;fill-opacity:1;stroke:none"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/3.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -759,7 +768,7 @@
        sodipodi:ry="4.4194174"
        d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
        transform="matrix(0.66103532,0,0,0.85398153,637.40216,127.86695)"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/3.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -772,7 +781,7 @@
        id="path3187"
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52146161;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        sodipodi:type="arc"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/3.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -785,7 +794,7 @@
        sodipodi:ry="4.4194174"
        d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
        transform="matrix(0.55819177,0,0,0.69136395,709.17765,192.10954)"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/3.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -798,7 +807,7 @@
        id="path3191"
        style="fill:#000000;fill-opacity:1;stroke:#473000;stroke-width:3.84441996;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        sodipodi:type="arc"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/3.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -808,7 +817,7 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
        transform="matrix(0.99931548,0,0,1.1017405,453.38067,31.263465)"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/3.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -816,21 +825,30 @@
        inkscape:connector-curvature="0"
        id="path3195"
        d="m 998.42427,502.28679 -0.89287,6.29464"
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/3.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        inkscape:connector-curvature="0"
        id="path3197"
        d="m 995.07605,506.30465 c 0.0163,-0.2218 0.16008,-0.003 0.22321,-0.0446 0.035,-0.0233 0.0543,-0.0659 0.0893,-0.0893 0.0124,-0.008 0.0313,0.007 0.0446,0 0.043,-0.0215 0.21222,-0.14148 0.26786,-0.17857 0.0812,-0.0542 0.0927,-0.166 0.17857,-0.22322 0.0298,-0.0149 0.0595,-0.0298 0.0893,-0.0446 0.0149,0 0.0313,0.007 0.0447,0 0.0684,-0.0342 0.0349,-0.0796 0.0893,-0.13393 0.0105,-0.0105 0.0313,0.007 0.0446,0 0.0188,-0.009 0.0298,-0.0298 0.0446,-0.0446"
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/3.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        inkscape:connector-curvature="0"
        id="path3199"
        d="m 995.52248,508.40286 c 0.14151,-0.0348 0.17967,-0.22432 0.26785,-0.3125 0.24232,-0.24232 0.0339,-0.0136 0.22322,-0.0893 0.0498,-0.0199 0.0879,-0.0617 0.13393,-0.0893 0.13088,-0.0785 0.2746,-0.13843 0.40178,-0.22322 0.12775,-0.0852 -0.0684,-0.008 0.13393,-0.0893 0.0437,-0.0175 0.0918,-0.0236 0.13393,-0.0446 0.0188,-0.009 0.0247,-0.038 0.0446,-0.0446 0.13819,-0.0461 0.0848,0.0535 0.17857,-0.13393"
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/3.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/4.png"
        sodipodi:nodetypes="ccccccccsccssssssssaaccc"
        inkscape:connector-curvature="0"
        id="path3234"
@@ -839,7 +857,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/4.png"
        sodipodi:nodetypes="sccsssss"
        inkscape:connector-curvature="0"
        id="path3236"
@@ -848,7 +866,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/4.png"
        sodipodi:nodetypes="csscc"
        inkscape:connector-curvature="0"
        id="path3238"
@@ -857,7 +875,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/4.png"
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path3240"
@@ -866,7 +884,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/4.png"
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path3242"
@@ -875,7 +893,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/4.png"
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path3244"
@@ -884,7 +902,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/4.png"
        sodipodi:nodetypes="ccc"
        inkscape:connector-curvature="0"
        id="path3246"
@@ -893,7 +911,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/4.png"
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path3248"
@@ -902,7 +920,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/4.png"
        sodipodi:nodetypes="cccccc"
        inkscape:connector-curvature="0"
        id="path3250"
@@ -911,7 +929,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/4.png"
        style="fill:#1a1a1a;fill-opacity:1;stroke:none"
        d="m 1099.3807,518.78743 11.8692,-0.009 c -2.2376,4.42213 -1.599,8.04205 -1.3217,10.31773 1.8421,7.63169 -11.3597,4.97295 -12.6903,3.22211 -1.9439,-1.89584 1.1861,-1.68137 2.1264,-3.05092 -1.0468,-5.11095 1.0632,-8.54558 0.016,-10.48029 z"
        id="path3252"
@@ -920,7 +938,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/4.png"
        transform="matrix(0.85451987,0,0,1.1039413,618.9692,28.721174)"
        d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
        sodipodi:ry="4.4194174"
@@ -933,7 +951,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/4.png"
        sodipodi:type="arc"
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52146161;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="path3256"
@@ -946,7 +964,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/4.png"
        transform="matrix(0.72405055,0,0,0.89679296,705.85244,110.62676)"
        d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
        sodipodi:ry="4.4194174"
@@ -959,7 +977,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/4.png"
        sodipodi:type="arc"
        style="fill:#000000;fill-opacity:1;stroke:#473000;stroke-width:3.84441996;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="path3260"
@@ -972,7 +990,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/4.png"
        transform="matrix(0.99931548,0,0,1.1017405,540.75887,31.263465)"
        sodipodi:nodetypes="ccc"
        inkscape:connector-curvature="0"
@@ -984,11 +1002,14 @@
        d="m 1085.8025,502.28679 0.8482,4.86607"
        id="path3264"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/5.png"
        sodipodi:nodetypes="csccccccccsccssssssssccccc"
        inkscape:connector-curvature="0"
        id="path3292"
@@ -997,7 +1018,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/5.png"
        sodipodi:nodetypes="sccsssss"
        inkscape:connector-curvature="0"
        id="path3294"
@@ -1006,7 +1027,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/5.png"
        sodipodi:nodetypes="csscc"
        inkscape:connector-curvature="0"
        id="path3296"
@@ -1015,7 +1036,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/5.png"
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path3298"
@@ -1024,7 +1045,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/5.png"
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path3300"
@@ -1033,7 +1054,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/5.png"
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path3302"
@@ -1042,7 +1063,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/5.png"
        sodipodi:nodetypes="ccc"
        inkscape:connector-curvature="0"
        id="path3304"
@@ -1051,7 +1072,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/5.png"
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path3306"
@@ -1060,7 +1081,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/5.png"
        sodipodi:nodetypes="cccccc"
        inkscape:connector-curvature="0"
        id="path3308"
@@ -1069,7 +1090,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/5.png"
        style="fill:#282828;fill-opacity:1;stroke:none"
        d="m 1199.4538,519.39525 10.7959,-0.26117 c -1.1561,3.91741 -2.3122,6.7418 -3.4683,9.68638 6.2627,6.88068 -9.9759,5.07578 -11.2382,3.60092 -0.092,-0.91542 2.5734,-1.37027 2.5684,-3.24032 -1.0468,-5.11095 2.389,-7.8511 1.3422,-9.78581 z"
        id="path3310"
@@ -1078,7 +1099,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/5.png"
        transform="matrix(0.66103532,0,0,0.85398153,821.68787,127.86695)"
        d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
        sodipodi:ry="4.4194174"
@@ -1091,7 +1112,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/5.png"
        sodipodi:type="arc"
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52146161;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="path3314"
@@ -1104,7 +1125,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/5.png"
        transform="matrix(0.55819177,0,0,0.69136395,893.46336,192.10954)"
        d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
        sodipodi:ry="4.4194174"
@@ -1117,7 +1138,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/5.png"
        sodipodi:type="arc"
        style="fill:#000000;fill-opacity:1;stroke:#473000;stroke-width:3.84441996;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="path3318"
@@ -1130,7 +1151,7 @@
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/5.png"
        transform="matrix(0.99931548,0,0,1.1017405,637.66638,31.263465)"
        sodipodi:nodetypes="ccc"
        inkscape:connector-curvature="0"
@@ -1142,24 +1163,33 @@
        d="m 1182.71,502.28679 -0.8929,6.29464"
        id="path3322"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/5.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 1179.3618,506.30465 c 0.016,-0.2218 0.16,-0.003 0.2232,-0.0446 0.035,-0.0233 0.054,-0.0659 0.089,-0.0893 0.012,-0.008 0.031,0.007 0.045,0 0.043,-0.0215 0.2122,-0.14148 0.2678,-0.17857 0.081,-0.0542 0.093,-0.166 0.1786,-0.22322 0.03,-0.0149 0.06,-0.0298 0.089,-0.0446 0.015,0 0.031,0.007 0.045,0 0.068,-0.0342 0.035,-0.0796 0.089,-0.13393 0.011,-0.0105 0.031,0.007 0.045,0 0.019,-0.009 0.03,-0.0298 0.045,-0.0446"
        id="path3324"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/5.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 1179.8082,508.40286 c 0.1415,-0.0348 0.1797,-0.22432 0.2678,-0.3125 0.2424,-0.24232 0.034,-0.0136 0.2233,-0.0893 0.05,-0.0199 0.088,-0.0617 0.1339,-0.0893 0.1309,-0.0785 0.2746,-0.13843 0.4018,-0.22322 0.1277,-0.0852 -0.068,-0.008 0.1339,-0.0893 0.044,-0.0175 0.092,-0.0236 0.1339,-0.0446 0.019,-0.009 0.025,-0.038 0.045,-0.0446 0.1382,-0.0461 0.085,0.0535 0.1786,-0.13393"
        id="path3326"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/5.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:#646466;fill-opacity:1;stroke:#000000;stroke-width:0.73449522;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        d="m 1281.131,491.66786 c 30.7114,-8.3165 33.9336,-27.63762 27.7405,-42.20608 2.4039,0.16785 9.6462,-10.30551 5.2684,-13.93537 -11.1608,9.32984 -22.1797,-2.50203 -30.1537,-1.30644 -8.9755,1.34574 -12.9554,1.22788 -16.8785,5.9946 -5.7599,6.99858 -8.2131,14.1152 -6.311,22.83167 1.1767,5.39224 -5.422,12.08817 -3.3649,16.62335 2.0773,4.57977 15.2573,14.2843 23.6992,11.99827 z"
        id="path3328"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="sccsssss"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/6.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -1168,7 +1198,7 @@
        id="path3330"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="csscc"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/6.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -1177,7 +1207,7 @@
        id="path3332"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="csccccccccsccsssssssccccc"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/6.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -1186,7 +1216,7 @@
        id="path3334"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/6.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -1195,7 +1225,7 @@
        id="path3336"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/6.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -1204,7 +1234,7 @@
        id="path3338"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/6.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -1213,7 +1243,7 @@
        id="path3340"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/6.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -1222,7 +1252,7 @@
        id="path3342"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/6.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -1231,7 +1261,7 @@
        id="path3344"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/6.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -1240,7 +1270,7 @@
        id="path3346"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccc"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/6.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -1249,7 +1279,7 @@
        id="path3348"
        d="m 1286.2054,519.77406 11.5535,-0.89252 -0.6904,7.72921 c 4.546,8.91727 0.1357,7.5714 -12.3115,6.18944 -0.092,-0.91542 4.2781,-3.0749 4.273,-4.94495 -1.0468,-5.11095 -1.7778,-6.14647 -2.8246,-8.08118 z"
        style="fill:#282828;fill-opacity:1;stroke:none"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/6.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -1262,7 +1292,7 @@
        sodipodi:ry="4.4194174"
        d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
        transform="matrix(0.85451987,0,0,1.1039413,801.49182,28.721174)"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/6.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -1275,7 +1305,7 @@
        id="path3352"
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52146161;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        sodipodi:type="arc"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/6.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -1288,7 +1318,7 @@
        sodipodi:ry="4.4194174"
        d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
        transform="matrix(0.72405055,0,0,0.89679296,888.37506,110.62676)"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/6.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -1301,7 +1331,7 @@
        id="path3356"
        style="fill:#000000;fill-opacity:1;stroke:#473000;stroke-width:3.84441996;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        sodipodi:type="arc"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/6.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -1311,7 +1341,7 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
        transform="matrix(0.99931548,0,0,1.1017405,723.28148,31.263465)"
-       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/6.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -1319,17 +1349,26 @@
        inkscape:connector-curvature="0"
        id="path3360"
        d="m 1268.3251,502.28679 -0.8929,6.29464"
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/6.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        inkscape:connector-curvature="0"
        id="path3362"
        d="m 1264.9769,506.30465 c 0.016,-0.2218 0.16,-0.003 0.2232,-0.0446 0.035,-0.0233 0.054,-0.0659 0.089,-0.0893 0.012,-0.008 0.031,0.007 0.045,0 0.043,-0.0215 0.2122,-0.14148 0.2678,-0.17857 0.081,-0.0542 0.093,-0.166 0.1786,-0.22322 0.03,-0.0149 0.059,-0.0298 0.089,-0.0446 0.015,0 0.031,0.007 0.045,0 0.068,-0.0342 0.035,-0.0796 0.089,-0.13393 0.011,-0.0105 0.031,0.007 0.045,0 0.019,-0.009 0.03,-0.0298 0.045,-0.0446"
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/6.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        inkscape:connector-curvature="0"
        id="path3364"
        d="m 1265.4233,508.40286 c 0.1415,-0.0348 0.1797,-0.22432 0.2678,-0.3125 0.2424,-0.24232 0.034,-0.0136 0.2233,-0.0893 0.05,-0.0199 0.088,-0.0617 0.1339,-0.0893 0.1309,-0.0785 0.2746,-0.13843 0.4018,-0.22322 0.1277,-0.0852 -0.068,-0.008 0.1339,-0.0893 0.044,-0.0175 0.092,-0.0236 0.1339,-0.0446 0.019,-0.009 0.025,-0.038 0.045,-0.0446 0.1382,-0.0461 0.085,0.0535 0.1786,-0.13393"
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/6.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:#646466;fill-opacity:1;stroke:#000000;stroke-width:0.73449522;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        d="m 825.10963,247.92417 c 30.71134,-8.3165 33.93352,-27.63762 27.74043,-42.20608 2.40394,0.16785 9.64625,-10.30551 5.26844,-13.93537 -11.1608,9.32984 -22.17972,-2.50203 -30.15368,-1.30644 -8.9755,1.34574 -12.9554,1.22788 -16.8785,5.9946 -5.75996,6.99858 -8.21316,14.1152 -6.31103,22.83167 1.1767,5.39224 -5.422,12.08817 -3.36491,16.62335 2.0773,4.57977 15.25732,14.2843 23.69925,11.99827 z"
@@ -2335,5 +2374,191 @@
        inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
+    <path
+       style="fill:#ff94ff;fill-opacity:1;stroke:#000000;stroke-width:0.73449522000000000;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 901.13105,633.81072 c 30.71134,-8.3165 33.93352,-27.63762 27.74043,-42.20608 2.40394,0.16785 9.64625,-10.30551 5.26844,-13.93537 -11.1608,9.32984 -22.17972,-2.50203 -30.15368,-1.30644 -8.9755,1.34574 -12.9554,1.22788 -16.8785,5.9946 -5.75996,6.99858 -8.21316,14.1152 -6.31103,22.83167 1.1767,5.39224 -5.422,12.08817 -3.36491,16.62335 2.0773,4.57977 15.25732,14.2843 23.69925,11.99827 z"
+       id="path3576"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sccsssss"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/p2_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#fdc091;fill-opacity:1;stroke:#000000;stroke-width:1.04927897;stroke-opacity:1"
+       d="m 880.778,602.1247 c 0,0 31.98808,-14.58155 39.87371,10.29458 0.55368,1.74663 -2.15701,7.78383 -7.18794,6.85906 -11.45918,-2.10639 -36.59483,-2.6722 -36.21888,-0.73798 3.50598,-6.43449 5.3911,-12.19883 3.53311,-16.41566 z"
+       id="path3578"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csscc"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#ff94ff;fill-opacity:1;stroke:#000000;stroke-width:0.62956738000000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 892.98829,633.31797 c -0.7707,3.79864 -2.09882,7.4989 -4.18159,10.35798 -0.81975,1.1253 -4.18163,2.09385 -4.16781,3.33729 0.32236,10.60577 3.8523,3.3021 2.47832,3.70898 -0.79316,7.53403 3.23457,14.23741 3.92859,20.67838 -16.21771,6.48434 2.21056,4.71277 6.01479,3.75329 l -1.70623,-3.50608 c 1.85236,-6.48786 3.39165,-8.27971 5.0858,-12.39457 l 4.34909,1.70752 c 0.79015,0.11375 4.40914,4.3059 4.03836,9.43408 0.58822,2.15192 -10.49925,5.19174 1.57183,5.3381 6.16543,0.0748 11.62845,0.69149 6.77668,-5.94772 l 1.53213,-17.28425 c 0,0 0.2748,0.46538 0.96367,0.0617 0.53234,-0.31199 -1.39454,0.17484 -1.20672,-0.60622 0.10295,-0.42811 0.75491,6.25886 1.67222,5.80265 1.43113,-0.71178 1.15354,-3.65105 1.4453,-3.21424 0.3307,0.49516 1.29939,2.07401 1.70344,2.29531 0.76502,0.41901 0.72327,-2.53973 0.0449,-3.46911 -0.26936,-0.369 1.93674,2.38342 2.25182,0.92109 0.13799,-0.64039 -1.03081,-2.13716 -0.11094,-2.12414 1.71385,-0.0354 -1.8863,-3.22945 -2.43875,-3.3612 l -6.88182,-20.61011 c -8.54913,3.57544 -16.65341,8.53947 -24.55206,4.58467 z"
+       id="path3580"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csccccccccsccsssssssccccc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/p2_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 895.89832,634.12756 c 8.47681,12.13017 15.39032,14.35011 22.5867,18.36328"
+       id="path3582"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 910.34624,639.06616 c 5.06438,3.76537 7.62067,7.74347 10.59934,11.68572"
+       id="path3584"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 916.44244,644.98728 c -8.87536,1.60401 -19.01962,1.10659 -28.39899,-0.80861"
+       id="path3586"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 887.25481,651.51702 c 11.59665,1.36974 14.96363,-1.29303 21.00942,-2.6432 l 7.44477,2.01719"
+       id="path3588"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 887.53873,646.75232 c 9.85772,2.08736 20.57843,3.00969 30.26805,-0.17394"
+       id="path3590"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#990000;stroke-width:1.88870215;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 887.728,645.53504 c 9.89798,1.90211 20.86666,2.45843 29.17974,0.41736"
+       id="path3592"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#282828;fill-opacity:1;stroke:none"
+       d="m 888.82419,662.44352 10.10546,-0.30983 c -2.16259,4.24453 -3.85707,8.05065 -3.39017,9.83242 l 1.76218,3.2216 c -1.8438,0.3322 -23.40295,2.82903 -6.00035,-3.78722 z"
+       id="path3594"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path3596"
+       d="m 906.20543,661.91692 11.55345,-0.89252 -0.69036,7.72921 c 4.54597,8.91727 0.13567,7.5714 -12.31151,6.18944 -0.0924,-0.91542 4.27805,-3.0749 4.27299,-4.94495 -1.04675,-5.11095 -1.77782,-6.14647 -2.82457,-8.08118 z"
+       style="fill:#282828;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52146161;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3598"
+       sodipodi:cx="546.87134"
+       sodipodi:cy="396.64691"
+       sodipodi:rx="4.9244938"
+       sodipodi:ry="4.4194174"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       transform="matrix(0.85451987,0,0,1.1039413,421.49182,170.86403)"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(1.443292,0,0,1.5396035,116.92241,-2.3381729)"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       sodipodi:ry="4.4194174"
+       sodipodi:rx="4.9244938"
+       sodipodi:cy="396.64691"
+       sodipodi:cx="546.87134"
+       id="path3600"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52146161;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:#473000;stroke-width:3.84441996;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3602"
+       sodipodi:cx="546.87134"
+       sodipodi:cy="396.64691"
+       sodipodi:rx="4.9244938"
+       sodipodi:ry="4.4194174"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       transform="matrix(0.72405055,0,0,0.89679296,508.37506,252.76962)"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(0.50780859,0,0,0.62896045,610.17349,359.21324)"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       sodipodi:ry="4.4194174"
+       sodipodi:rx="4.9244938"
+       sodipodi:cy="396.64691"
+       sodipodi:cx="546.87134"
+       id="path3604"
+       style="fill:#000000;fill-opacity:1;stroke:#473000;stroke-width:3.84441996;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#282828;fill-opacity:0.63425927;stroke:none;filter:url(#filter3908)"
+       d="m 548.21429,417.18361 c 4.96983,11.98634 15.56748,2.42882 24.64285,-4.19643 -8.06548,3.31118 -16.75595,6.93206 -24.64285,4.19643 z"
+       id="path3606"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       transform="matrix(0.99931548,0,0,1.1017405,343.28148,173.40632)"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/2.png"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3608"
+       d="m 888.32509,644.42965 -0.89287,6.29464"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/2.png"
+       inkscape:connector-curvature="0"
+       id="path3610"
+       d="m 884.97687,648.44751 c 0.0163,-0.2218 0.16008,-0.003 0.22321,-0.0446 0.035,-0.0233 0.0543,-0.0659 0.0893,-0.0893 0.0124,-0.008 0.0313,0.007 0.0446,0 0.043,-0.0215 0.21222,-0.14148 0.26786,-0.17857 0.0812,-0.0542 0.0927,-0.166 0.17857,-0.22322 0.0298,-0.0149 0.0595,-0.0298 0.0893,-0.0446 0.0149,0 0.0313,0.007 0.0447,0 0.0684,-0.0342 0.0349,-0.0796 0.0893,-0.13393 0.0105,-0.0105 0.0313,0.007 0.0446,0 0.0188,-0.009 0.0298,-0.0298 0.0446,-0.0446"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/Escritorio/personaje/negro/2.png"
+       inkscape:connector-curvature="0"
+       id="path3612"
+       d="m 885.4233,650.54572 c 0.14151,-0.0348 0.17967,-0.22432 0.26785,-0.3125 0.24232,-0.24232 0.0339,-0.0136 0.22322,-0.0893 0.0498,-0.0199 0.0879,-0.0617 0.13393,-0.0893 0.13088,-0.0785 0.2746,-0.13843 0.40178,-0.22322 0.12775,-0.0852 -0.0684,-0.008 0.13393,-0.0893 0.0437,-0.0175 0.0918,-0.0236 0.13393,-0.0446 0.0188,-0.009 0.0247,-0.038 0.0446,-0.0446 0.13819,-0.0461 0.0848,0.0535 0.17857,-0.13393"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
   </g>
 </svg>
