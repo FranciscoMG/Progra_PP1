@@ -34,7 +34,7 @@ public class HiloJugador extends Thread {
     public void run() {
         while (true) {
             try {
-                sleep(10);
+                sleep(25);
                 if (salto) {
                     altura++;
                     direccionY = -1;
