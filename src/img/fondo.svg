@@ -34,6 +34,50 @@
   <defs
      id="defs6">
     <linearGradient
+       id="linearGradient3893">
+      <stop
+         style="stop-color:#fffeff;stop-opacity:1;"
+         offset="0"
+         id="stop3895" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="1"
+         id="stop3897" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3884">
+      <stop
+         style="stop-color:#fffeff;stop-opacity:1;"
+         offset="0"
+         id="stop3886" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="1"
+         id="stop3888" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3876">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop3878" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="1"
+         id="stop3880" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3860">
+      <stop
+         style="stop-color:#fffeff;stop-opacity:1;"
+         offset="0"
+         id="stop3862" />
+      <stop
+         style="stop-color:#100000;stop-opacity:1;"
+         offset="1"
+         id="stop3864" />
+    </linearGradient>
+    <linearGradient
        inkscape:collect="always"
        id="linearGradient3992">
       <stop
@@ -459,6 +503,42 @@
        x2="2510.2788"
        y2="538.40918"
        gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3860"
+       id="linearGradient3866"
+       x1="2822.1602"
+       y1="441.0845"
+       x2="2858.3662"
+       y2="441.0845"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3876"
+       id="linearGradient3882"
+       x1="2875.7932"
+       y1="441.0845"
+       x2="2838.9041"
+       y2="441.0845"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3884"
+       id="linearGradient3891"
+       x1="2823.9668"
+       y1="441.47433"
+       x2="2860.1587"
+       y2="441.47433"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3893"
+       id="linearGradient3900"
+       x1="2866.2725"
+       y1="440.80887"
+       x2="2837.5918"
+       y2="440.80887"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -473,9 +553,9 @@
      inkscape:window-height="1030"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="8"
-     inkscape:cx="3205.4599"
-     inkscape:cy="445.35312"
+     inkscape:zoom="0.5"
+     inkscape:cx="2367.1858"
+     inkscape:cy="333.72967"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="0"
@@ -668,53 +748,53 @@
        inkscape:export-ydpi="90.031395" />
     <path
        sodipodi:type="arc"
-       style="fill:#c0feba;fill-opacity:1;stroke:none"
+       style="fill:url(#linearGradient3891);fill-opacity:1;stroke:none"
        id="path3916"
        sodipodi:cx="2847.9609"
        sodipodi:cy="441.0845"
        sodipodi:rx="6.0987959"
        sodipodi:ry="37.034718"
        d="m 2854.0597,441.0845 a 6.0987959,37.034718 0 1 1 -12.1976,0 6.0987959,37.034718 0 1 1 12.1976,0 z"
-       transform="matrix(0.95652174,0,0,0.90692124,132.57484,31.951598)"
+       transform="matrix(0.95652171,0,0,0.90692124,132.57487,31.951598)"
        inkscape:export-filename="/home/vini/Dropbox/a--UCR-3/TM3100 Programacion/Proyecto Programado 1/Nueva Carpeta/Progra-PP1/src/img/fondo.png"
        inkscape:export-xdpi="90.031395"
        inkscape:export-ydpi="90.031395" />
     <path
-       transform="matrix(0.95652174,0,0,0.90692124,-547.83866,31.951598)"
+       transform="matrix(1.1204885,0,0,0.90692124,-1014.8097,31.951598)"
        d="m 2854.0597,441.0845 a 6.0987959,37.034718 0 1 1 -12.1976,0 6.0987959,37.034718 0 1 1 12.1976,0 z"
        sodipodi:ry="37.034718"
        sodipodi:rx="6.0987959"
        sodipodi:cy="441.0845"
        sodipodi:cx="2847.9609"
        id="path3918"
-       style="fill:#c0feba;fill-opacity:1;stroke:none"
+       style="fill:url(#linearGradient3900);fill-opacity:1;stroke:none"
        sodipodi:type="arc"
        inkscape:export-filename="/home/vini/Dropbox/a--UCR-3/TM3100 Programacion/Proyecto Programado 1/Nueva Carpeta/Progra-PP1/src/img/fondo.png"
        inkscape:export-xdpi="90.031395"
        inkscape:export-ydpi="90.031395" />
     <path
-       transform="matrix(1.238137,0,0,1.4009546,-706.57772,-680.85488)"
+       transform="matrix(1.6439341,0,0,1.4009546,-1862.272,-680.85488)"
        d="m 2854.0597,441.0845 a 6.0987959,37.034718 0 1 1 -12.1976,0 6.0987959,37.034718 0 1 1 12.1976,0 z"
        sodipodi:ry="37.034718"
        sodipodi:rx="6.0987959"
        sodipodi:cy="441.0845"
        sodipodi:cx="2847.9609"
        id="path3920"
-       style="fill:#c0feba;fill-opacity:1;stroke:none"
+       style="fill:url(#linearGradient3866);fill-opacity:1;stroke:none"
        sodipodi:type="arc"
        inkscape:export-filename="/home/vini/Dropbox/a--UCR-3/TM3100 Programacion/Proyecto Programado 1/Nueva Carpeta/Progra-PP1/src/img/fondo.png"
        inkscape:export-xdpi="90.031395"
        inkscape:export-ydpi="90.031395" />
     <path
        sodipodi:type="arc"
-       style="fill:#c0feba;fill-opacity:1;stroke:none"
+       style="fill:url(#linearGradient3882);fill-opacity:1;stroke:none"
        id="path3009"
        sodipodi:cx="2847.9609"
        sodipodi:cy="441.0845"
        sodipodi:rx="6.0987959"
        sodipodi:ry="37.034718"
        d="m 2854.0597,441.0845 a 6.0987959,37.034718 0 1 1 -12.1976,0 6.0987959,37.034718 0 1 1 12.1976,0 z"
-       transform="matrix(1.238137,0,0,1.4009546,-1311.5777,-680.85488)"
+       transform="matrix(1.7019051,0,0,1.4009546,-2632.3712,-680.85488)"
        inkscape:export-filename="/home/vini/Dropbox/a--UCR-3/TM3100 Programacion/Proyecto Programado 1/Nueva Carpeta/Progra-PP1/src/img/fondo.png"
        inkscape:export-xdpi="90.031395"
        inkscape:export-ydpi="90.031395" />

@@ -26,7 +26,7 @@ public class HiloBala extends Thread {
         this.x = x;
         this.y = y;
         this.bala = bala;
-        this.panelJuego =panelJuego;
+        this.panelJuego = panelJuego;
         this.personaje = personaje;
     }
 
@@ -78,7 +78,7 @@ public class HiloBala extends Thread {
 
                 if (disparar) {
                     bala.setX(personaje.getPosX());
-                    bala.setY(personaje.getPosY()-20);
+                    bala.setY(personaje.getPosY());
 
                     if (personaje.isDerecha()) {
                         while (bala.getX() < 840) {
@@ -101,7 +101,5 @@ public class HiloBala extends Thread {
             Logger.getLogger(HiloBala.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
-    
-    
 
 }

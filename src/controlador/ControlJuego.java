@@ -35,15 +35,13 @@ public class ControlJuego implements ActionListener, KeyListener ,MouseListener 
     }
 
     public void keyTyped(KeyEvent e) {
+        
     }
 
     public void keyPressed(KeyEvent e) {
-        if (e.getKeyCode() == KeyEvent.VK_ESCAPE) {
-            
-        }
         if (e.getKeyCode() == KeyEvent.VK_SPACE) {
             this.registroJuego.dispara();
-        }
+        }    
         if (e.getKeyCode()== KeyEvent.VK_W || e.getKeyCode() == KeyEvent.VK_UP) {
             this.registroJuego.movJugAba();
         }
@@ -56,10 +54,9 @@ public class ControlJuego implements ActionListener, KeyListener ,MouseListener 
     }
 
     public void keyReleased(KeyEvent e) {
-        if (e.getKeyCode() == KeyEvent.VK_SPACE) {
-            this.registroJuego.dispara();
+        if (e.getKeyCode()== KeyEvent.VK_W || e.getKeyCode() == KeyEvent.VK_UP) {
+            this.registroJuego.movJugAba();
         }
-       
         if (e.getKeyCode() == KeyEvent.VK_A || e.getKeyCode() == KeyEvent.VK_LEFT) {
             this.registroJuego.movJugIzq(0);
         }
