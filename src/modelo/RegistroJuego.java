@@ -71,7 +71,8 @@ public class RegistroJuego {
     }
 
     public void movJugAba() {
-        if (hiloJugador.salto == false) {
+        if (hiloJugador.salto == false && hiloJugador.caida == false) {
+            hiloJugador.altura = 0;
             hiloJugador.salto = true;
         }
     }
