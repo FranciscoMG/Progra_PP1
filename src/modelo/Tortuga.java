@@ -19,7 +19,7 @@ public class Tortuga extends Personaje {
     private int limiteInicio, limiteFinal;
 
     public Tortuga(int vidas, int posX, int posY, int limiteInicio, int limiteFinal) throws IOException {
-        super(vidas, posX, posY, ImageIO.read(new File("src/img/tortuga_-x.gif")), ImageIO.read(new File("src/img/tortuga_+x.gif")),null,null);
+        super(vidas, posX, posY, ImageIO.read(new File("src/img/enemigo_izquierda.gif")), ImageIO.read(new File("src/img/enemigo_derecha.gif")),null,null);
         this.limiteInicio = limiteInicio;
         this.limiteFinal = limiteFinal;
     }

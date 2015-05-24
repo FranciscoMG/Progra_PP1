@@ -43,9 +43,9 @@
      inkscape:window-height="1030"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="8.3478261"
-     inkscape:cx="98.595828"
-     inkscape:cy="3.8792197"
+     inkscape:zoom="5.9028044"
+     inkscape:cx="223.48425"
+     inkscape:cy="12.260523"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="1"
@@ -75,7 +75,7 @@
      inkscape:transform-center-x="2.2443549"
      inkscape:transform-center-y="-0.055911562"
      transform="matrix(0.32064003,0,0,0.32064003,84.148541,12.170319)"
-     inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/bala.png"
+     inkscape:export-filename="/home/vini/Escritorio/personaje/bala/1.png"
      inkscape:export-xdpi="90"
      inkscape:export-ydpi="90" />
   <path
@@ -83,7 +83,7 @@
      d="m 104.17708,8.7026048 1.59363,-8.89075215 2.18075,5.03250135 z"
      id="path3757"
      inkscape:connector-curvature="0"
-     inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/bala.png"
+     inkscape:export-filename="/home/vini/Escritorio/personaje/bala/1.png"
      inkscape:export-xdpi="90"
      inkscape:export-ydpi="90" />
   <path
@@ -91,7 +91,7 @@
      id="path3759"
      d="m 115.77414,1.5430275 9.00985,-0.63856023 -4.34284,3.34985213 z"
      style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-     inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/bala.png"
+     inkscape:export-filename="/home/vini/Escritorio/personaje/bala/1.png"
      inkscape:export-xdpi="90"
      inkscape:export-ydpi="90" />
   <path
@@ -99,7 +99,7 @@
      d="m 122.65172,11.845639 3.51985,8.318408 -4.57498,-3.025133 z"
      id="path3761"
      inkscape:connector-curvature="0"
-     inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/bala.png"
+     inkscape:export-filename="/home/vini/Escritorio/personaje/bala/1.png"
      inkscape:export-xdpi="90"
      inkscape:export-ydpi="90" />
   <path
@@ -107,7 +107,7 @@
      id="path3763"
      d="m 117.07328,20.6147 -6.56444,6.204302 1.2361,-5.343583 z"
      style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-     inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/bala.png"
+     inkscape:export-filename="/home/vini/Escritorio/personaje/bala/1.png"
      inkscape:export-xdpi="90"
      inkscape:export-ydpi="90" />
   <path
@@ -115,7 +115,7 @@
      d="m 105.40272,17.939257 -8.324462,-3.505492 5.388352,-1.023449 z"
      id="path3765"
      inkscape:connector-curvature="0"
-     inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/bala.png"
+     inkscape:export-filename="/home/vini/Escritorio/personaje/bala/1.png"
      inkscape:export-xdpi="90"
      inkscape:export-ydpi="90" />
   <path
@@ -128,7 +128,229 @@
      sodipodi:ry="1.8567709"
      d="m 115.59897,16.216146 a 1.796875,1.8567709 0 1 1 -3.59375,0 1.796875,1.8567709 0 1 1 3.59375,0 z"
      transform="matrix(1.0658976,0,0,1.0658976,-9.2670249,-6.26933)"
-     inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/bala.png"
+     inkscape:export-filename="/home/vini/Escritorio/personaje/bala/1.png"
      inkscape:export-xdpi="90"
      inkscape:export-ydpi="90" />
+  <path
+     inkscape:export-ydpi="90"
+     inkscape:export-xdpi="90"
+     inkscape:export-filename="/home/vini/Escritorio/personaje/bala/2.png"
+     transform="matrix(0.27768241,-0.16032001,0.16032001,0.27768241,151.43767,25.20059)"
+     inkscape:transform-center-y="0.83277013"
+     inkscape:transform-center-x="-1.4911284"
+     d="M 148.54166,45.145833 116.35354,24.309249 64.442109,71.773941 74.312202,34.722359 13.129082,0.01904837 51.417257,-2.0435039 65.515443,-70.956021 l 13.7933,35.776854 69.896277,-7.886967 -29.76344,24.173864 z"
+     inkscape:randomized="0"
+     inkscape:rounded="0"
+     inkscape:flatsided="false"
+     sodipodi:arg2="0.69967688"
+     sodipodi:arg1="0.63583842"
+     sodipodi:r2="36.84317"
+     sodipodi:r1="75.039703"
+     sodipodi:cy="0.58333331"
+     sodipodi:cx="88.166664"
+     sodipodi:sides="5"
+     id="path3065"
+     style="fill:#fff4f6;fill-opacity:1;stroke:none"
+     sodipodi:type="star" />
+  <path
+     inkscape:export-ydpi="90"
+     inkscape:export-xdpi="90"
+     inkscape:export-filename="/home/vini/Escritorio/personaje/bala/2.png"
+     inkscape:connector-curvature="0"
+     id="path3067"
+     d="m 167.04904,12.183191 -3.06526,-8.4964319 4.40484,3.267899 z"
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     inkscape:export-ydpi="90"
+     inkscape:export-xdpi="90"
+     inkscape:export-filename="/home/vini/Escritorio/personaje/bala/2.png"
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 173.5126,0.18428549 7.48347,-5.05793439 -2.08608,5.07247706 z"
+     id="path3069"
+     inkscape:connector-curvature="0" />
+  <path
+     inkscape:export-ydpi="90"
+     inkscape:export-xdpi="90"
+     inkscape:export-filename="/home/vini/Escritorio/personaje/bala/2.png"
+     inkscape:connector-curvature="0"
+     id="path3071"
+     d="m 184.62006,5.6678188 7.20748,5.4440272 -5.47461,-0.332352 z"
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     inkscape:export-ydpi="90"
+     inkscape:export-xdpi="90"
+     inkscape:export-filename="/home/vini/Escritorio/personaje/bala/2.png"
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 184.17352,16.051268 -2.58282,8.655304 -1.6013,-5.245729 z"
+     id="path3073"
+     inkscape:connector-curvature="0" />
+  <path
+     inkscape:export-ydpi="90"
+     inkscape:export-xdpi="90"
+     inkscape:export-filename="/home/vini/Escritorio/personaje/bala/2.png"
+     inkscape:connector-curvature="0"
+     id="path3075"
+     d="m 172.7288,19.569547 -8.96195,1.12639 4.15473,-3.580513 z"
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     inkscape:export-ydpi="90"
+     inkscape:export-xdpi="90"
+     inkscape:export-filename="/home/vini/Escritorio/personaje/bala/2.png"
+     transform="matrix(0.9230944,-0.5329488,0.5329488,0.9230944,61.317589,55.939169)"
+     d="m 115.59897,16.216146 a 1.796875,1.8567709 0 1 1 -3.59375,0 1.796875,1.8567709 0 1 1 3.59375,0 z"
+     sodipodi:ry="1.8567709"
+     sodipodi:rx="1.796875"
+     sodipodi:cy="16.216146"
+     sodipodi:cx="113.80209"
+     id="path3077"
+     style="fill:#ffffff;fill-opacity:1;stroke:none"
+     sodipodi:type="arc" />
+  <path
+     sodipodi:type="star"
+     style="fill:#fff4f6;fill-opacity:1;stroke:none"
+     id="path3079"
+     sodipodi:sides="5"
+     sodipodi:cx="88.166664"
+     sodipodi:cy="0.58333331"
+     sodipodi:r1="75.039703"
+     sodipodi:r2="36.84317"
+     sodipodi:arg1="0.63583842"
+     sodipodi:arg2="0.69967688"
+     inkscape:flatsided="false"
+     inkscape:rounded="0"
+     inkscape:randomized="0"
+     d="M 148.54166,45.145833 116.35354,24.309249 64.442109,71.773941 74.312202,34.722359 13.129082,0.01904837 51.417257,-2.0435039 65.515443,-70.956021 l 13.7933,35.776854 69.896277,-7.886967 -29.76344,24.173864 z"
+     inkscape:transform-center-x="0.72155605"
+     inkscape:transform-center-y="-1.6005069"
+     transform="matrix(0.16032002,-0.27768241,0.27768241,0.16032002,221.64095,36.473636)"
+     inkscape:export-filename="/home/vini/Escritorio/personaje/bala/3.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 228.65209,17.394553 -6.90281,-5.825496 5.44865,0.627663 z"
+     id="path3081"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/home/vini/Escritorio/personaje/bala/3.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path3083"
+     d="m 228.25025,3.7714156 3.9519,-8.1220347 0.72964,5.435934 z"
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     inkscape:export-filename="/home/vini/Escritorio/personaje/bala/3.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 240.61135,2.9665647 8.96388,1.1109259 -4.90733,2.4494797 z"
+     id="path3085"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/home/vini/Escritorio/personaje/bala/3.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path3087"
+     d="m 245.41636,12.182166 2.09087,8.787123 -4.00963,-3.742285 z"
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     inkscape:export-filename="/home/vini/Escritorio/personaje/bala/3.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 237.26409,20.951445 -7.19809,5.456457 1.80785,-5.17818 z"
+     id="path3089"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/home/vini/Escritorio/personaje/bala/3.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     sodipodi:type="arc"
+     style="fill:#ffffff;fill-opacity:1;stroke:none"
+     id="path3091"
+     sodipodi:cx="113.80209"
+     sodipodi:cy="16.216146"
+     sodipodi:rx="1.796875"
+     sodipodi:ry="1.8567709"
+     d="m 115.59897,16.216146 a 1.796875,1.8567709 0 1 1 -3.59375,0 1.796875,1.8567709 0 1 1 3.59375,0 z"
+     transform="matrix(0.5329488,-0.9230944,0.9230944,0.5329488,158.96396,108.15407)"
+     inkscape:export-filename="/home/vini/Escritorio/personaje/bala/3.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     inkscape:export-ydpi="90"
+     inkscape:export-xdpi="90"
+     inkscape:export-filename="/home/vini/Escritorio/personaje/bala/3.png"
+     transform="matrix(0.16032002,-0.27768241,0.27768241,0.16032002,221.64095,36.473636)"
+     inkscape:transform-center-y="-1.6005069"
+     inkscape:transform-center-x="0.72155605"
+     d="M 148.54166,45.145833 116.35354,24.309249 64.442109,71.773941 74.312202,34.722359 13.129082,0.01904837 51.417257,-2.0435039 65.515443,-70.956021 l 13.7933,35.776854 69.896277,-7.886967 -29.76344,24.173864 z"
+     inkscape:randomized="0"
+     inkscape:rounded="0"
+     inkscape:flatsided="false"
+     sodipodi:arg2="0.69967688"
+     sodipodi:arg1="0.63583842"
+     sodipodi:r2="36.84317"
+     sodipodi:r1="75.039703"
+     sodipodi:cy="0.58333331"
+     sodipodi:cx="88.166664"
+     sodipodi:sides="5"
+     id="path3093"
+     style="fill:#fff4f6;fill-opacity:1;stroke:none"
+     sodipodi:type="star" />
+  <path
+     inkscape:export-ydpi="90"
+     inkscape:export-xdpi="90"
+     inkscape:export-filename="/home/vini/Escritorio/personaje/bala/3.png"
+     inkscape:connector-curvature="0"
+     id="path3095"
+     d="m 228.65209,17.394553 -6.90281,-5.825496 5.44865,0.627663 z"
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     inkscape:export-ydpi="90"
+     inkscape:export-xdpi="90"
+     inkscape:export-filename="/home/vini/Escritorio/personaje/bala/3.png"
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 228.25025,3.7714156 3.9519,-8.1220347 0.72964,5.435934 z"
+     id="path3097"
+     inkscape:connector-curvature="0" />
+  <path
+     inkscape:export-ydpi="90"
+     inkscape:export-xdpi="90"
+     inkscape:export-filename="/home/vini/Escritorio/personaje/bala/3.png"
+     inkscape:connector-curvature="0"
+     id="path3099"
+     d="m 240.61135,2.9665647 8.96388,1.1109259 -4.90733,2.4494797 z"
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     inkscape:export-ydpi="90"
+     inkscape:export-xdpi="90"
+     inkscape:export-filename="/home/vini/Escritorio/personaje/bala/3.png"
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 245.41636,12.182166 2.09087,8.787123 -4.00963,-3.742285 z"
+     id="path3101"
+     inkscape:connector-curvature="0" />
+  <path
+     inkscape:export-ydpi="90"
+     inkscape:export-xdpi="90"
+     inkscape:export-filename="/home/vini/Escritorio/personaje/bala/3.png"
+     inkscape:connector-curvature="0"
+     id="path3103"
+     d="m 237.26409,20.951445 -7.19809,5.456457 1.80785,-5.17818 z"
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     inkscape:export-ydpi="90"
+     inkscape:export-xdpi="90"
+     inkscape:export-filename="/home/vini/Escritorio/personaje/bala/3.png"
+     transform="matrix(0.5329488,-0.9230944,0.9230944,0.5329488,158.96396,108.15407)"
+     d="m 115.59897,16.216146 a 1.796875,1.8567709 0 1 1 -3.59375,0 1.796875,1.8567709 0 1 1 3.59375,0 z"
+     sodipodi:ry="1.8567709"
+     sodipodi:rx="1.796875"
+     sodipodi:cy="16.216146"
+     sodipodi:cx="113.80209"
+     id="path3105"
+     style="fill:#ffffff;fill-opacity:1;stroke:none"
+     sodipodi:type="arc" />
 </svg>

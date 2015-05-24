@@ -23,7 +23,7 @@ public class Bala extends Canvas {
     public Bala(int x, int y) {
         this.x = x;
         this.y = y;
-        this.imagen = new ImageIcon(getClass().getResource("/img/bala.png")).getImage();
+        this.imagen = new ImageIcon(getClass().getResource("/img/bala.gif")).getImage();
     }
 
     public Image getImagen() {
