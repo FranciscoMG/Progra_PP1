@@ -27,6 +27,10 @@ public class HiloJugador extends Thread {
         this.jugador.setImgPers(jugador.imgPersIzq);
     }
 
+    public void setDireccionX(int direccionx) {
+        this.direccionX = direccionx;
+    }
+
     public void run() {
         while (true) {
             try {
@@ -48,8 +52,8 @@ public class HiloJugador extends Thread {
                         caida = false;
                     }
                 }
-                this.jugador.setPosX(jugador.getPosX() + direccionX * 10);
-                direccionX = 0;
+                this.jugador.setPosX(jugador.getPosX() + direccionX*5);
+         
                 direccionY = 0;
 
                 if (jugador.getPosX() < 0) { // evita que se salga de -x

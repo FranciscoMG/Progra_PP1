@@ -48,14 +48,24 @@ public class ControlJuego implements ActionListener, KeyListener ,MouseListener 
             this.registroJuego.movJugAba();
         }
         if (e.getKeyCode() == KeyEvent.VK_A || e.getKeyCode() == KeyEvent.VK_LEFT) {
-            this.registroJuego.movJugIzq();
+            this.registroJuego.movJugIzq(-1);
         }
         if (e.getKeyCode() == KeyEvent.VK_D || e.getKeyCode() == KeyEvent.VK_RIGHT) {
-            this.registroJuego.movJugDer();
+            this.registroJuego.movJugDer(1);
         }
     }
 
     public void keyReleased(KeyEvent e) {
+        if (e.getKeyCode() == KeyEvent.VK_SPACE) {
+            this.registroJuego.dispara();
+        }
+       
+        if (e.getKeyCode() == KeyEvent.VK_A || e.getKeyCode() == KeyEvent.VK_LEFT) {
+            this.registroJuego.movJugIzq(0);
+        }
+        if (e.getKeyCode() == KeyEvent.VK_D || e.getKeyCode() == KeyEvent.VK_RIGHT) {
+            this.registroJuego.movJugDer(0);
+        }
     }
 
     public void actionPerformed(ActionEvent e) {

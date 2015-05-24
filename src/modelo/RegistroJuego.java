@@ -77,8 +77,8 @@ public class RegistroJuego {
         }
     }
 
-    public void movJugIzq() {
-        hiloJugador.direccionX = -1;
+    public void movJugIzq(int x) {
+        hiloJugador.setDireccionX(x);
         if (jugador.getIsFirstPlayer()) {
             this.jugador.setImgPers(jugador.imgPersIzq);
         } else {
@@ -87,8 +87,8 @@ public class RegistroJuego {
         this.jugador.setDerecha(false);
     }
 
-    public void movJugDer() {
-        hiloJugador.direccionX = 1;
+    public void movJugDer(int x) {
+        hiloJugador.setDireccionX(x);
         if (jugador.getIsFirstPlayer()) {
             this.jugador.setImgPers(jugador.imgPersDer);
         } else {
