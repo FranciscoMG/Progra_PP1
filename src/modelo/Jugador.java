@@ -6,9 +6,7 @@
 package modelo;
 
 import java.awt.Graphics;
-import java.io.File;
 import java.io.IOException;
-import javax.imageio.ImageIO;
 
 /**
  *
@@ -17,8 +15,8 @@ import javax.imageio.ImageIO;
 public class Jugador extends Personaje {
 
     public Jugador(int vidas, int posX, int posY) throws IOException {
-        super(vidas, posX, posY, ImageIO.read(new File("src/img/p1_izquierda.png")), ImageIO.read(new File("src/img/p1_derecha.png")),
-                ImageIO.read(new File("src/img/p2_izquierda.png")), ImageIO.read(new File("src/img/p2_derecha.png")));
+        super(vidas, posX, posY, "src/img/p1_izquierda.png", "src/img/p1_derecha.png",
+                "src/img/p2_izquierda.png", "src/img/p2_derecha.png");
     }
 
     public void pintarPersonaje(Graphics g) {

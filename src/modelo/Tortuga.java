@@ -6,9 +6,7 @@
 package modelo;
 
 import java.awt.Graphics;
-import java.io.File;
 import java.io.IOException;
-import javax.imageio.ImageIO;
 
 /**
  *
@@ -19,7 +17,7 @@ public class Tortuga extends Personaje {
     private int limiteInicio, limiteFinal;
 
     public Tortuga(int vidas, int posX, int posY, int limiteInicio, int limiteFinal) throws IOException {
-        super(vidas, posX, posY, ImageIO.read(new File("src/img/enemigo_izquierda.gif")), ImageIO.read(new File("src/img/enemigo_derecha.gif")),null,null);
+        super(vidas, posX, posY, "src/img/enemigo_izquierda.gif", "src/img/enemigo_derecha.gif", null, null);
         this.limiteInicio = limiteInicio;
         this.limiteFinal = limiteFinal;
     }
