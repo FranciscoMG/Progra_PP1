@@ -36,7 +36,7 @@ public class HiloPlataformas extends Thread {
     public void run() {
         while (true) {
             try {
-                sleep(50);
+                sleep(25);
                 this.colisionadorJugador.setBounds(jugador.getPosX(), jugador.getPosY(), 60, 60);
                 if (colisionadorJugador.intersects(suelo)) {
                     hiloJugador.caida = false;
