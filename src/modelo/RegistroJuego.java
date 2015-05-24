@@ -54,7 +54,7 @@ public class RegistroJuego {
 
         hiloPlataformas = new HiloPlataformas(jugador, hiloJugador);
         hiloPlataformas.start();
-        
+
         hiloColicionador = new HiloColisionador(tortugas, jugador);
         hiloColicionador.start();
 
@@ -67,7 +67,8 @@ public class RegistroJuego {
     }
 
     public void movJugAba() {
-        if (hiloJugador.salto == false) {
+        if (hiloJugador.salto == false && hiloJugador.caida == false) {
+            hiloJugador.altura = 0;
             hiloJugador.salto = true;
         }
     }
