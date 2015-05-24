@@ -17,10 +17,11 @@ import javax.imageio.ImageIO;
 public class Jugador extends Personaje {
 
     public Jugador(int vidas, int posX, int posY) throws IOException {
-        super(vidas, posX, posY, ImageIO.read(new File("src/img/jugador1_izquierda.png")), ImageIO.read(new File("src/img/jugador1_derecha.png")));
+        super(vidas, posX, posY, ImageIO.read(new File("src/img/p1_izquierda.png")), ImageIO.read(new File("src/img/p1_derecha.png")),
+                ImageIO.read(new File("src/img/p2_izquierda.png")), ImageIO.read(new File("src/img/p2_derecha.png")));
     }
 
     public void pintarPersonaje(Graphics g) {
-        g.drawImage(this.getImgPers(), this.getPosX(), this.getPosY(), 55, 55, null);
+        g.drawImage(this.getImgPers(), this.getPosX()-10, this.getPosY()-41, 60, 100, null);
     }
 }

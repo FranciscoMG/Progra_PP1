@@ -6,7 +6,9 @@
 package vista;
 
 import java.awt.Graphics;
+import java.awt.Image;
 import java.util.ArrayList;
+import javax.swing.ImageIcon;
 import modelo.Bala;
 import modelo.Jugador;
 import modelo.Tortuga;
@@ -20,13 +22,18 @@ public class PanelJuego extends javax.swing.JPanel {
     private Jugador jugador;
     private ArrayList<Tortuga> tortugas;
     private Bala bala;
+    private Image pow;
 
     /**
      * Creates new form PanelJuego1
      */
     public PanelJuego() {
         initComponents();
-
+        pow = new ImageIcon(getClass().getResource("/img/pow0.png")).getImage();
+    }
+    
+    public void activarPow () {
+        this.pow = new ImageIcon(getClass().getResource("/img/pow.png")).getImage();
     }
 
     public void paint(Graphics g) {
@@ -36,6 +43,7 @@ public class PanelJuego extends javax.swing.JPanel {
             tortugas.get(i).pintarPersonaje(g);
         }
         bala.pintarBala(g);
+        g.drawImage(pow, 383, 473, this);
     }
 
     /**

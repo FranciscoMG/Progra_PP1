@@ -1,0 +1,2339 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="personaje.svg">
+  <defs
+     id="defs4">
+    <filter
+       inkscape:collect="always"
+       id="filter3908">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.28187866"
+         id="feGaussianBlur3910" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="631.87211"
+     inkscape:cy="1289.3055"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer4"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1030"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="2"
+     style="display:inline" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     sodipodi:insensitive="true"
+     style="opacity:0.24696356">
+    <rect
+       style="opacity:0.19742491000000001;fill:none;stroke:#000000;stroke-width:1.69468653000000002;stroke-opacity:1"
+       id="rect2985"
+       width="58.305313"
+       height="106.30531"
+       x="439.25864"
+       y="367.14468" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="3"
+     style="display:inline">
+    <path
+       style="fill:#646466;fill-opacity:1;stroke:#000000;stroke-width:0.73449522;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 821.06902,492.42547 c 30.71134,-8.3165 33.93352,-27.63762 27.74043,-42.20608 2.40394,0.16785 9.64625,-10.30551 5.26844,-13.93537 -11.1608,9.32984 -22.17972,-2.50203 -30.15368,-1.30644 -8.9755,1.34574 -12.9554,1.22788 -16.8785,5.9946 -5.75996,6.99858 -8.21316,14.1152 -6.31103,22.83167 1.1767,5.39224 -5.422,12.08817 -3.36491,16.62335 2.0773,4.57977 15.25732,14.2843 23.69925,11.99827 z"
+       id="path2999"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sccsssss"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#fdc091;fill-opacity:1;stroke:#000000;stroke-width:1.04927897;stroke-opacity:1"
+       d="m 800.71597,460.73945 c 0,0 31.98808,-14.58155 39.87371,10.29458 0.55368,1.74663 -2.15701,7.78383 -7.18794,6.85906 -11.45918,-2.10639 -36.59483,-2.6722 -36.21888,-0.73798 3.50598,-6.43449 5.3911,-12.19883 3.53311,-16.41566 z"
+       id="path3001"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csscc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#666668;fill-opacity:1;stroke:#000000;stroke-width:0.62956738;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 811.5373,491.39608 c -1.07403,5.29372 -4.47725,11.58406 -8.94245,10.68347 -1.57541,-0.31773 -2.90713,0.58248 -6.24104,3.13398 0.76661,2.45974 1.25381,5.11201 3.30131,6.68913 2.75496,-0.61357 4.54693,-1.91084 6.64406,-3.431 l 0.84529,1.44567 c -0.79316,7.53403 -0.32712,13.21511 0.3669,19.65608 -16.21771,6.48434 2.52623,5.02844 6.33046,4.06896 l -1.51682,-3.44294 5.0858,-12.39457 7.31641,1.77065 c 0.11922,-0.0584 3.90126,8.63053 5.55359,11.01245 0.31522,1.34871 -0.9272,3.39702 0.0566,3.75973 7.22742,2.66439 19.18757,-1.35844 6.77668,-5.94772 l 1.53213,-17.28425 c 0,0 0.81051,2.38502 1.49938,1.9813 0.53234,-0.31199 1.37332,-1.4323 1.56114,-2.21336 0.10295,-0.42811 1.91563,5.58922 2.83294,5.13301 1.43113,-0.71178 0.57318,-3.56177 0.86494,-3.12496 0.3307,0.49516 1.03153,1.00258 1.43558,1.22388 0.76502,0.41901 1.03577,-1.73615 0.35737,-2.66553 -0.26936,-0.369 2.38317,2.20484 2.69825,0.74251 0.13799,-0.64039 -1.87902,-2.27108 -0.95915,-2.25806 3.52517,-1.07749 -1.59031,-3.04552 -2.34947,-3.0487 l -10.49789,-20.0744 c -8.54913,3.57544 -16.65341,8.53947 -24.55206,4.58467 z"
+       id="path3771"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csccccccccccsccssssssscccc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 798.48619,506.37565 3.53311,-1.94763"
+       id="path3849"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.31478369;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 800.00037,508.46239 2.9653,-1.73895"
+       id="path3853"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.31478369;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 801.57766,503.52377 1.57728,2.36497"
+       id="path3855"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 815.83629,492.74231 c 8.47681,12.13017 15.39032,14.35011 22.5867,18.36328"
+       id="path3859"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 830.28421,497.68091 c 5.06438,3.76537 7.62067,7.74347 10.59934,11.68572"
+       id="path3861"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.04927897px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 840.00027,507.41902 5.80441,-1.87806"
+       id="path3863"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 836.38041,503.60203 c -8.87536,1.60401 -19.01962,1.10659 -28.39899,-0.80861"
+       id="path3865"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 809.33788,497.8896 -3.02837,10.71189"
+       id="path3867"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 807.19278,510.13177 c 11.59665,1.36974 14.96363,-1.29303 21.00942,-2.6432 l 7.44477,2.01719"
+       id="path3869"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 807.4767,505.36707 c 9.85772,2.08736 20.57843,3.00969 30.26805,-0.17394"
+       id="path3871"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#990000;stroke-width:1.88870215;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 807.66597,504.14979 c 9.89798,1.90211 20.86666,2.45843 29.17974,0.41736"
+       id="path3873"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#282828;fill-opacity:1;stroke:none"
+       d="m 806.97645,520.29935 8.98938,0.27052 -3.92588,9.78778 1.76218,3.2216 c -1.8438,0.3322 -23.40295,2.82903 -6.00035,-3.78722 z"
+       id="path3875"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path3877"
+       d="m 826.01713,521.66809 11.55345,-0.89252 -0.69036,7.72921 c 12.69448,4.27356 -0.76875,8.75819 -6.69254,5.30556 0.14215,-2.79205 0.16925,-3.11406 0.16925,-3.11406 z"
+       style="fill:#282828;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52146161;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3879"
+       sodipodi:cx="546.87134"
+       sodipodi:cy="396.64691"
+       sodipodi:rx="4.9244938"
+       sodipodi:ry="4.4194174"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       transform="matrix(0.85451987,0,0,1.1039413,341.42979,29.478788)"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(1.443292,0,0,1.5396035,36.860378,-143.72342)"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       sodipodi:ry="4.4194174"
+       sodipodi:rx="4.9244938"
+       sodipodi:cy="396.64691"
+       sodipodi:cx="546.87134"
+       id="path3900"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52146161;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:#473000;stroke-width:3.84441996;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3902"
+       sodipodi:cx="546.87134"
+       sodipodi:cy="396.64691"
+       sodipodi:rx="4.9244938"
+       sodipodi:ry="4.4194174"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       transform="matrix(0.72405055,0,0,0.89679296,428.31303,111.38437)"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(0.50780859,0,0,0.62896045,530.11146,217.82799)"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       sodipodi:ry="4.4194174"
+       sodipodi:rx="4.9244938"
+       sodipodi:cy="396.64691"
+       sodipodi:cx="546.87134"
+       id="path3904"
+       style="fill:#000000;fill-opacity:1;stroke:#473000;stroke-width:3.84441996;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#282828;fill-opacity:0.63425927;stroke:none;filter:url(#filter3908)"
+       d="m 548.21429,417.18361 c 4.96983,11.98634 15.56748,2.42882 24.64285,-4.19643 -8.06548,3.31118 -16.75595,6.93206 -24.64285,4.19643 z"
+       id="path3906"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       transform="matrix(0.99931548,0,0,1.1017405,263.21945,32.021079)"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="sccsssss"
+       inkscape:connector-curvature="0"
+       id="path3016"
+       d="m 905.41676,491.66786 c 30.71134,-8.3165 33.93352,-27.63762 27.74043,-42.20608 2.40394,0.16785 9.64625,-10.30551 5.26844,-13.93537 -11.1608,9.32984 -22.17972,-2.50203 -30.15368,-1.30644 -8.9755,1.34574 -12.9554,1.22788 -16.8785,5.9946 -5.75996,6.99858 -8.21316,14.1152 -6.31103,22.83167 1.1767,5.39224 -5.422,12.08817 -3.36491,16.62335 2.0773,4.57977 15.25732,14.2843 23.69925,11.99827 z"
+       style="fill:#646466;fill-opacity:1;stroke:#000000;stroke-width:0.73449522;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="csscc"
+       inkscape:connector-curvature="0"
+       id="path3018"
+       d="m 885.06371,459.98184 c 0,0 31.98808,-14.58155 39.87371,10.29458 0.55368,1.74663 -2.15701,7.78383 -7.18794,6.85906 -11.45918,-2.10639 -36.59483,-2.6722 -36.21888,-0.73798 3.50598,-6.43449 5.3911,-12.19883 3.53311,-16.41566 z"
+       style="fill:#fdc091;fill-opacity:1;stroke:#000000;stroke-width:1.04927897;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="csccccccccsccsssssssccccc"
+       inkscape:connector-curvature="0"
+       id="path3020"
+       d="m 897.274,491.17511 c -0.7707,3.79864 -2.09882,7.4989 -4.18159,10.35798 -0.81975,1.1253 -4.18163,2.09385 -4.16781,3.33729 0.32236,10.60577 3.8523,3.3021 2.47832,3.70898 -0.79316,7.53403 3.23457,14.23741 3.92859,20.67838 -16.21771,6.48434 2.21056,4.71277 6.01479,3.75329 l -1.70623,-3.50608 c 1.85236,-6.48786 3.39165,-8.27971 5.0858,-12.39457 l 4.34909,1.70752 c 0.79015,0.11375 4.40914,4.3059 4.03836,9.43408 0.58822,2.15192 -10.49925,5.19174 1.57183,5.3381 6.16543,0.0748 11.62845,0.69149 6.77668,-5.94772 l 1.53213,-17.28425 c 0,0 0.2748,0.46538 0.96367,0.0617 0.53234,-0.31199 -1.39454,0.17484 -1.20672,-0.60622 0.10295,-0.42811 0.75491,6.25886 1.67222,5.80265 1.43113,-0.71178 1.15354,-3.65105 1.4453,-3.21424 0.3307,0.49516 1.29939,2.07401 1.70344,2.29531 0.76502,0.41901 0.72327,-2.53973 0.0449,-3.46911 -0.26936,-0.369 1.93674,2.38342 2.25182,0.92109 0.13799,-0.64039 -1.03081,-2.13716 -0.11094,-2.12414 1.71385,-0.0354 -1.8863,-3.22945 -2.43875,-3.3612 l -6.88182,-20.61011 c -8.54913,3.57544 -16.65341,8.53947 -24.55206,4.58467 z"
+       style="fill:#666668;fill-opacity:1;stroke:#000000;stroke-width:0.62956738;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3028"
+       d="m 900.18403,491.9847 c 8.47681,12.13017 15.39032,14.35011 22.5867,18.36328"
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3030"
+       d="m 914.63195,496.9233 c 5.06438,3.76537 7.62067,7.74347 10.59934,11.68572"
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3034"
+       d="m 920.72815,502.84442 c -8.87536,1.60401 -19.01962,1.10659 -28.39899,-0.80861"
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="ccc"
+       inkscape:connector-curvature="0"
+       id="path3038"
+       d="m 891.54052,509.37416 c 11.59665,1.36974 14.96363,-1.29303 21.00942,-2.6432 l 7.44477,2.01719"
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3040"
+       d="m 891.82444,504.60946 c 9.85772,2.08736 20.57843,3.00969 30.26805,-0.17394"
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3042"
+       d="m 892.01371,503.39218 c 9.89798,1.90211 20.86666,2.45843 29.17974,0.41736"
+       style="fill:none;stroke:#990000;stroke-width:1.88870215;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path3044"
+       d="m 893.1099,520.30066 10.10546,-0.30983 c -2.16259,4.24453 -3.85707,8.05065 -3.39017,9.83242 l 1.76218,3.2216 c -1.8438,0.3322 -23.40295,2.82903 -6.00035,-3.78722 z"
+       style="fill:#282828;fill-opacity:1;stroke:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       style="fill:#282828;fill-opacity:1;stroke:none"
+       d="m 910.49114,519.77406 11.55345,-0.89252 -0.69036,7.72921 c 4.54597,8.91727 0.13567,7.5714 -12.31151,6.18944 -0.0924,-0.91542 4.27805,-3.0749 4.27299,-4.94495 -1.04675,-5.11095 -1.77782,-6.14647 -2.82457,-8.08118 z"
+       id="path3046"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       transform="matrix(0.85451987,0,0,1.1039413,425.77753,28.721174)"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       sodipodi:ry="4.4194174"
+       sodipodi:rx="4.9244938"
+       sodipodi:cy="396.64691"
+       sodipodi:cx="546.87134"
+       id="path3048"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52146161;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52146161;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3050"
+       sodipodi:cx="546.87134"
+       sodipodi:cy="396.64691"
+       sodipodi:rx="4.9244938"
+       sodipodi:ry="4.4194174"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       transform="matrix(1.443292,0,0,1.5396035,121.20812,-144.48103)" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       transform="matrix(0.72405055,0,0,0.89679296,512.66077,110.62676)"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       sodipodi:ry="4.4194174"
+       sodipodi:rx="4.9244938"
+       sodipodi:cy="396.64691"
+       sodipodi:cx="546.87134"
+       id="path3052"
+       style="fill:#000000;fill-opacity:1;stroke:#473000;stroke-width:3.84441996;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:#473000;stroke-width:3.84441996;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3054"
+       sodipodi:cx="546.87134"
+       sodipodi:cy="396.64691"
+       sodipodi:rx="4.9244938"
+       sodipodi:ry="4.4194174"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       transform="matrix(0.50780859,0,0,0.62896045,614.4592,217.07038)" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       transform="matrix(0.99931548,0,0,1.1017405,347.56719,31.263465)"
+       sodipodi:nodetypes="ccc"
+       inkscape:connector-curvature="0"
+       id="path3056"
+       d="m 548.21429,417.18361 c 4.96983,11.98634 15.56748,2.42882 24.64285,-4.19643 -8.06548,3.31118 -16.75595,6.93206 -24.64285,4.19643 z"
+       style="fill:#282828;fill-opacity:0.63425927;stroke:none;filter:url(#filter3908)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 892.6108,502.28679 -0.89287,6.29464"
+       id="path3104"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 889.26258,506.30465 c 0.0163,-0.2218 0.16008,-0.003 0.22321,-0.0446 0.035,-0.0233 0.0543,-0.0659 0.0893,-0.0893 0.0124,-0.008 0.0313,0.007 0.0446,0 0.043,-0.0215 0.21222,-0.14148 0.26786,-0.17857 0.0812,-0.0542 0.0927,-0.166 0.17857,-0.22322 0.0298,-0.0149 0.0595,-0.0298 0.0893,-0.0446 0.0149,0 0.0313,0.007 0.0447,0 0.0684,-0.0342 0.0349,-0.0796 0.0893,-0.13393 0.0105,-0.0105 0.0313,0.007 0.0446,0 0.0188,-0.009 0.0298,-0.0298 0.0446,-0.0446"
+       id="path3106"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 889.70901,508.40286 c 0.14151,-0.0348 0.17967,-0.22432 0.26785,-0.3125 0.24232,-0.24232 0.0339,-0.0136 0.22322,-0.0893 0.0498,-0.0199 0.0879,-0.0617 0.13393,-0.0893 0.13088,-0.0785 0.2746,-0.13843 0.40178,-0.22322 0.12775,-0.0852 -0.0684,-0.008 0.13393,-0.0893 0.0437,-0.0175 0.0918,-0.0236 0.13393,-0.0446 0.0188,-0.009 0.0247,-0.038 0.0446,-0.0446 0.13819,-0.0461 0.0848,0.0535 0.17857,-0.13393"
+       id="path3108"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="sccsssss"
+       inkscape:connector-curvature="0"
+       id="path3121"
+       d="m 825.10963,367.92417 c 30.71134,-8.3165 33.93352,-27.63762 27.74043,-42.20608 2.40394,0.16785 9.64625,-10.30551 5.26844,-13.93537 -11.1608,9.32984 -22.17972,-2.50203 -30.15368,-1.30644 -8.9755,1.34574 -12.9554,1.22788 -16.8785,5.9946 -5.75996,6.99858 -8.21316,14.1152 -6.31103,22.83167 1.1767,5.39224 -5.422,12.08817 -3.36491,16.62335 2.0773,4.57977 15.25732,14.2843 23.69925,11.99827 z"
+       style="fill:#646466;fill-opacity:1;stroke:#000000;stroke-width:0.73449522;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="csscc"
+       inkscape:connector-curvature="0"
+       id="path3123"
+       d="m 804.75658,336.23815 c 0,0 31.98808,-14.58155 39.87371,10.29458 0.55368,1.74663 -2.15701,7.78383 -7.18794,6.85906 -11.45918,-2.10639 -36.59483,-2.6722 -36.21888,-0.73798 3.50598,-6.43449 5.3911,-12.19883 3.53311,-16.41566 z"
+       style="fill:#fdc091;fill-opacity:1;stroke:#000000;stroke-width:1.04927897;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="csccccccccccsccssssssscccc"
+       inkscape:connector-curvature="0"
+       id="path3125"
+       d="m 815.57791,366.89478 c -1.07403,5.29372 -4.47725,11.58406 -8.94245,10.68347 -1.57541,-0.31773 -2.90713,0.58248 -6.24104,3.13398 0.76661,2.45974 1.25381,5.11201 3.30131,6.68913 2.75496,-0.61357 4.54693,-1.91084 6.64406,-3.431 l 0.84529,1.44567 c -0.79316,7.53403 -0.32712,13.21511 0.3669,19.65608 -16.21771,6.48434 2.52623,5.02844 6.33046,4.06896 l -1.51682,-3.44294 5.0858,-12.39457 7.31641,1.77065 c 0.11922,-0.0584 3.90126,8.63053 5.55359,11.01245 0.31522,1.34871 -0.9272,3.39702 0.0566,3.75973 7.22742,2.66439 19.18757,-1.35844 6.77668,-5.94772 l 1.53213,-17.28425 c 0,0 0.81051,2.38502 1.49938,1.9813 0.53234,-0.31199 1.37332,-1.4323 1.56114,-2.21336 0.10295,-0.42811 1.91563,5.58922 2.83294,5.13301 1.43113,-0.71178 0.57318,-3.56177 0.86494,-3.12496 0.3307,0.49516 1.03153,1.00258 1.43558,1.22388 0.76502,0.41901 1.03577,-1.73615 0.35737,-2.66553 -0.26936,-0.369 2.38317,2.20484 2.69825,0.74251 0.13799,-0.64039 -1.87902,-2.27108 -0.95915,-2.25806 3.52517,-1.07749 -1.59031,-3.04552 -2.34947,-3.0487 l -10.49789,-20.0744 c -8.54913,3.57544 -16.65341,8.53947 -24.55206,4.58467 z"
+       style="fill:#666668;fill-opacity:1;stroke:#000000;stroke-width:0.62956738;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:connector-curvature="0"
+       id="path3127"
+       d="m 802.5268,381.87435 3.53311,-1.94763"
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:connector-curvature="0"
+       id="path3129"
+       d="m 804.04098,383.96109 2.9653,-1.73895"
+       style="fill:none;stroke:#000000;stroke-width:0.31478369;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:connector-curvature="0"
+       id="path3131"
+       d="m 805.61827,379.02247 1.57728,2.36497"
+       style="fill:none;stroke:#000000;stroke-width:0.31478369;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3133"
+       d="m 819.8769,368.24101 c 8.47681,12.13017 15.39032,14.35011 22.5867,18.36328"
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3135"
+       d="m 834.32482,373.17961 c 5.06438,3.76537 7.62067,7.74347 10.59934,11.68572"
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:connector-curvature="0"
+       id="path3137"
+       d="m 844.04088,382.91772 5.80441,-1.87806"
+       style="fill:none;stroke:#000000;stroke-width:1.04927897px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3139"
+       d="m 840.42102,379.10073 c -8.87536,1.60401 -19.01962,1.10659 -28.39899,-0.80861"
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:connector-curvature="0"
+       id="path3141"
+       d="m 813.37849,373.3883 -3.02837,10.71189"
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="ccc"
+       inkscape:connector-curvature="0"
+       id="path3143"
+       d="m 811.23339,385.63047 c 11.59665,1.36974 14.96363,-1.29303 21.00942,-2.6432 l 7.44477,2.01719"
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3145"
+       d="m 811.51731,380.86577 c 9.85772,2.08736 20.57843,3.00969 30.26805,-0.17394"
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3147"
+       d="m 811.70658,379.64849 c 9.89798,1.90211 20.86666,2.45843 29.17974,0.41736"
+       style="fill:none;stroke:#990000;stroke-width:1.88870215;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path3149"
+       d="m 811.01706,395.79805 8.98938,0.27052 -3.92588,9.78778 1.76218,3.2216 c -1.8438,0.3322 -23.40295,2.82903 -6.00035,-3.78722 z"
+       style="fill:#282828;fill-opacity:1;stroke:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       style="fill:#282828;fill-opacity:1;stroke:none"
+       d="m 830.05774,397.16679 11.55345,-0.89252 -0.69036,7.72921 c 12.69448,4.27356 -0.76875,8.75819 -6.69254,5.30556 0.14215,-2.79205 0.16925,-3.11406 0.16925,-3.11406 z"
+       id="path3151"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       transform="matrix(0.85451987,0,0,1.1039413,345.4704,-95.022514)"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       sodipodi:ry="4.4194174"
+       sodipodi:rx="4.9244938"
+       sodipodi:cy="396.64691"
+       sodipodi:cx="546.87134"
+       id="path3153"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52146161;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52146161;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3155"
+       sodipodi:cx="546.87134"
+       sodipodi:cy="396.64691"
+       sodipodi:rx="4.9244938"
+       sodipodi:ry="4.4194174"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       transform="matrix(1.443292,0,0,1.5396035,40.900988,-268.22472)" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       transform="matrix(0.72405055,0,0,0.89679296,432.35364,-13.11693)"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       sodipodi:ry="4.4194174"
+       sodipodi:rx="4.9244938"
+       sodipodi:cy="396.64691"
+       sodipodi:cx="546.87134"
+       id="path3157"
+       style="fill:#000000;fill-opacity:1;stroke:#473000;stroke-width:3.84441996;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:#473000;stroke-width:3.84441996;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3159"
+       sodipodi:cx="546.87134"
+       sodipodi:cy="396.64691"
+       sodipodi:rx="4.9244938"
+       sodipodi:ry="4.4194174"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       transform="matrix(0.50780859,0,0,0.62896045,534.15207,93.326683)" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       transform="matrix(0.99931548,0,0,1.1017405,267.26006,-92.480224)"
+       sodipodi:nodetypes="ccc"
+       inkscape:connector-curvature="0"
+       id="path3161"
+       d="m 548.21429,417.18361 c 4.96983,11.98634 15.56748,2.42882 24.64285,-4.19643 -8.06548,3.31118 -16.75595,6.93206 -24.64285,4.19643 z"
+       style="fill:#282828;fill-opacity:0.63425927;stroke:none;filter:url(#filter3908)" />
+    <path
+       style="fill:#666668;fill-opacity:1;stroke:#000000;stroke-width:0.62956738;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 1003.0875,491.17511 c -0.7707,3.79864 -2.0988,7.4989 -4.18162,10.35798 -0.81975,1.1253 -4.18163,2.09385 -4.16781,3.33729 0.32236,10.60577 3.8523,3.3021 2.47832,3.70898 -0.84449,7.5484 2.70017,15.6851 7.21161,21.05719 -16.21773,6.48434 4.6096,4.14456 8.4139,3.18508 l -1.8326,-3.63235 c 1.8524,-6.48786 -2.1641,-7.96404 -0.47,-12.0789 l 4.3491,1.70752 c 0.9347,0.13439 -0.3805,4.21025 -1.0124,9.81289 0.6709,2.15192 -6.9137,4.62353 -1.2692,4.76989 6.1639,0.15982 14.9115,1.89104 10.0597,-4.74817 3.5398,-7.21779 4.0939,-12.19627 6.1409,-18.2944 0,0 0.4746,-3.99026 0.3454,-4.77822 -2.0718,-12.63323 -1.839,-17.61009 -2.8516,-16.49852 -1.6088,1.76605 2.1754,12.04899 -3.644,20.13785 -0.2572,0.35744 -1.5769,2.46538 -0.6596,2.00917 1.4311,-0.71178 1.8795,-1.37821 2.1713,-0.9414 0.3307,0.49516 -0.9418,1.5058 -0.5378,1.7271 0.7651,0.41901 2.9645,-0.96136 2.2862,-1.89074 -0.2693,-0.369 -0.149,2.41904 1.2417,1.8681 0.9702,-0.38433 1.879,-3.08487 1.4674,-3.48153 -0.117,-3.25527 0.7992,-4.3343 0.2441,-4.46605 l -2.6202,-17.99003 c -8.5492,3.57544 -16.6535,8.53947 -24.5521,4.58467 z"
+       id="path3167"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csccccccccsccssssssssccccc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#646466;fill-opacity:1;stroke:#000000;stroke-width:0.73449522;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 1011.2302,491.66786 c 30.7113,-8.3165 33.9335,-27.63762 27.7404,-42.20608 2.404,0.16785 9.6463,-10.30551 5.2685,-13.93537 -11.1608,9.32984 -22.1797,-2.50203 -30.1537,-1.30644 -8.9755,1.34574 -12.9554,1.22788 -16.87848,5.9946 -5.75996,6.99858 -8.21316,14.1152 -6.31103,22.83167 1.1767,5.39224 -5.422,12.08817 -3.36491,16.62335 2.0773,4.57977 15.25732,14.2843 23.69922,11.99827 z"
+       id="path3163"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sccsssss"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#fdc091;fill-opacity:1;stroke:#000000;stroke-width:1.04927897;stroke-opacity:1"
+       d="m 990.87718,459.98184 c 0,0 31.98812,-14.58155 39.87372,10.29458 0.5537,1.74663 -2.157,7.78383 -7.1879,6.85906 -11.4592,-2.10639 -36.59488,-2.6722 -36.21893,-0.73798 3.50598,-6.43449 5.3911,-12.19883 3.53311,-16.41566 z"
+       id="path3165"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csscc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#990000;stroke-width:1.88870215;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 997.82718,503.39218 c 9.89802,1.90211 17.78622,3.01647 26.09932,0.9754"
+       id="path3179"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 1005.9975,491.9847 c 8.4768,12.13017 8.5718,14.22384 15.7682,18.23701"
+       id="path3169"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 1024.8228,503.04531 c -8.8753,1.60401 -17.3008,0.9057 -26.68017,-1.0095"
+       id="path3173"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 997.35399,509.37416 c 11.59661,1.36974 14.96361,-1.29303 21.00941,-2.6432 l 4.9894,1.39219"
+       id="path3175"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 997.63791,504.60946 c 9.85769,2.08736 17.07389,4.0588 26.76359,0.87517"
+       id="path3177"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#282828;fill-opacity:1;stroke:none"
+       d="m 999.36536,520.86887 10.67364,-1.57252 c 0.4147,2.7467 2.6427,5.70908 0.8399,9.20108 l 1.5727,4.35802 c -1.8438,0.3322 -24.72878,3.77605 -7.7681,-3.34528 -2.6845,-2.88043 -3.7018,-5.76086 -5.31814,-8.6413 z"
+       id="path3181"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path3183"
+       d="m 1015.1681,519.39525 10.7959,-0.26117 c -1.1561,3.91741 -2.3122,6.7418 -3.4683,9.68638 6.2627,6.88068 -9.9759,5.07578 -11.2382,3.60092 -0.092,-0.91542 2.5734,-1.37027 2.5684,-3.24032 -1.0468,-5.11095 2.389,-7.8511 1.3422,-9.78581 z"
+       style="fill:#282828;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52146161;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3185"
+       sodipodi:cx="546.87134"
+       sodipodi:cy="396.64691"
+       sodipodi:rx="4.9244938"
+       sodipodi:ry="4.4194174"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       transform="matrix(0.66103532,0,0,0.85398153,637.40216,127.86695)"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(0.98722903,0,0,1.0531072,476.42938,48.486222)"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       sodipodi:ry="4.4194174"
+       sodipodi:rx="4.9244938"
+       sodipodi:cy="396.64691"
+       sodipodi:cx="546.87134"
+       id="path3187"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52146161;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:#473000;stroke-width:3.84441996;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3189"
+       sodipodi:cx="546.87134"
+       sodipodi:cy="396.64691"
+       sodipodi:rx="4.9244938"
+       sodipodi:ry="4.4194174"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       transform="matrix(0.55819177,0,0,0.69136395,709.17765,192.10954)"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(0.37512156,0,0,0.46461725,792.8354,282.2566)"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       sodipodi:ry="4.4194174"
+       sodipodi:rx="4.9244938"
+       sodipodi:cy="396.64691"
+       sodipodi:cx="546.87134"
+       id="path3191"
+       style="fill:#000000;fill-opacity:1;stroke:#473000;stroke-width:3.84441996;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#282828;fill-opacity:0.63425927;stroke:none;filter:url(#filter3908)"
+       d="m 548.21429,417.18361 c 4.96983,11.98634 15.56748,2.42882 24.64285,-4.19643 -8.06548,3.31118 -16.75595,6.93206 -24.64285,4.19643 z"
+       id="path3193"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       transform="matrix(0.99931548,0,0,1.1017405,453.38067,31.263465)"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3195"
+       d="m 998.42427,502.28679 -0.89287,6.29464"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3197"
+       d="m 995.07605,506.30465 c 0.0163,-0.2218 0.16008,-0.003 0.22321,-0.0446 0.035,-0.0233 0.0543,-0.0659 0.0893,-0.0893 0.0124,-0.008 0.0313,0.007 0.0446,0 0.043,-0.0215 0.21222,-0.14148 0.26786,-0.17857 0.0812,-0.0542 0.0927,-0.166 0.17857,-0.22322 0.0298,-0.0149 0.0595,-0.0298 0.0893,-0.0446 0.0149,0 0.0313,0.007 0.0447,0 0.0684,-0.0342 0.0349,-0.0796 0.0893,-0.13393 0.0105,-0.0105 0.0313,0.007 0.0446,0 0.0188,-0.009 0.0298,-0.0298 0.0446,-0.0446"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3199"
+       d="m 995.52248,508.40286 c 0.14151,-0.0348 0.17967,-0.22432 0.26785,-0.3125 0.24232,-0.24232 0.0339,-0.0136 0.22322,-0.0893 0.0498,-0.0199 0.0879,-0.0617 0.13393,-0.0893 0.13088,-0.0785 0.2746,-0.13843 0.40178,-0.22322 0.12775,-0.0852 -0.0684,-0.008 0.13393,-0.0893 0.0437,-0.0175 0.0918,-0.0236 0.13393,-0.0446 0.0188,-0.009 0.0247,-0.038 0.0446,-0.0446 0.13819,-0.0461 0.0848,0.0535 0.17857,-0.13393"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="ccccccccsccssssssssaaccc"
+       inkscape:connector-curvature="0"
+       id="path3234"
+       d="m 1090.4657,491.17511 c -0.7707,3.79864 -2.0988,7.4989 -4.1816,10.35798 -2.1418,1.11641 -0.01,5.14835 0.052,5.84091 1.1968,7.53593 3.8449,15.93923 7.2116,21.05719 -16.2177,6.48434 2.8685,5.34992 6.6728,4.39044 l -1.8326,-3.63235 c 1.8892,-6.47405 1.0898,-9.58424 0.1996,-14.66819 1.1428,5.82348 0.8887,6.88219 0.3457,14.4222 -0.5876,1.91221 -8.0967,3.621 1.0522,4.45739 6.0444,0.55257 10.1232,2.19031 10.0597,-4.74817 -1.9096,-6.98086 2.1731,-12.11276 6.1409,-18.2944 0,0 0.4746,-3.99026 0.3454,-4.77822 -2.0718,-12.63323 -1.839,-17.61009 -2.8516,-16.49852 -1.6088,1.76605 -3.1279,9.77615 -8.9473,17.86501 -0.2572,0.35744 -2.4293,3.19142 -1.512,2.73521 1.4311,-0.71178 3.5526,-1.53604 3.8444,-1.09923 0.3307,0.49516 -1.3095,2.46515 -0.9166,2.70568 0.8291,0.50763 1.8574,-1.06973 3.8962,-1.98544 0.4167,-0.18716 -1.5064,3.23979 -0.1157,2.68885 0.9702,-0.38433 2.387,-2.37418 3.1089,-3.86034 0.6297,-1.29642 0.8226,-2.77983 0.9701,-4.21351 0.6097,-5.92464 -0.3789,-17.86376 -0.3789,-17.86376 -8.5492,3.57544 -16.6535,8.53947 -24.5521,4.58467 z"
+       style="fill:#666668;fill-opacity:1;stroke:#000000;stroke-width:0.62956738;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="sccsssss"
+       inkscape:connector-curvature="0"
+       id="path3236"
+       d="m 1098.6084,491.66786 c 30.7113,-8.3165 33.9335,-27.63762 27.7404,-42.20608 2.404,0.16785 9.6463,-10.30551 5.2685,-13.93537 -11.1608,9.32984 -22.1797,-2.50203 -30.1537,-1.30644 -8.9755,1.34574 -12.9554,1.22788 -16.8785,5.9946 -5.7599,6.99858 -8.2131,14.1152 -6.311,22.83167 1.1767,5.39224 -5.422,12.08817 -3.3649,16.62335 2.0773,4.57977 15.2573,14.2843 23.6992,11.99827 z"
+       style="fill:#646466;fill-opacity:1;stroke:#000000;stroke-width:0.73449522;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="csscc"
+       inkscape:connector-curvature="0"
+       id="path3238"
+       d="m 1078.2554,459.98184 c 0,0 31.9881,-14.58155 39.8737,10.29458 0.5537,1.74663 -2.157,7.78383 -7.1879,6.85906 -11.4592,-2.10639 -36.5949,-2.6722 -36.2189,-0.73798 3.5059,-6.43449 5.3911,-12.19883 3.5331,-16.41566 z"
+       style="fill:#fdc091;fill-opacity:1;stroke:#000000;stroke-width:1.04927897;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3240"
+       d="m 1085.7736,503.20278 c 9.898,1.90211 10.5573,3.64781 18.8704,1.60674"
+       style="fill:none;stroke:#990000;stroke-width:1.88870215;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3242"
+       d="m 1093.3757,491.9847 c 8.4768,12.13017 3.8051,11.03555 11.0015,15.04872"
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3244"
+       d="m 1106.7714,503.86606 c -8.8753,1.60401 -11.8712,0.0849 -21.2506,-1.83025"
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="ccc"
+       inkscape:connector-curvature="0"
+       id="path3246"
+       d="m 1087.3215,509.77595 c 11.5966,1.36974 6.7869,-1.06347 12.8327,-2.41364 l 3.4742,0.44517"
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3248"
+       d="m 1085.7737,504.42006 c 9.8577,2.08736 9.2768,4.81641 18.9665,1.63278"
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path3250"
+       d="m 1089.5972,519.78846 9.7897,-1.31998 c 0.4147,2.7467 1.6325,5.83535 -0.1703,9.32735 l 0.8783,4.79996 c -1.8438,0.3322 -23.7187,2.9553 -6.758,-4.16603 -2.6845,-2.88043 -2.1234,-5.76086 -3.7397,-8.6413 z"
+       style="fill:#282828;fill-opacity:1;stroke:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       style="fill:#1a1a1a;fill-opacity:1;stroke:none"
+       d="m 1099.3807,518.78743 11.8692,-0.009 c -2.2376,4.42213 -1.599,8.04205 -1.3217,10.31773 1.8421,7.63169 -11.3597,4.97295 -12.6903,3.22211 -1.9439,-1.89584 1.1861,-1.68137 2.1264,-3.05092 -1.0468,-5.11095 1.0632,-8.54558 0.016,-10.48029 z"
+       id="path3252"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       transform="matrix(0.85451987,0,0,1.1039413,618.9692,28.721174)"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       sodipodi:ry="4.4194174"
+       sodipodi:rx="4.9244938"
+       sodipodi:cy="396.64691"
+       sodipodi:cx="546.87134"
+       id="path3254"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52146161;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52146161;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3256"
+       sodipodi:cx="546.87134"
+       sodipodi:cy="396.64691"
+       sodipodi:rx="4.9244938"
+       sodipodi:ry="4.4194174"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       transform="matrix(1.443292,0,0,1.5396035,314.39979,-144.48103)" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       transform="matrix(0.72405055,0,0,0.89679296,705.85244,110.62676)"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       sodipodi:ry="4.4194174"
+       sodipodi:rx="4.9244938"
+       sodipodi:cy="396.64691"
+       sodipodi:cx="546.87134"
+       id="path3258"
+       style="fill:#000000;fill-opacity:1;stroke:#473000;stroke-width:3.84441996;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:#473000;stroke-width:3.84441996;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3260"
+       sodipodi:cx="546.87134"
+       sodipodi:cy="396.64691"
+       sodipodi:rx="4.9244938"
+       sodipodi:ry="4.4194174"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       transform="matrix(0.50780859,0,0,0.62896045,807.65087,217.07038)" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       transform="matrix(0.99931548,0,0,1.1017405,540.75887,31.263465)"
+       sodipodi:nodetypes="ccc"
+       inkscape:connector-curvature="0"
+       id="path3262"
+       d="m 548.21429,417.18361 c 4.96983,11.98634 15.56748,2.42882 24.64285,-4.19643 -8.06548,3.31118 -16.75595,6.93206 -24.64285,4.19643 z"
+       style="fill:#282828;fill-opacity:0.63425927;stroke:none;filter:url(#filter3908)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1085.8025,502.28679 0.8482,4.86607"
+       id="path3264"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="csccccccccsccssssssssccccc"
+       inkscape:connector-curvature="0"
+       id="path3292"
+       d="m 1187.3732,491.17511 c -0.7707,3.79864 -2.0988,7.4989 -4.1816,10.35798 -0.8198,1.1253 -4.1816,2.09385 -4.1678,3.33729 0.3223,10.60577 3.8523,3.3021 2.4783,3.70898 -0.8445,7.5484 2.7002,15.6851 7.2116,21.05719 -16.2177,6.48434 4.6096,4.14456 8.4139,3.18508 l -1.8326,-3.63235 c 1.8524,-6.48786 -2.1641,-7.96404 -0.47,-12.0789 l 4.3491,1.70752 c 0.9347,0.13439 -0.3805,4.21025 -1.0124,9.81289 0.6709,2.15192 -6.9137,4.62353 -1.2692,4.76989 6.1639,0.15982 14.9115,1.89104 10.0597,-4.74817 3.5398,-7.21779 4.0939,-12.19627 6.1409,-18.2944 0,0 0.4746,-3.99026 0.3454,-4.77822 -2.0718,-12.63323 -1.839,-17.61009 -2.8516,-16.49852 -1.6088,1.76605 2.1754,12.04899 -3.644,20.13785 -0.2572,0.35744 -1.5769,2.46538 -0.6596,2.00917 1.4311,-0.71178 1.8795,-1.37821 2.1713,-0.9414 0.3307,0.49516 -0.9418,1.5058 -0.5378,1.7271 0.7651,0.41901 2.9645,-0.96136 2.2862,-1.89074 -0.2693,-0.369 -0.149,2.41904 1.2417,1.8681 0.9702,-0.38433 1.879,-3.08487 1.4674,-3.48153 -0.117,-3.25527 0.7992,-4.3343 0.2441,-4.46605 l -2.6202,-17.99003 c -8.5492,3.57544 -16.6535,8.53947 -24.5521,4.58467 z"
+       style="fill:#666668;fill-opacity:1;stroke:#000000;stroke-width:0.62956738;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="sccsssss"
+       inkscape:connector-curvature="0"
+       id="path3294"
+       d="m 1195.5159,491.66786 c 30.7113,-8.3165 33.9335,-27.63762 27.7404,-42.20608 2.404,0.16785 9.6463,-10.30551 5.2685,-13.93537 -11.1608,9.32984 -22.1797,-2.50203 -30.1537,-1.30644 -8.9755,1.34574 -12.9554,1.22788 -16.8785,5.9946 -5.7599,6.99858 -8.2131,14.1152 -6.311,22.83167 1.1767,5.39224 -5.422,12.08817 -3.3649,16.62335 2.0773,4.57977 15.2573,14.2843 23.6992,11.99827 z"
+       style="fill:#646466;fill-opacity:1;stroke:#000000;stroke-width:0.73449522;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="csscc"
+       inkscape:connector-curvature="0"
+       id="path3296"
+       d="m 1175.1629,459.98184 c 0,0 31.9881,-14.58155 39.8737,10.29458 0.5537,1.74663 -2.157,7.78383 -7.1879,6.85906 -11.4592,-2.10639 -36.5949,-2.6722 -36.2189,-0.73798 3.506,-6.43449 5.3911,-12.19883 3.5331,-16.41566 z"
+       style="fill:#fdc091;fill-opacity:1;stroke:#000000;stroke-width:1.04927897;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3298"
+       d="m 1182.1129,503.39218 c 9.898,1.90211 17.7862,3.01647 26.0993,0.9754"
+       style="fill:none;stroke:#990000;stroke-width:1.88870215;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3300"
+       d="m 1190.2832,491.9847 c 8.4768,12.13017 8.5718,14.22384 15.7682,18.23701"
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3302"
+       d="m 1209.1085,503.04531 c -8.8753,1.60401 -17.3008,0.9057 -26.6802,-1.0095"
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="ccc"
+       inkscape:connector-curvature="0"
+       id="path3304"
+       d="m 1181.6397,509.37416 c 11.5966,1.36974 14.9636,-1.29303 21.0094,-2.6432 l 4.9894,1.39219"
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3306"
+       d="m 1181.9236,504.60946 c 9.8577,2.08736 17.0739,4.0588 26.7636,0.87517"
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path3308"
+       d="m 1183.6511,520.86887 10.6736,-1.57252 c 0.4147,2.7467 2.6427,5.70908 0.8399,9.20108 l 1.5727,4.35802 c -1.8438,0.3322 -24.7288,3.77605 -7.7681,-3.34528 -2.6845,-2.88043 -3.7018,-5.76086 -5.3181,-8.6413 z"
+       style="fill:#282828;fill-opacity:1;stroke:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       style="fill:#282828;fill-opacity:1;stroke:none"
+       d="m 1199.4538,519.39525 10.7959,-0.26117 c -1.1561,3.91741 -2.3122,6.7418 -3.4683,9.68638 6.2627,6.88068 -9.9759,5.07578 -11.2382,3.60092 -0.092,-0.91542 2.5734,-1.37027 2.5684,-3.24032 -1.0468,-5.11095 2.389,-7.8511 1.3422,-9.78581 z"
+       id="path3310"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       transform="matrix(0.66103532,0,0,0.85398153,821.68787,127.86695)"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       sodipodi:ry="4.4194174"
+       sodipodi:rx="4.9244938"
+       sodipodi:cy="396.64691"
+       sodipodi:cx="546.87134"
+       id="path3312"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52146161;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52146161;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3314"
+       sodipodi:cx="546.87134"
+       sodipodi:cy="396.64691"
+       sodipodi:rx="4.9244938"
+       sodipodi:ry="4.4194174"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       transform="matrix(0.98722903,0,0,1.0531072,660.71509,48.486222)" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       transform="matrix(0.55819177,0,0,0.69136395,893.46336,192.10954)"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       sodipodi:ry="4.4194174"
+       sodipodi:rx="4.9244938"
+       sodipodi:cy="396.64691"
+       sodipodi:cx="546.87134"
+       id="path3316"
+       style="fill:#000000;fill-opacity:1;stroke:#473000;stroke-width:3.84441996;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:#473000;stroke-width:3.84441996;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3318"
+       sodipodi:cx="546.87134"
+       sodipodi:cy="396.64691"
+       sodipodi:rx="4.9244938"
+       sodipodi:ry="4.4194174"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       transform="matrix(0.37512156,0,0,0.46461725,977.12111,282.2566)" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       transform="matrix(0.99931548,0,0,1.1017405,637.66638,31.263465)"
+       sodipodi:nodetypes="ccc"
+       inkscape:connector-curvature="0"
+       id="path3320"
+       d="m 548.21429,417.18361 c 4.96983,11.98634 15.56748,2.42882 24.64285,-4.19643 -8.06548,3.31118 -16.75595,6.93206 -24.64285,4.19643 z"
+       style="fill:#282828;fill-opacity:0.63425927;stroke:none;filter:url(#filter3908)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1182.71,502.28679 -0.8929,6.29464"
+       id="path3322"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1179.3618,506.30465 c 0.016,-0.2218 0.16,-0.003 0.2232,-0.0446 0.035,-0.0233 0.054,-0.0659 0.089,-0.0893 0.012,-0.008 0.031,0.007 0.045,0 0.043,-0.0215 0.2122,-0.14148 0.2678,-0.17857 0.081,-0.0542 0.093,-0.166 0.1786,-0.22322 0.03,-0.0149 0.06,-0.0298 0.089,-0.0446 0.015,0 0.031,0.007 0.045,0 0.068,-0.0342 0.035,-0.0796 0.089,-0.13393 0.011,-0.0105 0.031,0.007 0.045,0 0.019,-0.009 0.03,-0.0298 0.045,-0.0446"
+       id="path3324"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1179.8082,508.40286 c 0.1415,-0.0348 0.1797,-0.22432 0.2678,-0.3125 0.2424,-0.24232 0.034,-0.0136 0.2233,-0.0893 0.05,-0.0199 0.088,-0.0617 0.1339,-0.0893 0.1309,-0.0785 0.2746,-0.13843 0.4018,-0.22322 0.1277,-0.0852 -0.068,-0.008 0.1339,-0.0893 0.044,-0.0175 0.092,-0.0236 0.1339,-0.0446 0.019,-0.009 0.025,-0.038 0.045,-0.0446 0.1382,-0.0461 0.085,0.0535 0.1786,-0.13393"
+       id="path3326"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#646466;fill-opacity:1;stroke:#000000;stroke-width:0.73449522;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 1281.131,491.66786 c 30.7114,-8.3165 33.9336,-27.63762 27.7405,-42.20608 2.4039,0.16785 9.6462,-10.30551 5.2684,-13.93537 -11.1608,9.32984 -22.1797,-2.50203 -30.1537,-1.30644 -8.9755,1.34574 -12.9554,1.22788 -16.8785,5.9946 -5.7599,6.99858 -8.2131,14.1152 -6.311,22.83167 1.1767,5.39224 -5.422,12.08817 -3.3649,16.62335 2.0773,4.57977 15.2573,14.2843 23.6992,11.99827 z"
+       id="path3328"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sccsssss"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#fdc091;fill-opacity:1;stroke:#000000;stroke-width:1.04927897;stroke-opacity:1"
+       d="m 1260.778,459.98184 c 0,0 31.9881,-14.58155 39.8737,10.29458 0.5537,1.74663 -2.157,7.78383 -7.1879,6.85906 -11.4592,-2.10639 -36.5949,-2.6722 -36.2189,-0.73798 3.506,-6.43449 5.3911,-12.19883 3.5331,-16.41566 z"
+       id="path3330"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csscc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#666668;fill-opacity:1;stroke:#000000;stroke-width:0.62956738;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 1272.9883,491.17511 c -0.7707,3.79864 -2.0988,7.4989 -4.1816,10.35798 -0.8198,1.1253 -4.1816,2.09385 -4.1678,3.33729 0.3223,10.60577 3.8523,3.3021 2.4783,3.70898 -0.7932,7.53403 3.2346,14.23741 3.9286,20.67838 -16.2177,6.48434 2.2106,4.71277 6.0148,3.75329 l -1.7062,-3.50608 c 1.8523,-6.48786 3.3916,-8.27971 5.0858,-12.39457 l 4.349,1.70752 c 0.7902,0.11375 4.4092,4.3059 4.0384,9.43408 0.5882,2.15192 -10.4992,5.19174 1.5718,5.3381 6.1655,0.0748 11.6285,0.69149 6.7767,-5.94772 l 1.5321,-17.28425 c 0,0 0.2748,0.46538 0.9637,0.0617 0.5324,-0.31199 -1.3945,0.17484 -1.2067,-0.60622 0.1029,-0.42811 0.7549,6.25886 1.6722,5.80265 1.4311,-0.71178 1.1536,-3.65105 1.4453,-3.21424 0.3307,0.49516 1.2994,2.07401 1.7035,2.29531 0.765,0.41901 0.7232,-2.53973 0.045,-3.46911 -0.2694,-0.369 1.9367,2.38342 2.2518,0.92109 0.138,-0.64039 -1.0308,-2.13716 -0.111,-2.12414 1.7139,-0.0354 -1.8863,-3.22945 -2.4387,-3.3612 l -6.8818,-20.61011 c -8.5492,3.57544 -16.6534,8.53947 -24.5521,4.58467 z"
+       id="path3332"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csccccccccsccsssssssccccc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 1275.8983,491.9847 c 8.4768,12.13017 15.3903,14.35011 22.5867,18.36328"
+       id="path3334"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 1290.3462,496.9233 c 5.0644,3.76537 7.6207,7.74347 10.5994,11.68572"
+       id="path3336"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 1296.4424,502.84442 c -8.8753,1.60401 -19.0196,1.10659 -28.399,-0.80861"
+       id="path3338"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 1267.2548,509.37416 c 11.5967,1.36974 14.9636,-1.29303 21.0094,-2.6432 l 7.4448,2.01719"
+       id="path3340"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 1267.5387,504.60946 c 9.8577,2.08736 20.5785,3.00969 30.2681,-0.17394"
+       id="path3342"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#990000;stroke-width:1.88870215;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 1267.728,503.39218 c 9.898,1.90211 20.8667,2.45843 29.1797,0.41736"
+       id="path3344"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#282828;fill-opacity:1;stroke:none"
+       d="m 1268.8242,520.30066 10.1054,-0.30983 c -2.1625,4.24453 -3.857,8.05065 -3.3901,9.83242 l 1.7622,3.2216 c -1.8438,0.3322 -23.403,2.82903 -6.0004,-3.78722 z"
+       id="path3346"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path3348"
+       d="m 1286.2054,519.77406 11.5535,-0.89252 -0.6904,7.72921 c 4.546,8.91727 0.1357,7.5714 -12.3115,6.18944 -0.092,-0.91542 4.2781,-3.0749 4.273,-4.94495 -1.0468,-5.11095 -1.7778,-6.14647 -2.8246,-8.08118 z"
+       style="fill:#282828;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52146161;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3350"
+       sodipodi:cx="546.87134"
+       sodipodi:cy="396.64691"
+       sodipodi:rx="4.9244938"
+       sodipodi:ry="4.4194174"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       transform="matrix(0.85451987,0,0,1.1039413,801.49182,28.721174)"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(1.443292,0,0,1.5396035,496.92241,-144.48103)"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       sodipodi:ry="4.4194174"
+       sodipodi:rx="4.9244938"
+       sodipodi:cy="396.64691"
+       sodipodi:cx="546.87134"
+       id="path3352"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52146161;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:#473000;stroke-width:3.84441996;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3354"
+       sodipodi:cx="546.87134"
+       sodipodi:cy="396.64691"
+       sodipodi:rx="4.9244938"
+       sodipodi:ry="4.4194174"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       transform="matrix(0.72405055,0,0,0.89679296,888.37506,110.62676)"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(0.50780859,0,0,0.62896045,990.17349,217.07038)"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       sodipodi:ry="4.4194174"
+       sodipodi:rx="4.9244938"
+       sodipodi:cy="396.64691"
+       sodipodi:cx="546.87134"
+       id="path3356"
+       style="fill:#000000;fill-opacity:1;stroke:#473000;stroke-width:3.84441996;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#282828;fill-opacity:0.63425927;stroke:none;filter:url(#filter3908)"
+       d="m 548.21429,417.18361 c 4.96983,11.98634 15.56748,2.42882 24.64285,-4.19643 -8.06548,3.31118 -16.75595,6.93206 -24.64285,4.19643 z"
+       id="path3358"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       transform="matrix(0.99931548,0,0,1.1017405,723.28148,31.263465)"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3360"
+       d="m 1268.3251,502.28679 -0.8929,6.29464"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3362"
+       d="m 1264.9769,506.30465 c 0.016,-0.2218 0.16,-0.003 0.2232,-0.0446 0.035,-0.0233 0.054,-0.0659 0.089,-0.0893 0.012,-0.008 0.031,0.007 0.045,0 0.043,-0.0215 0.2122,-0.14148 0.2678,-0.17857 0.081,-0.0542 0.093,-0.166 0.1786,-0.22322 0.03,-0.0149 0.059,-0.0298 0.089,-0.0446 0.015,0 0.031,0.007 0.045,0 0.068,-0.0342 0.035,-0.0796 0.089,-0.13393 0.011,-0.0105 0.031,0.007 0.045,0 0.019,-0.009 0.03,-0.0298 0.045,-0.0446"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3364"
+       d="m 1265.4233,508.40286 c 0.1415,-0.0348 0.1797,-0.22432 0.2678,-0.3125 0.2424,-0.24232 0.034,-0.0136 0.2233,-0.0893 0.05,-0.0199 0.088,-0.0617 0.1339,-0.0893 0.1309,-0.0785 0.2746,-0.13843 0.4018,-0.22322 0.1277,-0.0852 -0.068,-0.008 0.1339,-0.0893 0.044,-0.0175 0.092,-0.0236 0.1339,-0.0446 0.019,-0.009 0.025,-0.038 0.045,-0.0446 0.1382,-0.0461 0.085,0.0535 0.1786,-0.13393"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:#646466;fill-opacity:1;stroke:#000000;stroke-width:0.73449522;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 825.10963,247.92417 c 30.71134,-8.3165 33.93352,-27.63762 27.74043,-42.20608 2.40394,0.16785 9.64625,-10.30551 5.26844,-13.93537 -11.1608,9.32984 -22.17972,-2.50203 -30.15368,-1.30644 -8.9755,1.34574 -12.9554,1.22788 -16.8785,5.9946 -5.75996,6.99858 -8.21316,14.1152 -6.31103,22.83167 1.1767,5.39224 -5.422,12.08817 -3.36491,16.62335 2.0773,4.57977 15.25732,14.2843 23.69925,11.99827 z"
+       id="path3366"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sccsssss"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#fdc091;fill-opacity:1;stroke:#000000;stroke-width:1.04927897;stroke-opacity:1"
+       d="m 804.75658,216.23815 c 0,0 31.98808,-14.58155 39.87371,10.29458 0.55368,1.74663 -2.15701,7.78383 -7.18794,6.85906 -11.45918,-2.10639 -36.59483,-2.6722 -36.21888,-0.73798 3.50598,-6.43449 5.3911,-12.19883 3.53311,-16.41566 z"
+       id="path3368"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csscc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#666668;fill-opacity:1;stroke:#000000;stroke-width:0.62956738;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 815.57791,246.89478 c -1.07403,5.29372 -4.47725,11.58406 -8.94245,10.68347 -1.57541,-0.31773 -2.90713,0.58248 -6.24104,3.13398 0.76661,2.45974 1.25381,5.11201 3.30131,6.68913 2.75496,-0.61357 4.54693,-1.91084 6.64406,-3.431 l 0.84529,1.44567 c -0.79316,7.53403 -0.32712,13.21511 0.3669,19.65608 -16.21771,6.48434 2.52623,5.02844 6.33046,4.06896 l -1.51682,-3.44294 5.0858,-12.39457 7.31641,1.77065 c 0.11922,-0.0584 3.90126,8.63053 5.55359,11.01245 0.31522,1.34871 -0.9272,3.39702 0.0566,3.75973 7.22742,2.66439 19.18757,-1.35844 6.77668,-5.94772 l 1.53213,-17.28425 c 0,0 0.81051,2.38502 1.49938,1.9813 0.53234,-0.31199 1.37332,-1.4323 1.56114,-2.21336 0.10295,-0.42811 1.91563,5.58922 2.83294,5.13301 1.43113,-0.71178 0.57318,-3.56177 0.86494,-3.12496 0.3307,0.49516 1.03153,1.00258 1.43558,1.22388 0.76502,0.41901 1.03577,-1.73615 0.35737,-2.66553 -0.26936,-0.369 2.38317,2.20484 2.69825,0.74251 0.13799,-0.64039 -1.87902,-2.27108 -0.95915,-2.25806 3.52517,-1.07749 -1.59031,-3.04552 -2.34947,-3.0487 l -10.49789,-20.0744 c -8.54913,3.57544 -16.65341,8.53947 -24.55206,4.58467 z"
+       id="path3370"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csccccccccccsccssssssscccc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 802.5268,261.87435 3.53311,-1.94763"
+       id="path3372"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.31478369;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 804.04098,263.96109 2.9653,-1.73895"
+       id="path3374"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.31478369;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 805.61827,259.02247 1.57728,2.36497"
+       id="path3376"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 819.8769,248.24101 c 8.47681,12.13017 15.39032,14.35011 22.5867,18.36328"
+       id="path3378"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 834.32482,253.17961 c 5.06438,3.76537 7.62067,7.74347 10.59934,11.68572"
+       id="path3380"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.04927897px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 844.04088,262.91772 5.80441,-1.87806"
+       id="path3382"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 840.42102,259.10073 c -8.87536,1.60401 -19.01962,1.10659 -28.39899,-0.80861"
+       id="path3384"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 813.37849,253.3883 -3.02837,10.71189"
+       id="path3386"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 811.23339,265.63047 c 11.59665,1.36974 14.96363,-1.29303 21.00942,-2.6432 l 7.44477,2.01719"
+       id="path3388"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 811.51731,260.86577 c 9.85772,2.08736 20.57843,3.00969 30.26805,-0.17394"
+       id="path3390"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#990000;stroke-width:1.88870215;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 811.70658,259.64849 c 9.89798,1.90211 20.86666,2.45843 29.17974,0.41736"
+       id="path3392"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#282828;fill-opacity:1;stroke:none"
+       d="m 811.01706,275.79805 8.98938,0.27052 -3.92588,9.78778 1.76218,3.2216 c -1.8438,0.3322 -23.40295,2.82903 -6.00035,-3.78722 z"
+       id="path3394"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path3396"
+       d="m 830.05774,277.16679 11.55345,-0.89252 -0.69036,7.72921 c 12.69448,4.27356 -0.76875,8.75819 -6.69254,5.30556 0.14215,-2.79205 0.16925,-3.11406 0.16925,-3.11406 z"
+       style="fill:#282828;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52146161;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3398"
+       sodipodi:cx="546.87134"
+       sodipodi:cy="396.64691"
+       sodipodi:rx="4.9244938"
+       sodipodi:ry="4.4194174"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       transform="matrix(0.85451987,0,0,1.1039413,345.4704,-215.02251)"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(1.443292,0,0,1.5396035,40.900988,-388.22472)"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       sodipodi:ry="4.4194174"
+       sodipodi:rx="4.9244938"
+       sodipodi:cy="396.64691"
+       sodipodi:cx="546.87134"
+       id="path3400"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52146161;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:#473000;stroke-width:3.84441996;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3402"
+       sodipodi:cx="546.87134"
+       sodipodi:cy="396.64691"
+       sodipodi:rx="4.9244938"
+       sodipodi:ry="4.4194174"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       transform="matrix(0.72405055,0,0,0.89679296,432.35364,-133.11693)"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(0.50780859,0,0,0.62896045,534.15207,-26.673317)"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       sodipodi:ry="4.4194174"
+       sodipodi:rx="4.9244938"
+       sodipodi:cy="396.64691"
+       sodipodi:cx="546.87134"
+       id="path3404"
+       style="fill:#000000;fill-opacity:1;stroke:#473000;stroke-width:3.84441996;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#282828;fill-opacity:0.63425927;stroke:none;filter:url(#filter3908)"
+       d="m 548.21429,417.18361 c 4.96983,11.98634 15.56748,2.42882 24.64285,-4.19643 -8.06548,3.31118 -16.75595,6.93206 -24.64285,4.19643 z"
+       id="path3406"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       transform="matrix(0.99931548,0,0,1.1017405,267.26006,-212.48022)"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="sccsssss"
+       inkscape:connector-curvature="0"
+       id="path3408"
+       d="m 825.10963,115.78131 c 30.71134,-8.3165 33.93352,-27.637617 27.74043,-42.206077 2.40394,0.16785 9.64625,-10.30551 5.26844,-13.93537 -11.1608,9.32984 -22.17972,-2.50203 -30.15368,-1.30644 -8.9755,1.34574 -12.9554,1.22788 -16.8785,5.9946 -5.75996,6.99858 -8.21316,14.1152 -6.31103,22.83167 1.1767,5.39224 -5.422,12.08817 -3.36491,16.623347 2.0773,4.57977 15.25732,14.2843 23.69925,11.99827 z"
+       style="fill:#646466;fill-opacity:1;stroke:#000000;stroke-width:0.73449522;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="csscc"
+       inkscape:connector-curvature="0"
+       id="path3410"
+       d="m 804.75658,84.095293 c 0,0 31.98808,-14.58155 39.87371,10.29458 0.55368,1.74663 -2.15701,7.783827 -7.18794,6.859057 -11.45918,-2.106387 -36.59483,-2.672197 -36.21888,-0.73798 3.50598,-6.434487 5.3911,-12.198827 3.53311,-16.415657 z"
+       style="fill:#fdc091;fill-opacity:1;stroke:#000000;stroke-width:1.04927897;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="csccccccccccsccssssssscccc"
+       inkscape:connector-curvature="0"
+       id="path3412"
+       d="m 815.57791,114.75192 c -1.07403,5.29372 -4.47725,11.58406 -8.94245,10.68347 -1.57541,-0.31773 -2.90713,0.58248 -6.24104,3.13398 0.76661,2.45974 1.25381,5.11201 3.30131,6.68913 2.75496,-0.61357 4.54693,-1.91084 6.64406,-3.431 l 0.84529,1.44567 c -0.79316,7.53403 -0.32712,13.21511 0.3669,19.65608 -16.21771,6.48434 2.52623,5.02844 6.33046,4.06896 l -1.51682,-3.44294 5.0858,-12.39457 7.31641,1.77065 c 0.11922,-0.0584 3.90126,8.63053 5.55359,11.01245 0.31522,1.34871 -0.9272,3.39702 0.0566,3.75973 7.22742,2.66439 19.18757,-1.35844 6.77668,-5.94772 l 1.53213,-17.28425 c 0,0 0.81051,2.38502 1.49938,1.9813 0.53234,-0.31199 1.37332,-1.4323 1.56114,-2.21336 0.10295,-0.42811 1.91563,5.58922 2.83294,5.13301 1.43113,-0.71178 0.57318,-3.56177 0.86494,-3.12496 0.3307,0.49516 1.03153,1.00258 1.43558,1.22388 0.76502,0.41901 1.03577,-1.73615 0.35737,-2.66553 -0.26936,-0.369 2.38317,2.20484 2.69825,0.74251 0.13799,-0.64039 -1.87902,-2.27108 -0.95915,-2.25806 3.52517,-1.07749 -1.59031,-3.04552 -2.34947,-3.0487 l -10.49789,-20.0744 c -8.54913,3.57544 -16.65341,8.53947 -24.55206,4.58467 z"
+       style="fill:#666668;fill-opacity:1;stroke:#000000;stroke-width:0.62956738;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:connector-curvature="0"
+       id="path3414"
+       d="m 802.5268,129.73149 3.53311,-1.94763"
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:connector-curvature="0"
+       id="path3416"
+       d="m 804.04098,131.81823 2.9653,-1.73895"
+       style="fill:none;stroke:#000000;stroke-width:0.31478369;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:connector-curvature="0"
+       id="path3418"
+       d="m 805.61827,126.87961 1.57728,2.36497"
+       style="fill:none;stroke:#000000;stroke-width:0.31478369;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3420"
+       d="m 819.8769,116.09815 c 8.47681,12.13017 15.39032,14.35011 22.5867,18.36328"
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3422"
+       d="m 834.32482,121.03675 c 5.06438,3.76537 7.62067,7.74347 10.59934,11.68572"
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:connector-curvature="0"
+       id="path3424"
+       d="m 844.04088,130.77486 5.80441,-1.87806"
+       style="fill:none;stroke:#000000;stroke-width:1.04927897px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3426"
+       d="m 840.42102,126.95787 c -8.87536,1.60401 -19.01962,1.10659 -28.39899,-0.80861"
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:connector-curvature="0"
+       id="path3428"
+       d="m 813.37849,121.24544 -3.02837,10.71189"
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="ccc"
+       inkscape:connector-curvature="0"
+       id="path3430"
+       d="m 811.23339,133.48761 c 11.59665,1.36974 14.96363,-1.29303 21.00942,-2.6432 l 7.44477,2.01719"
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3432"
+       d="m 811.51731,128.72291 c 9.85772,2.08736 20.57843,3.00969 30.26805,-0.17394"
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3434"
+       d="m 811.70658,127.50563 c 9.89798,1.90211 20.86666,2.45843 29.17974,0.41736"
+       style="fill:none;stroke:#990000;stroke-width:1.88870215;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path3436"
+       d="m 811.01706,143.65519 8.98938,0.27052 -3.92588,9.78778 1.76218,3.2216 c -1.8438,0.3322 -23.40295,2.82903 -6.00035,-3.78722 z"
+       style="fill:#282828;fill-opacity:1;stroke:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       style="fill:#282828;fill-opacity:1;stroke:none"
+       d="m 830.05774,145.02393 11.55345,-0.89252 -0.69036,7.72921 c 12.69448,4.27356 -0.76875,8.75819 -6.69254,5.30556 0.14215,-2.79205 0.16925,-3.11406 0.16925,-3.11406 z"
+       id="path3438"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       transform="matrix(0.85451987,0,0,1.1039413,345.4704,-347.16537)"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       sodipodi:ry="4.4194174"
+       sodipodi:rx="4.9244938"
+       sodipodi:cy="396.64691"
+       sodipodi:cx="546.87134"
+       id="path3440"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52146161;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52146161;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3442"
+       sodipodi:cx="546.87134"
+       sodipodi:cy="396.64691"
+       sodipodi:rx="4.9244938"
+       sodipodi:ry="4.4194174"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       transform="matrix(1.443292,0,0,1.5396035,40.900988,-520.36758)" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       transform="matrix(0.72405055,0,0,0.89679296,432.35364,-265.25979)"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       sodipodi:ry="4.4194174"
+       sodipodi:rx="4.9244938"
+       sodipodi:cy="396.64691"
+       sodipodi:cx="546.87134"
+       id="path3444"
+       style="fill:#000000;fill-opacity:1;stroke:#473000;stroke-width:3.84441996;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:#473000;stroke-width:3.84441996;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3446"
+       sodipodi:cx="546.87134"
+       sodipodi:cy="396.64691"
+       sodipodi:rx="4.9244938"
+       sodipodi:ry="4.4194174"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       transform="matrix(0.50780859,0,0,0.62896045,534.15207,-158.81617)" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       transform="matrix(0.99931548,0,0,1.1017405,267.26006,-344.62308)"
+       sodipodi:nodetypes="ccc"
+       inkscape:connector-curvature="0"
+       id="path3448"
+       d="m 548.21429,417.18361 c 4.96983,11.98634 15.56748,2.42882 24.64285,-4.19643 -8.06548,3.31118 -16.75595,6.93206 -24.64285,4.19643 z"
+       style="fill:#282828;fill-opacity:0.63425927;stroke:none;filter:url(#filter3908)" />
+    <path
+       style="fill:#646466;fill-opacity:1;stroke:#000000;stroke-width:0.73449522;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 825.10963,-34.21869 c 30.71134,-8.3165 33.93352,-27.637617 27.74043,-42.206077 2.40394,0.16785 9.64625,-10.30551 5.26844,-13.93537 -11.1608,9.32984 -22.17972,-2.50203 -30.15368,-1.30644 -8.9755,1.34574 -12.9554,1.22788 -16.8785,5.9946 -5.75996,6.99858 -8.21316,14.1152 -6.31103,22.83167 1.1767,5.39224 -5.422,12.08817 -3.36491,16.623347 2.0773,4.57977 15.25732,14.2843 23.69925,11.99827 z"
+       id="path3450"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sccsssss"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#fdc091;fill-opacity:1;stroke:#000000;stroke-width:1.04927897;stroke-opacity:1"
+       d="m 804.75658,-65.904707 c 0,0 31.98808,-14.58155 39.87371,10.29458 0.55368,1.74663 -2.15701,7.783827 -7.18794,6.859057 -11.45918,-2.106387 -36.59483,-2.672197 -36.21888,-0.73798 3.50598,-6.434487 5.3911,-12.198827 3.53311,-16.415657 z"
+       id="path3452"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csscc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#666668;fill-opacity:1;stroke:#000000;stroke-width:0.62956738;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 815.57791,-35.24808 c -1.07403,5.29372 -4.47725,11.58406 -8.94245,10.68347 -1.57541,-0.31773 -2.90713,0.58248 -6.24104,3.13398 0.76661,2.45974 1.25381,5.11201 3.30131,6.68913 2.75496,-0.61357 4.54693,-1.91084 6.64406,-3.431 l 0.84529,1.44567 c -0.79316,7.5340301 -0.32712,13.2151101 0.3669,19.6560801 -16.21771,6.48434 2.52623,5.02844 6.33046,4.06896 l -1.51682,-3.44294 5.0858,-12.39457 7.31641,1.77065 c 0.11922,-0.0584 3.90126,8.63053 5.55359,11.01245 0.31522,1.34871 -0.9272,3.39702 0.0566,3.75973 7.22742,2.6643899 19.18757,-1.35844 6.77668,-5.94772 l 1.53213,-17.2842501 c 0,0 0.81051,2.38502 1.49938,1.9813 0.53234,-0.31199 1.37332,-1.4323 1.56114,-2.21336 0.10295,-0.42811 1.91563,5.58922 2.83294,5.13301 1.43113,-0.71178 0.57318,-3.56177 0.86494,-3.12496 0.3307,0.49516 1.03153,1.00258 1.43558,1.22388 0.76502,0.41901 1.03577,-1.73615 0.35737,-2.66553 -0.26936,-0.369 2.38317,2.20484 2.69825,0.74251 0.13799,-0.64039 -1.87902,-2.27108 -0.95915,-2.25806 3.52517,-1.07749 -1.59031,-3.04552 -2.34947,-3.0487 l -10.49789,-20.0744 c -8.54913,3.57544 -16.65341,8.53947 -24.55206,4.58467 z"
+       id="path3454"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csccccccccccsccssssssscccc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 802.5268,-20.26851 3.53311,-1.94763"
+       id="path3456"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.31478369;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 804.04098,-18.18177 2.9653,-1.73895"
+       id="path3458"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.31478369;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 805.61827,-23.12039 1.57728,2.36497"
+       id="path3460"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 819.8769,-33.90185 c 8.47681,12.13017 15.39032,14.35011 22.5867,18.36328"
+       id="path3462"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 834.32482,-28.96325 c 5.06438,3.76537 7.62067,7.74347 10.59934,11.68572"
+       id="path3464"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.04927897px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 844.04088,-19.22514 5.80441,-1.87806"
+       id="path3466"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 840.42102,-23.04213 c -8.87536,1.60401 -19.01962,1.10659 -28.39899,-0.80861"
+       id="path3468"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 813.37849,-28.75456 -3.02837,10.71189"
+       id="path3470"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 811.23339,-16.51239 c 11.59665,1.36974 14.96363,-1.29303 21.00942,-2.6432 l 7.44477,2.01719"
+       id="path3472"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 811.51731,-21.27709 c 9.85772,2.08736 20.57843,3.00969 30.26805,-0.17394"
+       id="path3474"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#990000;stroke-width:1.88870215;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 811.70658,-22.49437 c 9.89798,1.90211 20.86666,2.45843 29.17974,0.41736"
+       id="path3476"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#282828;fill-opacity:1;stroke:none"
+       d="m 811.01706,-6.3448099 8.98938,0.27052 -3.92588,9.78778 1.76218,3.2216 c -1.8438,0.3322 -23.40295,2.82903 -6.00035,-3.78722 z"
+       id="path3478"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path3480"
+       d="m 830.05774,-4.9760699 11.55345,-0.89252 -0.69036,7.72921 c 12.69448,4.27356 -0.76875,8.7581899 -6.69254,5.30556 0.14215,-2.79205 0.16925,-3.11406 0.16925,-3.11406 z"
+       style="fill:#282828;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52146161;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3482"
+       sodipodi:cx="546.87134"
+       sodipodi:cy="396.64691"
+       sodipodi:rx="4.9244938"
+       sodipodi:ry="4.4194174"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       transform="matrix(0.85451987,0,0,1.1039413,345.4704,-497.16537)"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(1.443292,0,0,1.5396035,40.900988,-670.36758)"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       sodipodi:ry="4.4194174"
+       sodipodi:rx="4.9244938"
+       sodipodi:cy="396.64691"
+       sodipodi:cx="546.87134"
+       id="path3484"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52146161;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:#473000;stroke-width:3.84441996;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3486"
+       sodipodi:cx="546.87134"
+       sodipodi:cy="396.64691"
+       sodipodi:rx="4.9244938"
+       sodipodi:ry="4.4194174"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       transform="matrix(0.72405055,0,0,0.89679296,432.35364,-415.25979)"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(0.50780859,0,0,0.62896045,534.15207,-308.81617)"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       sodipodi:ry="4.4194174"
+       sodipodi:rx="4.9244938"
+       sodipodi:cy="396.64691"
+       sodipodi:cx="546.87134"
+       id="path3488"
+       style="fill:#000000;fill-opacity:1;stroke:#473000;stroke-width:3.84441996;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#282828;fill-opacity:0.63425927;stroke:none;filter:url(#filter3908)"
+       d="m 548.21429,417.18361 c 4.96983,11.98634 15.56748,2.42882 24.64285,-4.19643 -8.06548,3.31118 -16.75595,6.93206 -24.64285,4.19643 z"
+       id="path3490"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       transform="matrix(0.99931548,0,0,1.1017405,267.26006,-494.62308)"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="sccsssss"
+       inkscape:connector-curvature="0"
+       id="path3492"
+       d="m 825.10963,-199.93298 c 30.71134,-8.3165 33.93352,-27.63761 27.74043,-42.20607 2.40394,0.16785 9.64625,-10.30551 5.26844,-13.93537 -11.1608,9.32984 -22.17972,-2.50203 -30.15368,-1.30644 -8.9755,1.34574 -12.9554,1.22788 -16.8785,5.9946 -5.75996,6.99858 -8.21316,14.1152 -6.31103,22.83167 1.1767,5.39224 -5.422,12.08817 -3.36491,16.62334 2.0773,4.57977 15.25732,14.2843 23.69925,11.99827 z"
+       style="fill:#646466;fill-opacity:1;stroke:#000000;stroke-width:0.73449522;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="csscc"
+       inkscape:connector-curvature="0"
+       id="path3494"
+       d="m 804.75658,-231.61899 c 0,0 31.98808,-14.58155 39.87371,10.29458 0.55368,1.74663 -2.15701,7.78382 -7.18794,6.85905 -11.45918,-2.10638 -36.59483,-2.67219 -36.21888,-0.73798 3.50598,-6.43448 5.3911,-12.19882 3.53311,-16.41565 z"
+       style="fill:#fdc091;fill-opacity:1;stroke:#000000;stroke-width:1.04927897;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="csccccccccccsccssssssscccc"
+       inkscape:connector-curvature="0"
+       id="path3496"
+       d="m 815.57791,-200.96237 c -1.07403,5.29372 -4.47725,11.58406 -8.94245,10.68347 -1.57541,-0.31773 -2.90713,0.58248 -6.24104,3.13398 0.76661,2.45974 1.25381,5.11201 3.30131,6.68913 2.75496,-0.61357 4.54693,-1.91084 6.64406,-3.431 l 0.84529,1.44567 c -0.79316,7.53403 -0.32712,13.21511 0.3669,19.65608 -16.21771,6.48434 2.52623,5.02844 6.33046,4.06896 l -1.51682,-3.44294 5.0858,-12.39457 7.31641,1.77065 c 0.11922,-0.0584 3.90126,8.63053 5.55359,11.01245 0.31522,1.34871 -0.9272,3.39702 0.0566,3.75973 7.22742,2.66439 19.18757,-1.35844 6.77668,-5.94772 l 1.53213,-17.28425 c 0,0 0.81051,2.38502 1.49938,1.9813 0.53234,-0.31199 1.37332,-1.4323 1.56114,-2.21336 0.10295,-0.42811 1.91563,5.58922 2.83294,5.13301 1.43113,-0.71178 0.57318,-3.56177 0.86494,-3.12496 0.3307,0.49516 1.03153,1.00258 1.43558,1.22388 0.76502,0.41901 1.03577,-1.73615 0.35737,-2.66553 -0.26936,-0.369 2.38317,2.20484 2.69825,0.74251 0.13799,-0.64039 -1.87902,-2.27108 -0.95915,-2.25806 3.52517,-1.07749 -1.59031,-3.04552 -2.34947,-3.0487 l -10.49789,-20.0744 c -8.54913,3.57544 -16.65341,8.53947 -24.55206,4.58467 z"
+       style="fill:#666668;fill-opacity:1;stroke:#000000;stroke-width:0.62956738;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:connector-curvature="0"
+       id="path3498"
+       d="m 802.5268,-185.9828 3.53311,-1.94763"
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:connector-curvature="0"
+       id="path3500"
+       d="m 804.04098,-183.89606 2.9653,-1.73895"
+       style="fill:none;stroke:#000000;stroke-width:0.31478369;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:connector-curvature="0"
+       id="path3502"
+       d="m 805.61827,-188.83468 1.57728,2.36497"
+       style="fill:none;stroke:#000000;stroke-width:0.31478369;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3504"
+       d="m 819.8769,-199.61614 c 8.47681,12.13017 15.39032,14.35011 22.5867,18.36328"
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3506"
+       d="m 834.32482,-194.67754 c 5.06438,3.76537 7.62067,7.74347 10.59934,11.68572"
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:connector-curvature="0"
+       id="path3508"
+       d="m 844.04088,-184.93943 5.80441,-1.87806"
+       style="fill:none;stroke:#000000;stroke-width:1.04927897px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3510"
+       d="m 840.42102,-188.75642 c -8.87536,1.60401 -19.01962,1.10659 -28.39899,-0.80861"
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:connector-curvature="0"
+       id="path3512"
+       d="m 813.37849,-194.46885 -3.02837,10.71189"
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="ccc"
+       inkscape:connector-curvature="0"
+       id="path3514"
+       d="m 811.23339,-182.22668 c 11.59665,1.36974 14.96363,-1.29303 21.00942,-2.6432 l 7.44477,2.01719"
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3516"
+       d="m 811.51731,-186.99138 c 9.85772,2.08736 20.57843,3.00969 30.26805,-0.17394"
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3518"
+       d="m 811.70658,-188.20866 c 9.89798,1.90211 20.86666,2.45843 29.17974,0.41736"
+       style="fill:none;stroke:#990000;stroke-width:1.88870215;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path3520"
+       d="m 811.01706,-172.0591 8.98938,0.27052 -3.92588,9.78778 1.76218,3.2216 c -1.8438,0.3322 -23.40295,2.82903 -6.00035,-3.78722 z"
+       style="fill:#282828;fill-opacity:1;stroke:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       style="fill:#282828;fill-opacity:1;stroke:none"
+       d="m 830.05774,-170.69036 11.55345,-0.89252 -0.69036,7.72921 c 12.69448,4.27356 -0.76875,8.75819 -6.69254,5.30556 0.14215,-2.79205 0.16925,-3.11406 0.16925,-3.11406 z"
+       id="path3522"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       transform="matrix(0.85451987,0,0,1.1039413,345.4704,-662.87966)"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       sodipodi:ry="4.4194174"
+       sodipodi:rx="4.9244938"
+       sodipodi:cy="396.64691"
+       sodipodi:cx="546.87134"
+       id="path3524"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52146161;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52146161;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3526"
+       sodipodi:cx="546.87134"
+       sodipodi:cy="396.64691"
+       sodipodi:rx="4.9244938"
+       sodipodi:ry="4.4194174"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       transform="matrix(1.443292,0,0,1.5396035,40.900988,-836.08187)" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       transform="matrix(0.72405055,0,0,0.89679296,432.35364,-580.97408)"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       sodipodi:ry="4.4194174"
+       sodipodi:rx="4.9244938"
+       sodipodi:cy="396.64691"
+       sodipodi:cx="546.87134"
+       id="path3528"
+       style="fill:#000000;fill-opacity:1;stroke:#473000;stroke-width:3.84441996;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:#473000;stroke-width:3.84441996;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3530"
+       sodipodi:cx="546.87134"
+       sodipodi:cy="396.64691"
+       sodipodi:rx="4.9244938"
+       sodipodi:ry="4.4194174"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       transform="matrix(0.50780859,0,0,0.62896045,534.15207,-474.53046)" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       transform="matrix(0.99931548,0,0,1.1017405,267.26006,-660.33737)"
+       sodipodi:nodetypes="ccc"
+       inkscape:connector-curvature="0"
+       id="path3532"
+       d="m 548.21429,417.18361 c 4.96983,11.98634 15.56748,2.42882 24.64285,-4.19643 -8.06548,3.31118 -16.75595,6.93206 -24.64285,4.19643 z"
+       style="fill:#282828;fill-opacity:0.63425927;stroke:none;filter:url(#filter3908)" />
+    <path
+       style="fill:#646466;fill-opacity:1;stroke:#000000;stroke-width:0.73449522;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 825.10963,-365.64727 c 30.71134,-8.3165 33.93352,-27.63761 27.74043,-42.20607 2.40394,0.16785 9.64625,-10.30551 5.26844,-13.93537 -11.1608,9.32984 -22.17972,-2.50203 -30.15368,-1.30644 -8.9755,1.34574 -12.9554,1.22788 -16.8785,5.9946 -5.75996,6.99858 -8.21316,14.1152 -6.31103,22.83167 1.1767,5.39224 -5.422,12.08817 -3.36491,16.62334 2.0773,4.57977 15.25732,14.2843 23.69925,11.99827 z"
+       id="path3534"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sccsssss"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#fdc091;fill-opacity:1;stroke:#000000;stroke-width:1.04927897;stroke-opacity:1"
+       d="m 804.75658,-397.33328 c 0,0 31.98808,-14.58155 39.87371,10.29458 0.55368,1.74663 -2.15701,7.78382 -7.18794,6.85905 -11.45918,-2.10638 -36.59483,-2.67219 -36.21888,-0.73798 3.50598,-6.43448 5.3911,-12.19882 3.53311,-16.41565 z"
+       id="path3536"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csscc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#666668;fill-opacity:1;stroke:#000000;stroke-width:0.62956738;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 815.57791,-366.67666 c -1.07403,5.29372 -4.47725,11.58406 -8.94245,10.68347 -1.57541,-0.31773 -2.90713,0.58248 -6.24104,3.13398 0.76661,2.45974 1.25381,5.11201 3.30131,6.68913 2.75496,-0.61357 4.54693,-1.91084 6.64406,-3.431 l 0.84529,1.44567 c -0.79316,7.53403 -0.32712,13.21511 0.3669,19.65608 -16.21771,6.48434 2.52623,5.02844 6.33046,4.06896 l -1.51682,-3.44294 5.0858,-12.39457 7.31641,1.77065 c 0.11922,-0.0584 3.90126,8.63053 5.55359,11.01245 0.31522,1.34871 -0.9272,3.39702 0.0566,3.75973 7.22742,2.66439 19.18757,-1.35844 6.77668,-5.94772 l 1.53213,-17.28425 c 0,0 0.81051,2.38502 1.49938,1.9813 0.53234,-0.31199 1.37332,-1.4323 1.56114,-2.21336 0.10295,-0.42811 1.91563,5.58922 2.83294,5.13301 1.43113,-0.71178 0.57318,-3.56177 0.86494,-3.12496 0.3307,0.49516 1.03153,1.00258 1.43558,1.22388 0.76502,0.41901 1.03577,-1.73615 0.35737,-2.66553 -0.26936,-0.369 2.38317,2.20484 2.69825,0.74251 0.13799,-0.64039 -1.87902,-2.27108 -0.95915,-2.25806 3.52517,-1.07749 -1.59031,-3.04552 -2.34947,-3.0487 l -10.49789,-20.0744 c -8.54913,3.57544 -16.65341,8.53947 -24.55206,4.58467 z"
+       id="path3538"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csccccccccccsccssssssscccc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 802.5268,-351.69709 3.53311,-1.94763"
+       id="path3540"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.31478369;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 804.04098,-349.61035 2.9653,-1.73895"
+       id="path3542"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.31478369;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 805.61827,-354.54897 1.57728,2.36497"
+       id="path3544"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 819.8769,-365.33043 c 8.47681,12.13017 15.39032,14.35011 22.5867,18.36328"
+       id="path3546"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 834.32482,-360.39183 c 5.06438,3.76537 7.62067,7.74347 10.59934,11.68572"
+       id="path3548"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.04927897px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 844.04088,-350.65372 5.80441,-1.87806"
+       id="path3550"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 840.42102,-354.47071 c -8.87536,1.60401 -19.01962,1.10659 -28.39899,-0.80861"
+       id="path3552"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 813.37849,-360.18314 -3.02837,10.71189"
+       id="path3554"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 811.23339,-347.94097 c 11.59665,1.36974 14.96363,-1.29303 21.00942,-2.6432 l 7.44477,2.01719"
+       id="path3556"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.41971162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 811.51731,-352.70567 c 9.85772,2.08736 20.57843,3.00969 30.26805,-0.17394"
+       id="path3558"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#990000;stroke-width:1.88870215;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 811.70658,-353.92295 c 9.89798,1.90211 20.86666,2.45843 29.17974,0.41736"
+       id="path3560"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#282828;fill-opacity:1;stroke:none"
+       d="m 811.01706,-337.77339 8.98938,0.27052 -3.92588,9.78778 1.76218,3.2216 c -1.8438,0.3322 -23.40295,2.82903 -6.00035,-3.78722 z"
+       id="path3562"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path3564"
+       d="m 830.05774,-336.40465 11.55345,-0.89252 -0.69036,7.72921 c 12.69448,4.27356 -0.76875,8.75819 -6.69254,5.30556 0.14215,-2.79205 0.16925,-3.11406 0.16925,-3.11406 z"
+       style="fill:#282828;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52146161;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3566"
+       sodipodi:cx="546.87134"
+       sodipodi:cy="396.64691"
+       sodipodi:rx="4.9244938"
+       sodipodi:ry="4.4194174"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       transform="matrix(0.85451987,0,0,1.1039413,345.4704,-828.59395)"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(1.443292,0,0,1.5396035,40.900988,-1001.7962)"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       sodipodi:ry="4.4194174"
+       sodipodi:rx="4.9244938"
+       sodipodi:cy="396.64691"
+       sodipodi:cx="546.87134"
+       id="path3568"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52146161;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:#473000;stroke-width:3.84441996;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3570"
+       sodipodi:cx="546.87134"
+       sodipodi:cy="396.64691"
+       sodipodi:rx="4.9244938"
+       sodipodi:ry="4.4194174"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       transform="matrix(0.72405055,0,0,0.89679296,432.35364,-746.68837)"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(0.50780859,0,0,0.62896045,534.15207,-640.24475)"
+       d="m 551.79583,396.64691 a 4.9244938,4.4194174 0 1 1 -9.84899,0 4.9244938,4.4194174 0 1 1 9.84899,0 z"
+       sodipodi:ry="4.4194174"
+       sodipodi:rx="4.9244938"
+       sodipodi:cy="396.64691"
+       sodipodi:cx="546.87134"
+       id="path3572"
+       style="fill:#000000;fill-opacity:1;stroke:#473000;stroke-width:3.84441996;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#282828;fill-opacity:0.63425927;stroke:none;filter:url(#filter3908)"
+       d="m 548.21429,417.18361 c 4.96983,11.98634 15.56748,2.42882 24.64285,-4.19643 -8.06548,3.31118 -16.75595,6.93206 -24.64285,4.19643 z"
+       id="path3574"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       transform="matrix(0.99931548,0,0,1.1017405,267.26006,-826.05166)"
+       inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/jugador1_izquierda.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+</svg>

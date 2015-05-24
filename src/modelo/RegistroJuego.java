@@ -55,7 +55,7 @@ public class RegistroJuego {
 
         hiloPlataformas = new HiloPlataformas(jugador, hiloJugador);
         hiloPlataformas.start();
-        
+
         hiloColicionador = new HiloColisionador(tortugas, jugador);
         hiloColicionador.start();
 
@@ -65,7 +65,7 @@ public class RegistroJuego {
 
         this.hiloColisionDisparo = new HiloColisionDisparo(bala, tortugas);
         this.hiloColisionDisparo.start();
-        
+
         this.hiloColisionGanoPrimerJugador = new HiloColisionGanoPrimerJugador(panelJuego, jugador);
         this.hiloColisionGanoPrimerJugador.start();
     }
@@ -81,7 +81,7 @@ public class RegistroJuego {
         if (jugador.getIsFirstPlayer()) {
             this.jugador.setImgPers(jugador.imgPersIzq);
         } else {
-            //se agrega la imagen del segundo jugador
+            this.jugador.setImgPers(jugador.imagPersIzq2);
         }
         this.jugador.setDerecha(false);
     }
@@ -91,7 +91,7 @@ public class RegistroJuego {
         if (jugador.getIsFirstPlayer()) {
             this.jugador.setImgPers(jugador.imgPersDer);
         } else {
-            // se agrega la imagen del segundo jugador
+            this.jugador.setImgPers(jugador.imgPerDer2);
         }
         this.jugador.setDerecha(true);
     }

@@ -7,45 +7,17 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="Nuevo documento 1">
-  <defs
-     id="defs4">
-    <filter
-       inkscape:collect="always"
-       id="filter3787">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="1.1427351"
-         id="feGaussianBlur3789" />
-    </filter>
-  </defs>
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="357.59306"
-     inkscape:cy="671.23206"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1025"
-     inkscape:window-x="0"
-     inkscape:window-y="30"
-     inkscape:window-maximized="1" />
+   width="69"
+   height="37"
+   sodipodi:docname="bala.svg">
   <metadata
-     id="metadata7">
+     id="metadata8">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -56,20 +28,107 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <g
-     inkscape:label="Capa 1"
-     inkscape:groupmode="layer"
-     id="layer1">
-    <rect
-       style="fill:#ff5e00;fill-opacity:1;stroke:#ffff00;stroke-opacity:1;filter:url(#filter3787);stroke-width:1.50000000000000000;stroke-miterlimit:4;stroke-dasharray:none"
-       id="rect2985"
-       width="61.619305"
-       height="29.7995"
-       x="284.86301"
-       y="339.19449"
-       ry="14.89975"
-       inkscape:export-filename="/home/vini/Dropbox/a--UCR-3/TM3100 Programacion/Proyecto Programado 1/Nueva Carpeta/Progra-PP1/src/img/bala.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-  </g>
+  <defs
+     id="defs6" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1030"
+     id="namedview4"
+     showgrid="false"
+     inkscape:zoom="8.3478261"
+     inkscape:cx="98.595828"
+     inkscape:cy="3.8792197"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <image
+     width="69"
+     height="37"
+     xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEUAAAAlCAYAAAAUeSRzAAAABHNCSVQICAgIfAhkiAAABblJREFU aIHt2u1rG1cWBvDfnRlJI8Wy5NhO7LxAWDu7JYUWdqH9sv8/bKGwDSR0ibObbuzYjuVYshy9a2Y/ aOS4idMmbIhj0wdGjGDmSvfhueee85wb8jz3cQhhfnPmis7cXxTy4srO3BeT+7hJJh/+aJhPPkai rSxREikZKamKDcXCBRCTy1VM9U2VjWXGJsaaRpgQpsg+lJzw+0opyHim5J5UX12maaRpqmGiZqoq VxbEFJ+fC1PMaJkKRmJ9iZ5YR1lbpK2q65mBe8Y+gJzfISVEZqqoCZZE1gzcNXDHyLqBFUN1ExVT JUEkvwClBLlcJjaWGKroSrWU7UptSz2X2ZM70tTDhDx733C/sXxChIqepuC2gfv6/qJj04lbulb0 1Q2kxhJTQSb42BD1KTDTci6WK5lIDVR11bUseKFhS9W/pJ7o2VHTJgzfR8x7lBJipAZWvbap51sd 3zh036F1ryw6VtFTMhYZC0V4u7hAG+QilORKMjVji4auO7Zs17InGh6q+ck1W1IHGJBP3x7qHKWE CKmhm/q+duw7L/3Nvg17Vh2q6Uj0RMUKDW/H+gvBr/fCXElJTarhmmUNa5bdtOqGpkhV8EjFPqH/ tmLeIqVYMgOr+r72yt/t+c5zm15Y0lJxLDYUTF08Ee9DEAzRFzsR6YqdKOupmajKlEEuk9p/eymd ISWE4ntTz31Hvrfre7/4s+eWHCg7OVXHl0nGHPP/lmEqFOE3MhKbiotlPrZkIDNS0yKM57vSWaVE 2moid3R9q+Wvtm34ryUvC0ImxQ9dFuScKvpYJFOWWxLbUNaX6Eh00EO3eHpOSgieKVmzpGNTxzf2 bXrh+q8U8iWr47eQYYwTkaCs4rqaDVUtqR25loYBISPPo+K1yD2pnnWvfeXIpj0rXqpcekLmyL0h 5qWKPSsObTrxlcy6jqpZxm5OSqyvbuqOrg0ta1pqusWSueyEzJFjgq5IS80ra078ycgdZQtmJYzo NMBmmgbu6LqtbVFHYlTkH1cJGUaCjsSRuq7bRm7LNJEQwqy6bSsXsXjdiWUdqb7oNEhdJcyDb1+k I3Vi2cC6sSVtZUVeEiRKJhaNitR9lqleTMr+OTCLL0FPSV/dyIqJRYmSU1IiJVPXDItaZiT64nOR /wdz12UkMpAaqpu6JpqT8lgkkshVTFSMxSZXWCVzzIJuKOZbkauIJB6LIg9AJBPLi9L/S03fPyXe 1GuzUjITI/KAyGOQic4U/xdtLH4OvCkgc6GYP5nHM2YymYlgKDFUMpVcqAnweTBLRPJivkPBUGbi gSwyqxXHYq8Lx2qgLDu1oq8i5m5zWSY1UNEVey2b5e4zUibGEsfKWqq6asZKV1gtwcyMqhmr6ipr SRybnCWlaaTkSGrXgkMNA9Ui9Fw1YoJZMl+VaRhYcCi1q+SocP/zqPAQJiJtqW11O5qONUyUC4vv KmG2bHINE0u66naU7Yi0zQzt0yp5qqortq3uqRV7VvTUZRJXRy1zG60us6Lnuj0L/q1s28iJwk+Z k5J5ZqBm1zU/W7JlTcsNQwuyWZ53QRP5VJjFERZkbhha07Jsy4KfRXY19BUWWmEy5bl7YaztSNWW hoduWtFTNbQiv6TO2xyz7tWMkFUjt7yy5qlFD1VtWfQK59qRWdEo2jbxk4mmsZqpuGiEXR6Pdo75 1jtXyKqRu47c8dSyH9X9U2LbzI48z7jOc8IEbTVPBClKglxsU/lSuflvdpmK3KKpFUO3HLlry5of XPcPVU+kjhQBdv76Wy2OPCMMpQ4Ej0BkJNFXs2HhUvV9qMk0TCzrWXPgpqdu+FHTD2oeqTjAO53C c5pheUYYqNiXy2T6Em3XHGhckQ5h1VZByOC81ul7esn5lNCX2pcZFgcvXljwH02bbl7iXnLJjlTb OQo5He6PUwfnDPfH+ZR38QGknD56iU8y+dQnmd555cqfefsfjVjghKqniWAAAAAASUVORK5CYII= "
+     id="image10"
+     x="0"
+     y="0" />
+  <path
+     sodipodi:type="star"
+     style="fill:#fff4f6;fill-opacity:1;stroke:none"
+     id="path2987"
+     sodipodi:sides="5"
+     sodipodi:cx="88.166664"
+     sodipodi:cy="0.58333331"
+     sodipodi:r1="75.039703"
+     sodipodi:r2="36.84317"
+     sodipodi:arg1="0.63583842"
+     sodipodi:arg2="0.69967688"
+     inkscape:flatsided="false"
+     inkscape:rounded="0"
+     inkscape:randomized="0"
+     d="M 148.54166,45.145833 116.35354,24.309249 64.442109,71.773941 74.312202,34.722359 13.129082,0.01904837 51.417257,-2.0435039 65.515443,-70.956021 l 13.7933,35.776854 69.896277,-7.886967 -29.76344,24.173864 z"
+     inkscape:transform-center-x="2.2443549"
+     inkscape:transform-center-y="-0.055911562"
+     transform="matrix(0.32064003,0,0,0.32064003,84.148541,12.170319)"
+     inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/bala.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+     d="m 104.17708,8.7026048 1.59363,-8.89075215 2.18075,5.03250135 z"
+     id="path3757"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/bala.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path3759"
+     d="m 115.77414,1.5430275 9.00985,-0.63856023 -4.34284,3.34985213 z"
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+     inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/bala.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+     d="m 122.65172,11.845639 3.51985,8.318408 -4.57498,-3.025133 z"
+     id="path3761"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/bala.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path3763"
+     d="m 117.07328,20.6147 -6.56444,6.204302 1.2361,-5.343583 z"
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+     inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/bala.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+     d="m 105.40272,17.939257 -8.324462,-3.505492 5.388352,-1.023449 z"
+     id="path3765"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/bala.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     sodipodi:type="arc"
+     style="fill:#ffffff;fill-opacity:1;stroke:none"
+     id="path3780"
+     sodipodi:cx="113.80209"
+     sodipodi:cy="16.216146"
+     sodipodi:rx="1.796875"
+     sodipodi:ry="1.8567709"
+     d="m 115.59897,16.216146 a 1.796875,1.8567709 0 1 1 -3.59375,0 1.796875,1.8567709 0 1 1 3.59375,0 z"
+     transform="matrix(1.0658976,0,0,1.0658976,-9.2670249,-6.26933)"
+     inkscape:export-filename="/home/vini/NetBeansProjects/Progra-PP1/src/img/bala.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
 </svg>

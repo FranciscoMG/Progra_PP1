@@ -51,7 +51,7 @@ public class Bala extends Canvas {
     }
     
     public void pintarBala (Graphics g) {
-        g.drawImage(imagen, this.getX(), this.getY(), 50, 25, this);
+        g.drawImage(imagen, this.getX(), this.getY(), 50, 50, this);
     }
     
 }

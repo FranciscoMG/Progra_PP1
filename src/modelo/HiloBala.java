@@ -78,7 +78,7 @@ public class HiloBala extends Thread {
 
                 if (disparar) {
                     bala.setX(personaje.getPosX());
-                    bala.setY(personaje.getPosY());
+                    bala.setY(personaje.getPosY()-20);
 
                     if (personaje.isDerecha()) {
                         while (bala.getX() < 840) {

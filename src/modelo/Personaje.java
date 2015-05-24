@@ -26,12 +26,14 @@ public abstract class Personaje {
     
     private boolean derecha;
 
-    public Personaje(int vidas, int posX, int posY, Image imgPersIzq, Image imgPersDer) {
+    public Personaje(int vidas, int posX, int posY, Image imgPersIzq, Image imgPersDer, Image imgP2Izquierda, Image imgP2Derecha) {
         this.vidas = vidas;
         this.posX = posX;
         this.posY = posY;
         this.imgPersIzq = imgPersIzq;
         this.imgPersDer = imgPersDer;
+        this.imgPerDer2 = imgP2Derecha;
+        this.imagPersIzq2 = imgP2Izquierda;
     }
 
     public int getVidas() {
