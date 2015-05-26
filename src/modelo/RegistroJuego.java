@@ -77,17 +77,25 @@ public class RegistroJuego {
         }
     }
 
-    public void movJugIzq(int x) {
+    public void movJugIzq(int x, boolean camina) {
         hiloJugador.setDireccionX(x);
         if (jugador.getIsFirstPlayer()) {
-            this.jugador.setImgPers(jugador.imgPersIzq);
+            if (camina == true) {
+                this.jugador.setImgPers(jugador.imgPersIzqMov);
+            } else {
+                this.jugador.setImgPers(jugador.imgPersIzq);
+            }
         } else {
-            this.jugador.setImgPers(jugador.imagPersIzq2);
+            if (camina == true) {
+                this.jugador.setImgPers(jugador.imgPersIzq2Mov);
+            } else {
+                this.jugador.setImgPers(jugador.imgPersIzq2);
+            }
         }
         this.jugador.setDerecha(false);
     }
 
-    public void movJugDer(int x) {
+    public void movJugDer(int x, boolean camina) {
         hiloJugador.setDireccionX(x);
         if (jugador.getIsFirstPlayer()) {
             this.jugador.setImgPers(jugador.imgPersDer);
@@ -119,4 +127,5 @@ public class RegistroJuego {
         this.hiloColisionDisparo.stop();
         this.hiloColisionGanoPrimerJugador.stop();
     }
+
 }

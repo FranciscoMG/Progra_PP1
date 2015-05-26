@@ -20,22 +20,30 @@ public abstract class Personaje {
     private int posY;
     private Toolkit toolkit = Toolkit.getDefaultToolkit();
     private Image imgPers;
+    public Image imgPersIzqMov;
     public Image imgPersIzq;
+    public Image imgPersDerMov;
     public Image imgPersDer;
-    public Image imagPersIzq2;
+    public Image imgPersIzq2Mov;
+    public Image imgPersIzq2;
+    public Image imgPersDer2Mov;
     public Image imgPerDer2;
     private Boolean isFirstPlayer = true;
 
     private boolean derecha;
 
-    public Personaje(int vidas, int posX, int posY, String imgPersIzq, String imgPersDer, String imgP2Izquierda, String imgP2Derecha) {
+    public Personaje(int vidas, int posX, int posY, String imgPersIzq, String imgPersDer, String imgP2Izquierda, String imgP2Derecha, String imgPersIzqMov, String imgPersDerMov, String imgP2IzquierdaMov, String imgP2DerechaMov) {
         this.vidas = vidas;
         this.posX = posX;
         this.posY = posY;
         this.imgPersIzq = toolkit.createImage(imgPersIzq);
         this.imgPersDer = toolkit.createImage(imgPersDer);
         this.imgPerDer2 = toolkit.createImage(imgP2Derecha);
-        this.imagPersIzq2 = toolkit.createImage(imgP2Izquierda);
+        this.imgPersIzq2 = toolkit.createImage(imgP2Izquierda);
+        this.imgPersIzqMov = toolkit.createImage(imgPersIzqMov);
+        this.imgPersDerMov = toolkit.createImage(imgPersDerMov);
+        this.imgPersDer2Mov = toolkit.createImage(imgP2DerechaMov);
+        this.imgPersIzq2Mov = toolkit.createImage(imgP2IzquierdaMov);
     }
 
     public int getVidas() {

@@ -50,19 +50,19 @@ public class ControlJuego implements ActionListener, KeyListener, MouseListener 
             this.registroJuego.movJugAba();
         }
         if (e.getKeyCode() == KeyEvent.VK_A || e.getKeyCode() == KeyEvent.VK_LEFT) {
-            this.registroJuego.movJugIzq(-1);
+            this.registroJuego.movJugIzq(-1, true);
         }
         if (e.getKeyCode() == KeyEvent.VK_D || e.getKeyCode() == KeyEvent.VK_RIGHT) {
-            this.registroJuego.movJugDer(1);
+            this.registroJuego.movJugDer(1, true);
         }
     }
 
     public void keyReleased(KeyEvent e) {
         if (e.getKeyCode() == KeyEvent.VK_A || e.getKeyCode() == KeyEvent.VK_LEFT) {
-            this.registroJuego.movJugIzq(0);
+            this.registroJuego.movJugIzq(0, false);
         }
         if (e.getKeyCode() == KeyEvent.VK_D || e.getKeyCode() == KeyEvent.VK_RIGHT) {
-            this.registroJuego.movJugDer(0);
+            this.registroJuego.movJugDer(0, false);
         }
     }
 
