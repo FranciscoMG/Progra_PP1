@@ -50,7 +50,7 @@ public class HiloColisionGanoPrimerJugador extends Thread {
                 if (isColision()) {
                     jugador.setIsFirstPlayer(false); // Si el jugador coliciona con la meta 
                     jugador.setPosX(150);
-                    jugador.setPosY(100);
+                    jugador.setPosY(95);
                     panelJuego.activarPow();
                 }
 
