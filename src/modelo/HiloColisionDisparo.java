@@ -27,9 +27,9 @@ public class HiloColisionDisparo extends Thread {
         colicionadorBala = new Rectangle();
         colicionadorTortuga = new Rectangle();
     }
-    
+
     //////////////////////////////////////////////////////////////////////////
-    public boolean isColision () {
+    public boolean isColision() {
         return colicionadorBala.intersects(colicionadorTortuga);
     }
 
@@ -38,16 +38,14 @@ public class HiloColisionDisparo extends Thread {
             try {
 
                 sleep(10);
-                
-                
-                
+
                 for (int index = 0; index < listaTortugas.size(); index++) {
-                    colicionadorBala.setBounds(bala.getX(), bala.getY(), 50 , 25);
+                    colicionadorBala.setBounds(bala.getX(), bala.getY(), 50, 25);
                     colicionadorTortuga.setBounds(listaTortugas.get(index).getPosX(), listaTortugas.get(index).getPosY(), 60, 40);
                     if (isColision()) {
                         System.err.println(" la bala colisiono");
                         listaTortugas.remove(index);
-                        
+
                         sleep(3000);
                     }
                 }

@@ -28,7 +28,7 @@ public class HiloTortuga extends Thread {
                 HiloTortuga.sleep(20);
                 if (this.tortuga.getPosX() == this.tortuga.getLimiteInicio()) {
                     direccionX = 1;
-                   this.tortuga.setImgPers(tortuga.imgPersDer);
+                    this.tortuga.setImgPers(tortuga.imgPersDer);
                 }
                 if (this.tortuga.getPosX() == this.tortuga.getLimiteFinal()) {
                     direccionX = -1;

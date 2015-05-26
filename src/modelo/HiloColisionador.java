@@ -25,7 +25,6 @@ public class HiloColisionador extends Thread {
     private Rectangle colicionadorJugador;
     private int cantidadColiciones = 0;
 
-    
     ///----------------------------------------------------------------------
     public HiloColisionador(ArrayList<Tortuga> listaTortugas, Jugador jugador) {
         this.listaT = listaTortugas;
@@ -46,18 +45,18 @@ public class HiloColisionador extends Thread {
         try {
             while (true) {
                 sleep(500);
-                
+
                 this.colicionadorJugador.setBounds(jugador.getPosX(), jugador.getPosY(), 60, 108);
 
                 for (int index = 0; index < listaT.size(); index++) {
                     colicionadorTortugas.setBounds(listaT.get(index).getPosX(), listaT.get(index).getPosY(), 60, 108);
                     if (isColision()) {
                         cantidadColiciones++;
-                        jugador.setVidas(jugador.getVidas()-1);
+                        jugador.setVidas(jugador.getVidas() - 1);
                         if (jugador.getVidas() == 0) {
                             //terminar juego
                         }
-                        System.err.println("vidas del jugador "+jugador.getVidas());
+                        System.err.println("vidas del jugador " + jugador.getVidas());
                         sleep(5000);
                     }
                 } // fin de for

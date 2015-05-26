@@ -71,14 +71,16 @@ public class ControlJuego implements ActionListener, KeyListener, MouseListener 
             if (GUIJuego.mensaje("Se cerrará la sesión de juego actual y se perderá el progreso\n¿Deseas iniciar un nuevo juego?", true, 1) == 0) {
                 GUIOpciones guiOpciones = new GUIOpciones(true, this.panelInfo.getLblNombreUsuario());
                 guiOpciones.setVisible(true);
-                guiJuego.dispose();
+                this.guiJuego.dispose();
+                this.registroJuego.detenerHilos();
             }
         }
         if (e.getActionCommand().equalsIgnoreCase(PnlInfoJuego.BTN_CARGAR)) {
             if (GUIJuego.mensaje("Se cerrará la sesión de juego actual y se perderá el progreso\n¿Deseas cargar una partida?", true, 1) == 0) {
                 GUIOpciones guiOpciones = new GUIOpciones(false, this.panelInfo.getLblNombreUsuario());
                 guiOpciones.setVisible(true);
-                guiJuego.dispose();
+                this.guiJuego.dispose();
+                this.registroJuego.detenerHilos();
             }
         }
         if (e.getActionCommand().equalsIgnoreCase(PnlInfoJuego.BTN_SALIR)) {

@@ -15,7 +15,7 @@ import javax.swing.ImageIcon;
  * @author vini
  */
 public class Bala extends Canvas {
-    
+
     private int x;
     private int y;
     private Image imagen;
@@ -41,17 +41,17 @@ public class Bala extends Canvas {
     public void setY(int y) {
         this.y = y;
     }
-    
-    public int getX () {
+
+    public int getX() {
         return this.x;
     }
-    
-    public int getY () {
+
+    public int getY() {
         return this.y;
     }
-    
-    public void pintarBala (Graphics g) {
+
+    public void pintarBala(Graphics g) {
         g.drawImage(imagen, this.getX(), this.getY(), 50, 50, this);
     }
-    
+
 }

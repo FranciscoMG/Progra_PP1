@@ -52,17 +52,14 @@ public class HiloJugador extends Thread {
                         caida = false;
                     }
                 }
-                this.jugador.setPosX(jugador.getPosX() + direccionX*5);
-         
+                this.jugador.setPosX(jugador.getPosX() + direccionX * 5);
                 direccionY = 0;
-
                 if (jugador.getPosX() < 0) { // evita que se salga de -x
                     this.jugador.setPosX(jugador.getPosX() + 10);
                 }
                 if (jugador.getPosX() > 760) { // evita que se salga de +x
                     this.jugador.setPosX(jugador.getPosX() - 10);
                 }
-
             } catch (InterruptedException ex) {
             }
             this.panelJuego.repaint();

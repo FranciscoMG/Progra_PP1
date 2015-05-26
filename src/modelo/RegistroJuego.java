@@ -108,4 +108,15 @@ public class RegistroJuego {
         hiloBala.setDisparar(true);
     }
 
+    public void detenerHilos() {
+        hiloJugador.stop();
+        for (int i = 0; i < tortugas.size(); i++) {
+            hiloTortugas.get(i).stop();
+        }
+        this.hiloPlataformas.stop();
+        this.hiloColicionador.stop();
+        this.hiloBala.stop();
+        this.hiloColisionDisparo.stop();
+        this.hiloColisionGanoPrimerJugador.stop();
+    }
 }
