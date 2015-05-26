@@ -31,8 +31,8 @@ public class PanelJuego extends javax.swing.JPanel {
         initComponents();
         pow = new ImageIcon(getClass().getResource("/img/pow0.png")).getImage();
     }
-    
-    public void activarPow () {
+
+    public void activarPow() {
         this.pow = new ImageIcon(getClass().getResource("/img/pow.png")).getImage();
     }
 
@@ -90,5 +90,4 @@ public class PanelJuego extends javax.swing.JPanel {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel2;
     // End of variables declaration//GEN-END:variables
-
 }

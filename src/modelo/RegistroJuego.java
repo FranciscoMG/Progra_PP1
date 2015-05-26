@@ -5,7 +5,6 @@
  */
 package modelo;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import vista.GUIJuego;
 import vista.PanelJuego;
@@ -41,33 +40,34 @@ public class RegistroJuego {
             tortugas.add(new Tortuga(1, 6, 423, 6, 248));
             tortugas.add(new Tortuga(1, 514, 423, 514, 756));
             tortugas.add(new Tortuga(1, 193, 263, 193, 569));
-        } catch (IOException ex) {
-            GUIJuego.mensaje("Ha ocurrido un error al cargar el juego", 0);
+
+            panelJuego.setJugador(jugador);
+            hiloJugador = new HiloJugador(panelJuego, jugador);
+            hiloJugador.start();
+            panelJuego.setTortuga(tortugas);
+            for (int i = 0; i < tortugas.size(); i++) {
+                hiloTortugas.add(new HiloTortuga(panelJuego, tortugas.get(i)));
+                hiloTortugas.get(i).start();
+            }
+
+            hiloPlataformas = new HiloPlataformas(jugador, hiloJugador);
+            hiloPlataformas.start();
+
+            hiloColicionador = new HiloColisionador(tortugas, jugador);
+            hiloColicionador.start();
+
+            panelJuego.setBala(bala);
+            this.hiloBala = new HiloBala(100, 100, bala, jugador, panelJuego);
+            this.hiloBala.start();
+
+            this.hiloColisionDisparo = new HiloColisionDisparo(bala, tortugas);
+            this.hiloColisionDisparo.start();
+
+            this.hiloColisionGanoPrimerJugador = new HiloColisionGanoPrimerJugador(panelJuego, jugador);
+            this.hiloColisionGanoPrimerJugador.start();
+        } catch (Exception ex) {
+            GUIJuego.mensaje("Ha ocurrido un error al cargar el juego", false, 0);
         }
-        panelJuego.setJugador(jugador);
-        hiloJugador = new HiloJugador(panelJuego, jugador);
-        hiloJugador.start();
-        panelJuego.setTortuga(tortugas);
-        for (int i = 0; i < tortugas.size(); i++) {
-            hiloTortugas.add(new HiloTortuga(panelJuego, tortugas.get(i)));
-            hiloTortugas.get(i).start();
-        }
-
-        hiloPlataformas = new HiloPlataformas(jugador, hiloJugador);
-        hiloPlataformas.start();
-
-        hiloColicionador = new HiloColisionador(tortugas, jugador);
-        hiloColicionador.start();
-
-        panelJuego.setBala(bala);
-        this.hiloBala = new HiloBala(100, 100, bala, jugador, panelJuego);
-        this.hiloBala.start();
-
-        this.hiloColisionDisparo = new HiloColisionDisparo(bala, tortugas);
-        this.hiloColisionDisparo.start();
-
-        this.hiloColisionGanoPrimerJugador = new HiloColisionGanoPrimerJugador(panelJuego, jugador);
-        this.hiloColisionGanoPrimerJugador.start();
     }
 
     public void movJugAba() {

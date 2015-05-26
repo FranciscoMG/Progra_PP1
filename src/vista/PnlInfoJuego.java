@@ -5,16 +5,16 @@
  */
 package vista;
 
-import controlador.ControlJuego;
-import java.awt.Graphics;
-import java.sql.Time;
-import javax.swing.JLabel;
+import java.awt.event.ActionListener;
+import modelo.Usuario;
 
 /**
  *
  * @author francisco
  */
 public class PnlInfoJuego extends javax.swing.JPanel {
+
+    private Usuario usuarioActual;
 
     /**
      * Creates new form PanelInfoJuego
@@ -32,36 +32,67 @@ public class PnlInfoJuego extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jButton_Cargar = new javax.swing.JButton();
-        jButton_Nueva = new javax.swing.JButton();
-        jLabel7 = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
+        lblNombreUsuario = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        lblTiempo = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel_Usuario = new javax.swing.JLabel();
-        jLabel_UltimasPartidas = new javax.swing.JLabel();
-        jButton_Guardar = new javax.swing.JButton();
-        jButton_Salir = new javax.swing.JButton();
-        jLabel_TiempoDeJuego = new javax.swing.JLabel();
+        lblPrimerMT = new javax.swing.JLabel();
+        lblSegundoMT = new javax.swing.JLabel();
+        lblTercerMT = new javax.swing.JLabel();
+        lblCuartoMT = new javax.swing.JLabel();
+        jSeparator = new javax.swing.JSeparator();
+        btnGuardarPartida = new javax.swing.JButton();
+        btnCargarPartida = new javax.swing.JButton();
+        btnNuevaPartida = new javax.swing.JButton();
+        btnSalir = new javax.swing.JButton();
 
-        jButton_Cargar.setText("Cargar partida");
+        jLabel1.setFont(new java.awt.Font("Purisa", 0, 14)); // NOI18N
+        jLabel1.setText("Usuario:");
 
-        jButton_Nueva.setText("Nueva partida");
+        lblNombreUsuario.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
+        lblNombreUsuario.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lblNombreUsuario.setText("##########");
+        lblNombreUsuario.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        jLabel7.setText("Tiempo:");
+        jLabel2.setFont(new java.awt.Font("Purisa", 0, 14)); // NOI18N
+        jLabel2.setText("Tiempo:");
 
-        jLabel3.setText("Usuario:");
+        lblTiempo.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
+        lblTiempo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lblTiempo.setText("#:##");
+        lblTiempo.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        jLabel4.setText("Ultimas partidas:");
+        jLabel3.setFont(new java.awt.Font("Purisa", 0, 14)); // NOI18N
+        jLabel3.setText("Mejores tiempos:");
 
-        jLabel_Usuario.setText("USUARIO");
+        lblPrimerMT.setFont(new java.awt.Font("DejaVu Sans", 0, 14)); // NOI18N
+        lblPrimerMT.setText("1. #:##");
 
-        jLabel_UltimasPartidas.setText("0:00");
+        lblSegundoMT.setFont(new java.awt.Font("DejaVu Sans", 0, 14)); // NOI18N
+        lblSegundoMT.setText("2. #:##");
 
-        jButton_Guardar.setText("Guardar partida");
+        lblTercerMT.setFont(new java.awt.Font("DejaVu Sans", 0, 14)); // NOI18N
+        lblTercerMT.setText("3. #:##");
 
-        jButton_Salir.setText("Salir del juego");
+        lblCuartoMT.setFont(new java.awt.Font("DejaVu Sans", 0, 14)); // NOI18N
+        lblCuartoMT.setText("4. #:##");
 
-        jLabel_TiempoDeJuego.setText("0");
+        btnGuardarPartida.setFont(new java.awt.Font("DejaVu Sans", 0, 14)); // NOI18N
+        btnGuardarPartida.setText("Guardar partida");
+        btnGuardarPartida.setFocusable(false);
+
+        btnCargarPartida.setFont(new java.awt.Font("DejaVu Sans", 0, 14)); // NOI18N
+        btnCargarPartida.setText("Cargar partida");
+        btnCargarPartida.setFocusable(false);
+
+        btnNuevaPartida.setFont(new java.awt.Font("DejaVu Sans", 0, 14)); // NOI18N
+        btnNuevaPartida.setText("Nueva partida");
+        btnNuevaPartida.setFocusable(false);
+
+        btnSalir.setFont(new java.awt.Font("DejaVu Sans", 0, 14)); // NOI18N
+        btnSalir.setText("Salir del juego");
+        btnSalir.setFocusable(false);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -71,63 +102,108 @@ public class PnlInfoJuego extends javax.swing.JPanel {
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel3)
-                        .addGap(45, 45, 45)
-                        .addComponent(jLabel_Usuario))
-                    .addComponent(jButton_Guardar)
-                    .addComponent(jButton_Cargar)
-                    .addComponent(jButton_Nueva)
-                    .addComponent(jButton_Salir)
+                        .addComponent(jSeparator)
+                        .addContainerGap())
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                             .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                                .addComponent(jLabel7)
+                                .addComponent(jLabel1)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jLabel_TiempoDeJuego, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                            .addComponent(jLabel4))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel_UltimasPartidas)))
-                .addContainerGap(243, Short.MAX_VALUE))
+                                .addComponent(lblNombreUsuario, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                                .addComponent(jLabel2)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(lblTiempo, javax.swing.GroupLayout.PREFERRED_SIZE, 301, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                            .addComponent(btnSalir, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(btnNuevaPartida, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(btnCargarPartida, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(btnGuardarPartida, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                                .addComponent(jLabel3)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(lblPrimerMT, javax.swing.GroupLayout.DEFAULT_SIZE, 238, Short.MAX_VALUE)
+                                    .addComponent(lblSegundoMT, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(lblTercerMT, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(lblCuartoMT, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                        .addGap(0, 0, Short.MAX_VALUE))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel3)
-                    .addComponent(jLabel_Usuario))
-                .addGap(10, 10, 10)
+                    .addComponent(jLabel1)
+                    .addComponent(lblNombreUsuario))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel7)
-                    .addComponent(jLabel_TiempoDeJuego))
+                    .addComponent(jLabel2)
+                    .addComponent(lblTiempo))
                 .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel4)
-                    .addComponent(jLabel_UltimasPartidas))
+                .addComponent(jLabel3)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(lblPrimerMT)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(lblSegundoMT)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(lblTercerMT)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(lblCuartoMT)
                 .addGap(18, 18, 18)
-                .addComponent(jButton_Guardar)
+                .addComponent(jSeparator, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jButton_Cargar)
+                .addComponent(btnGuardarPartida)
                 .addGap(18, 18, 18)
-                .addComponent(jButton_Nueva)
+                .addComponent(btnCargarPartida)
                 .addGap(18, 18, 18)
-                .addComponent(jButton_Salir)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(btnNuevaPartida)
+                .addGap(18, 18, 18)
+                .addComponent(btnSalir)
+                .addContainerGap(7, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
+    public String getLblNombreUsuario() {
+        return this.lblNombreUsuario.getText().trim();
+    }
+
+    public void setLblNombreUsuario(String nombre) {
+        this.lblNombreUsuario.setText(nombre);
+    }
+
+    public String getLblTiempo() {
+        return this.lblTiempo.getText().trim();
+    }
+
+    public void setLblTiempo(String tiempo) {
+        this.lblTiempo.setText(tiempo);
+    }
+
+    public void setMejoresTiempos(String[] tiempos) {
+        this.lblPrimerMT.setText("1. " + tiempos[0]);
+        this.lblSegundoMT.setText("2. " + tiempos[1]);
+        this.lblTercerMT.setText("3. " + tiempos[2]);
+        this.lblCuartoMT.setText("4. " + tiempos[3]);
+    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton_Cargar;
-    private javax.swing.JButton jButton_Guardar;
-    private javax.swing.JButton jButton_Nueva;
-    private javax.swing.JButton jButton_Salir;
+    private javax.swing.JButton btnCargarPartida;
+    private javax.swing.JButton btnGuardarPartida;
+    private javax.swing.JButton btnNuevaPartida;
+    private javax.swing.JButton btnSalir;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel_TiempoDeJuego;
-    private javax.swing.JLabel jLabel_UltimasPartidas;
-    private javax.swing.JLabel jLabel_Usuario;
+    private javax.swing.JSeparator jSeparator;
+    private javax.swing.JLabel lblCuartoMT;
+    private javax.swing.JLabel lblNombreUsuario;
+    private javax.swing.JLabel lblPrimerMT;
+    private javax.swing.JLabel lblSegundoMT;
+    private javax.swing.JLabel lblTercerMT;
+    private javax.swing.JLabel lblTiempo;
     // End of variables declaration//GEN-END:variables
 
     public static final String BTN_CARGAR = "Cargar partida";
@@ -135,36 +211,16 @@ public class PnlInfoJuego extends javax.swing.JPanel {
     public static final String BTN_NUEVA = "Nueva partida";
     public static final String BTN_SALIR = "Salir del juego";
 
-    public void escuchar(ControlJuego controlJuego) {
-        this.jButton_Cargar.addActionListener(controlJuego);
-        this.jButton_Guardar.addActionListener(controlJuego);
-        this.jButton_Nueva.addActionListener(controlJuego);
-        this.jButton_Salir.addActionListener(controlJuego);
+    public void listenPanel(ActionListener control) {
+        this.btnCargarPartida.addActionListener(control);
+        this.btnGuardarPartida.addActionListener(control);
+        this.btnNuevaPartida.addActionListener(control);
+        this.btnSalir.addActionListener(control);
     }
 
-    public String getjLabel_Usuario() {
-        return jLabel_Usuario.getText().trim();
+    public void cargarUsuario(Usuario usuario) {
+        this.usuarioActual = usuario;
+        this.lblNombreUsuario.setText(usuario.getNombre());
+        setMejoresTiempos(usuario.getMejoresTiempos());
     }
-
-    public void setjLabel_Usuario(String jLabel_Usuario) {
-        this.jLabel_Usuario.setText(jLabel_Usuario);
-    }
-
-    public String getjLabel_UltimasPartidas() {
-        return jLabel_UltimasPartidas.getText();
-    }
-
-    public void setjLabel_UltimasPartidas(String jLabel_UltimasPartidas) {
-        this.jLabel_UltimasPartidas.setText(jLabel_UltimasPartidas);
-    }
-
-    public String getjLabel_TiempoDeJuego() {
-        return jLabel_TiempoDeJuego.getText();
-    }
-
-    public void setjLabel_TiempoDeJuego(String jLabel_TiempoDeJuego) {
-        this.jLabel_TiempoDeJuego.setText(jLabel_TiempoDeJuego);
-    }
-    
-
 }

@@ -5,8 +5,6 @@
  */
 package modelo;
 
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import vista.PnlInfoJuego;
 
 /**
@@ -14,39 +12,42 @@ import vista.PnlInfoJuego;
  * @author vini
  */
 public class HiloTiempo extends Thread {
-    
-    private String tiempo = "";
+
+    private String tiempo;
     private PnlInfoJuego pnlInfoJuego;
-    
+
     public HiloTiempo(PnlInfoJuego panelInfo) {
         this.pnlInfoJuego = panelInfo;
+    }
+
+    ///////////////////////////////////////////////////////////////////////////
+    public void setTiempo(String tiempo) {
+        this.tiempo = tiempo;
     }
 
     ///////////////////////////////////////////////////////////////////////////
     public String getTiempo() {
         return tiempo;
     }
-  
 
     ///////////////////////////////////////////////////////////////////////////
     public void run() {
         while (true) {
             try {
-                
-                for (int minutos = 0; minutos < 60; minutos++) {
+                for (int minutos = 0; minutos < 10; minutos++) {
                     for (int segundos = 0; segundos < 60; segundos++) {
-                        this.tiempo = minutos + ":" + segundos;
-                        this.sleep(1000); // el tiempo debe ser de 1000
-                        
-                        pnlInfoJuego.setjLabel_TiempoDeJuego(tiempo);
-                        
+                        if (segundos < 10) {
+                            this.tiempo = minutos + ":0" + segundos;
+                        } else {
+                            this.tiempo = minutos + ":" + segundos;
+                        }
+                        this.sleep(1000);
+                        pnlInfoJuego.setLblTiempo(tiempo);
                     }
                 }
-                
             } catch (InterruptedException ex) {
-                Logger.getLogger(HiloTiempo.class.getName()).log(Level.SEVERE, null, ex);
             }
         }
     }
-    
-} // fin de clase
+
+}
