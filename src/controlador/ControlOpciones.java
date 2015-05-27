@@ -9,6 +9,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
 import java.io.IOException;
+import modelo.RegistroJuego;
 import modelo.RegistroUsuario;
 import modelo.Usuario;
 import org.jdom2.JDOMException;
@@ -25,6 +26,7 @@ public class ControlOpciones implements ActionListener {
     private GUIOpciones guiOpciones;
     private PanelOpciones panelOpciones;
     private RegistroUsuario registroUsuario;
+    private RegistroJuego registroJuego;
 
     public ControlOpciones(GUIOpciones guiOpciones, PanelOpciones panelOpciones) {
         this.guiOpciones = guiOpciones;
@@ -40,6 +42,20 @@ public class ControlOpciones implements ActionListener {
         } else {
             try {
                 registroUsuario = RegistroUsuario.crearDocumento("usuarios.xml");
+            } catch (IOException ex) {
+            }
+        }
+        existeXml = new File("partidas.xml");
+        if (existeXml.exists()) {
+            try {
+                registroJuego = RegistroJuego.abrirDocumento("partidas.xml");
+            } catch (JDOMException | IOException ex) {
+                GUIOpciones.mensaje("Ha ocurrido un error al obtener la lista de las partidas", 0);
+                System.exit(0);
+            }
+        } else {
+            try {
+                registroJuego = RegistroJuego.crearDocumento("partidas.xml");
             } catch (IOException ex) {
             }
         }
@@ -65,7 +81,7 @@ public class ControlOpciones implements ActionListener {
                     }
                 }
                 if (usuarioEscogido != null) {
-                    GUIJuego guiJuego = new GUIJuego(usuarioEscogido);
+                    GUIJuego guiJuego = new GUIJuego(usuarioEscogido, this.registroJuego);
                     guiJuego.setVisible(true);
                     guiOpciones.dispose();
                 }

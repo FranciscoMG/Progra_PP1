@@ -5,7 +5,15 @@
  */
 package modelo;
 
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
+import org.jdom2.Attribute;
+import org.jdom2.Document;
+import org.jdom2.Element;
+import org.jdom2.JDOMException;
+import org.jdom2.input.SAXBuilder;
+import org.jdom2.output.XMLOutputter;
 import vista.GUIJuego;
 import vista.PanelJuego;
 import vista.PnlInfoJuego;
@@ -22,7 +30,6 @@ public class RegistroJuego {
     private HiloJugador hiloJugador;
     private ArrayList<Tortuga> tortugas = new ArrayList<>();
     private ArrayList<HiloTortuga> hiloTortugas = new ArrayList<>();
-
     private HiloTiempo hiloTiempo;
     private HiloColisionador hiloColicionador;
     private Bala bala;
@@ -30,8 +37,34 @@ public class RegistroJuego {
     private HiloColisionDisparo hiloColisionDisparo;
     private HiloPlataformas hiloPlataformas;
     private HiloColisionGanoPrimerJugador hiloColisionGanoPrimerJugador;
+    public Document documento;
+    public Element raiz;
+    public String ruta;
 
-    public RegistroJuego(PanelJuego panelJuego, PnlInfoJuego panelInfo) {
+    private RegistroJuego(String ruta, String raiz) throws IOException {
+        this.ruta = ruta;
+        this.raiz = new Element(raiz);
+        this.documento = new Document(this.raiz);
+        this.guardaDocumento();
+    }
+
+    private RegistroJuego(String ruta) throws JDOMException, IOException {
+        SAXBuilder sBuilder = new SAXBuilder();
+        sBuilder.setIgnoringElementContentWhitespace(true);
+        this.documento = sBuilder.build(ruta);
+        this.raiz = documento.getRootElement();
+        this.ruta = ruta;
+    }
+
+    public static RegistroJuego abrirDocumento(String nombre) throws JDOMException, IOException {
+        return new RegistroJuego(nombre);
+    }
+
+    public static RegistroJuego crearDocumento(String nombre) throws IOException {
+        return new RegistroJuego(nombre, "partidas");
+    }
+
+    public void iniciaJuegoNuevo(PanelJuego panelJuego, PnlInfoJuego panelInfo) {
         this.panelJuego = panelJuego;
         this.panelInfo = panelInfo;
         try {
@@ -60,7 +93,7 @@ public class RegistroJuego {
             this.hiloBala = new HiloBala(100, 100, bala, jugador, panelJuego);
             this.hiloBala.start();
 
-            this.hiloColisionDisparo = new HiloColisionDisparo(bala, tortugas);
+            this.hiloColisionDisparo = new HiloColisionDisparo(bala, tortugas, hiloTortugas);
             this.hiloColisionDisparo.start();
 
             this.hiloColisionGanoPrimerJugador = new HiloColisionGanoPrimerJugador(panelJuego, jugador);
@@ -68,6 +101,47 @@ public class RegistroJuego {
         } catch (Exception ex) {
             GUIJuego.mensaje("Ha ocurrido un error al cargar el juego", false, 0);
         }
+    }
+
+    public void guardaDocumento() throws IOException {
+        XMLOutputter xmlOutput = new XMLOutputter();
+        xmlOutput.output(documento, System.out);
+        xmlOutput.output(documento, new PrintWriter(this.ruta));
+    }
+
+    public void guardarPartida() throws IOException {
+        Element ePartida = new Element("partida");
+        Attribute aUsuario = new Attribute("usuario", this.panelInfo.getLblNombreUsuario());
+        Element eTiempo = new Element("tiempo");
+        Element eJug = new Element("jugador");
+        Element eJugPosX = new Element("pos-x");
+        Element eJugPosY = new Element("pos-y");
+        eTiempo.addContent(this.panelInfo.getLblTiempo());
+        eJug.addContent(String.valueOf(jugador.getIsFirstPlayer()));
+        eJugPosX.addContent(String.valueOf(jugador.getPosX()));
+        eJugPosY.addContent(String.valueOf(jugador.getPosY()));
+        ePartida.setAttribute(aUsuario);
+        ePartida.addContent(eTiempo);
+        ePartida.addContent(eJug);
+        ePartida.addContent(eJugPosX);
+        ePartida.addContent(eJugPosY);
+        for (HiloTortuga hiloTortuga : hiloTortugas) {
+            if (hiloTortuga.isAlive()) {
+                Element eTortuga = new Element("tortuga");
+                Element eLado = new Element("lado");
+                Element eTorPosX = new Element("pos-x");
+                Element eTorPosY = new Element("pos-y");
+                eLado.addContent(String.valueOf(hiloTortuga.lado));
+                eTorPosX.addContent(String.valueOf(hiloTortuga.tortuga.getPosX()));
+                eTorPosY.addContent(String.valueOf(hiloTortuga.tortuga.getPosY()));
+                eTortuga.addContent(eLado);
+                eTortuga.addContent(eTorPosX);
+                eTortuga.addContent(eTorPosY);
+                ePartida.addContent(eTortuga);
+            }
+        }
+        this.raiz.addContent(ePartida);
+        this.guardaDocumento();
     }
 
     public void movJugAba() {

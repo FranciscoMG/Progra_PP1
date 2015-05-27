@@ -14,8 +14,9 @@ import vista.PanelJuego;
 public class HiloTortuga extends Thread {
 
     private PanelJuego panelJuego;
-    private Tortuga tortuga;
+    public Tortuga tortuga;
     private int direccionX;
+    public boolean lado;
 
     public HiloTortuga(PanelJuego panelJuego, Tortuga tortuga) {
         this.panelJuego = panelJuego;
@@ -27,10 +28,12 @@ public class HiloTortuga extends Thread {
             try {
                 HiloTortuga.sleep(20);
                 if (this.tortuga.getPosX() == this.tortuga.getLimiteInicio()) {
+                    lado = true;
                     direccionX = 1;
                     this.tortuga.setImgPers(tortuga.imgPersDer);
                 }
                 if (this.tortuga.getPosX() == this.tortuga.getLimiteFinal()) {
+                    lado = false;
                     direccionX = -1;
                     this.tortuga.setImgPers(tortuga.imgPersIzq);
                 }

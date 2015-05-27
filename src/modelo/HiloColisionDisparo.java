@@ -20,10 +20,12 @@ public class HiloColisionDisparo extends Thread {
     private ArrayList<Tortuga> listaTortugas;
     private Rectangle colicionadorBala;
     private Rectangle colicionadorTortuga;
+    private ArrayList<HiloTortuga> hiloTortugas;
 
-    public HiloColisionDisparo(Bala bala, ArrayList<Tortuga> listaTortugas) {
+    public HiloColisionDisparo(Bala bala, ArrayList<Tortuga> listaTortugas, ArrayList<HiloTortuga> hiloTortugas) {
         this.bala = bala;
         this.listaTortugas = listaTortugas;
+        this.hiloTortugas = hiloTortugas;
         colicionadorBala = new Rectangle();
         colicionadorTortuga = new Rectangle();
     }
@@ -45,7 +47,7 @@ public class HiloColisionDisparo extends Thread {
                     if (isColision()) {
                         System.err.println(" la bala colisiono");
                         listaTortugas.remove(index);
-
+                        hiloTortugas.get(index).stop();
                         sleep(3000);
                     }
                 }

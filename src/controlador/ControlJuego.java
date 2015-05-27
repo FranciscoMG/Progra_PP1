@@ -11,6 +11,7 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
+import java.io.IOException;
 import modelo.RegistroJuego;
 import vista.GUIJuego;
 import vista.GUIOpciones;
@@ -28,13 +29,14 @@ public class ControlJuego implements ActionListener, KeyListener, MouseListener 
     private PnlInfoJuego panelInfo;
     private RegistroJuego registroJuego;
 
-    public ControlJuego(GUIJuego guiJuego, PanelJuego panelJuego, PnlInfoJuego panelInfo) {
+    public ControlJuego(GUIJuego guiJuego, PanelJuego panelJuego, PnlInfoJuego panelInfo, RegistroJuego registroJuego) {
         this.panelJuego = panelJuego;
         this.panelJuego.addKeyListener(this);
         this.panelJuego.setFocusable(true);
         this.guiJuego = guiJuego;
         this.panelInfo = panelInfo;
-        this.registroJuego = new RegistroJuego(panelJuego, this.panelInfo);
+        this.registroJuego = registroJuego;
+        registroJuego.iniciaJuegoNuevo(panelJuego, this.panelInfo);
         registroJuego.iniciarTiempo();
     }
 
@@ -67,6 +69,12 @@ public class ControlJuego implements ActionListener, KeyListener, MouseListener 
     }
 
     public void actionPerformed(ActionEvent e) {
+        if (e.getActionCommand().equalsIgnoreCase(PnlInfoJuego.BTN_GUARDAR)) {
+            try {
+                this.registroJuego.guardarPartida();
+            } catch (IOException ex) {
+            }
+        }
         if (e.getActionCommand().equalsIgnoreCase(PnlInfoJuego.BTN_NUEVA)) {
             if (GUIJuego.mensaje("Se cerrará la sesión de juego actual y se perderá el progreso\n¿Deseas iniciar un nuevo juego?", true, 1) == 0) {
                 GUIOpciones guiOpciones = new GUIOpciones(true, this.panelInfo.getLblNombreUsuario());
@@ -76,7 +84,7 @@ public class ControlJuego implements ActionListener, KeyListener, MouseListener 
             }
         }
         if (e.getActionCommand().equalsIgnoreCase(PnlInfoJuego.BTN_CARGAR)) {
-            if (GUIJuego.mensaje("Se cerrará la sesión de juego actual y se perderá el progreso\n¿Deseas cargar una partida?", true, 1) == 0) {
+            if (GUIJuego.mensaje("¿Deseas cargar una partida?", true, 1) == 0) {
                 GUIOpciones guiOpciones = new GUIOpciones(false, this.panelInfo.getLblNombreUsuario());
                 guiOpciones.setVisible(true);
                 this.guiJuego.dispose();
@@ -84,7 +92,7 @@ public class ControlJuego implements ActionListener, KeyListener, MouseListener 
             }
         }
         if (e.getActionCommand().equalsIgnoreCase(PnlInfoJuego.BTN_SALIR)) {
-            if (GUIJuego.mensaje("¿Deseas salir del juego?", true, 1) == 0) {
+            if (GUIJuego.mensaje("Se cerrará la sesión de juego actual y se perderá el progreso\n¿Deseas salir del juego?", true, 1) == 0) {
                 System.exit(0);
             }
         }

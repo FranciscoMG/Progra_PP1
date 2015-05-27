@@ -20,10 +20,6 @@ public class Jugador extends Personaje {
                 "src/img/p2_izquierda.gif", "src/img/p2_derecha.gif");
     }
 
-    public void camina(boolean camina) {
-
-    }
-
     public void pintarPersonaje(Graphics g) {
         g.drawImage(this.getImgPers(), this.getPosX(), this.getPosY(), 60, 60, null);
     }

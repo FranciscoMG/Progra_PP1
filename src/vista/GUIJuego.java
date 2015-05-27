@@ -7,6 +7,7 @@ package vista;
 
 import controlador.ControlJuego;
 import javax.swing.JOptionPane;
+import modelo.RegistroJuego;
 import modelo.Usuario;
 
 /**
@@ -18,9 +19,9 @@ public class GUIJuego extends javax.swing.JFrame {
     /**
      * Creates new form GUIJuego
      */
-    public GUIJuego(Usuario usuario) {
+    public GUIJuego(Usuario usuario, RegistroJuego registroJuego) {
         initComponents();
-        ControlJuego controlJuego = new ControlJuego(this, panelJuego1, panelInfo2);
+        ControlJuego controlJuego = new ControlJuego(this, panelJuego1, panelInfo2, registroJuego);
         this.setLocationRelativeTo(null);
         this.panelJuego1.addMouseListener(controlJuego);
         this.panelInfo2.cargarUsuario(usuario);
