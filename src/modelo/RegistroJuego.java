@@ -172,9 +172,17 @@ public class RegistroJuego {
     public void movJugDer(int x, boolean camina) {
         hiloJugador.setDireccionX(x);
         if (jugador.getIsFirstPlayer()) {
-            this.jugador.setImgPers(jugador.imgPersDer);
+            if (camina == true) {
+                this.jugador.setImgPers(jugador.imgPersDerMov);
+            } else {
+                this.jugador.setImgPers(jugador.imgPersDer);
+            }
         } else {
-            this.jugador.setImgPers(jugador.imgPerDer2);
+            if (camina == true) {
+                this.jugador.setImgPers(jugador.imgPersDer2Mov);
+            } else {
+                this.jugador.setImgPers(jugador.imgPersDer2);
+            }
         }
         this.jugador.setDerecha(true);
     }
