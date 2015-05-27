@@ -60,6 +60,7 @@ public class ControlOpciones implements ActionListener {
             }
         }
         panelOpciones.setCboUsuarios(registroUsuario.getUsuarios());
+        panelOpciones.setCboPartidas(registroJuego.getPartidas(panelOpciones.getCboUsuarios()));
     }
 
     public void actionPerformed(ActionEvent e) {
@@ -81,7 +82,7 @@ public class ControlOpciones implements ActionListener {
                     }
                 }
                 if (usuarioEscogido != null) {
-                    GUIJuego guiJuego = new GUIJuego(usuarioEscogido, this.registroJuego);
+                    GUIJuego guiJuego = new GUIJuego(usuarioEscogido, this.registroJuego, true);
                     guiJuego.setVisible(true);
                     guiOpciones.dispose();
                 }
@@ -89,7 +90,13 @@ public class ControlOpciones implements ActionListener {
                 GUIOpciones.mensaje("Seleccione una opción para empezar el juego", 1);
             }
         }
-        if (e.getActionCommand().equalsIgnoreCase(PanelOpciones.BTN_SALIR)) {
+        if (e.getActionCommand().equalsIgnoreCase(PanelOpciones.BTN_CARGAR)) {
+            GUIJuego guiJuego = new GUIJuego(this.registroUsuario.getUsuario(this.panelOpciones.getTxtUsuario()), this.registroJuego, false);
+            this.registroJuego.cargarPartida(this.panelOpciones.getCboPartidas());
+            guiJuego.setVisible(true);
+            guiOpciones.dispose();
+        }
+        if (e.getActionCommand().equalsIgnoreCase(PanelOpciones.BTN_SALIR) || e.getActionCommand().equalsIgnoreCase(PanelOpciones.BTN_CANCELAR)) {
             System.exit(0);
         }
     }

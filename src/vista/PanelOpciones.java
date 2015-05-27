@@ -146,7 +146,7 @@ public class PanelOpciones extends javax.swing.JPanel {
 
         btnCargar.setText("Cargar");
 
-        btnCancelar.setText("Cancelar");
+        btnCancelar.setText("Salir");
 
         javax.swing.GroupLayout PanelPartidaLayout = new javax.swing.GroupLayout(PanelPartida);
         PanelPartida.setLayout(PanelPartidaLayout);
@@ -276,6 +276,19 @@ public class PanelOpciones extends javax.swing.JPanel {
 
     public String getTxtUsuario() {
         return this.txtUsuario.getText();
+    }
+
+    public String getCboPartidas() {
+        if (this.cboPartidas.getSelectedIndex() == -1) {
+            return null;
+        }
+        return this.cboPartidas.getSelectedItem().toString();
+    }
+
+    public void setCboPartidas(ArrayList<String> partidas) {
+        for (String partida : partidas) {
+            this.cboPartidas.addItem(partida);
+        }
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
