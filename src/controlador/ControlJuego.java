@@ -73,6 +73,7 @@ public class ControlJuego implements ActionListener, KeyListener, MouseListener 
             try {
                 this.registroJuego.guardarPartida();
             } catch (IOException ex) {
+                GUIJuego.mensaje("Ha ocurrido un error al guardar la partida", false, 0);
             }
         }
         if (e.getActionCommand().equalsIgnoreCase(PnlInfoJuego.BTN_NUEVA)) {

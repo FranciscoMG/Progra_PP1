@@ -179,6 +179,10 @@ public class RegistroJuego {
         this.jugador.setDerecha(true);
     }
 
+    public void cargarPartida() {
+
+    }
+
     /////////////////////////////////////////////////////////////////////////
     public void iniciarTiempo() {
         hiloTiempo = new HiloTiempo(panelInfo);
@@ -201,5 +205,4 @@ public class RegistroJuego {
         this.hiloColisionDisparo.stop();
         this.hiloColisionGanoPrimerJugador.stop();
     }
-
 }
