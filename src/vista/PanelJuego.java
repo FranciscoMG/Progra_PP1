@@ -38,12 +38,13 @@ public class PanelJuego extends javax.swing.JPanel {
 
     public void paint(Graphics g) {
         super.paint(g);
+        g.drawImage(pow, 383, 473, this);
         jugador.pintarPersonaje(g);
         for (int i = 0; i < tortugas.size(); i++) {
             tortugas.get(i).pintarPersonaje(g);
         }
         bala.pintarBala(g);
-        g.drawImage(pow, 383, 473, this);
+        
     }
 
     /**
