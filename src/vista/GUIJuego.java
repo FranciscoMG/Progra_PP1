@@ -7,6 +7,7 @@ package vista;
 
 import controlador.ControlJuego;
 import javax.swing.JOptionPane;
+import modelo.RegistroJuego;
 import modelo.Usuario;
 
 /**
@@ -18,9 +19,9 @@ public class GUIJuego extends javax.swing.JFrame {
     /**
      * Creates new form GUIJuego
      */
-    public GUIJuego(Usuario usuario) {
+    public GUIJuego(Usuario usuario, RegistroJuego registroJuego, boolean esNuevo) {
         initComponents();
-        ControlJuego controlJuego = new ControlJuego(this, panelJuego1, panelInfo2);
+        ControlJuego controlJuego = new ControlJuego(this, panelJuego1, panelInfo2, registroJuego, esNuevo);
         this.setLocationRelativeTo(null);
         this.panelJuego1.addMouseListener(controlJuego);
         this.panelInfo2.cargarUsuario(usuario);
@@ -71,11 +72,13 @@ public class GUIJuego extends javax.swing.JFrame {
     private vista.PanelJuego panelJuego1;
     // End of variables declaration//GEN-END:variables
 
-    public static int mensaje(String mensaje, boolean tipoMensaje, int iconoMensaje) {
-        if (tipoMensaje) {
-            return JOptionPane.showConfirmDialog(null, mensaje, null, JOptionPane.YES_NO_OPTION);
+    public static int mensaje(String mensaje, int tipoMensaje, int iconoMensaje) {
+        switch (tipoMensaje) {
+            case 0:
+                JOptionPane.showMessageDialog(null, mensaje, null, iconoMensaje);
+            case 1:
+                return JOptionPane.showConfirmDialog(null, mensaje, null, JOptionPane.YES_NO_OPTION);
         }
-        JOptionPane.showMessageDialog(null, mensaje, null, iconoMensaje);
         return -1;
     }
 }

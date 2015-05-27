@@ -27,7 +27,7 @@ public abstract class Personaje {
     public Image imgPersIzq2Mov;
     public Image imgPersIzq2;
     public Image imgPersDer2Mov;
-    public Image imgPerDer2;
+    public Image imgPersDer2;
     private Boolean isFirstPlayer = true;
 
     private boolean derecha;
@@ -38,7 +38,7 @@ public abstract class Personaje {
         this.posY = posY;
         this.imgPersIzq = toolkit.createImage(imgPersIzq);
         this.imgPersDer = toolkit.createImage(imgPersDer);
-        this.imgPerDer2 = toolkit.createImage(imgP2Derecha);
+        this.imgPersDer2 = toolkit.createImage(imgP2Derecha);
         this.imgPersIzq2 = toolkit.createImage(imgP2Izquierda);
         this.imgPersIzqMov = toolkit.createImage(imgPersIzqMov);
         this.imgPersDerMov = toolkit.createImage(imgPersDerMov);

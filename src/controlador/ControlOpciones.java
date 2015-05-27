@@ -9,6 +9,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
 import java.io.IOException;
+import modelo.RegistroJuego;
 import modelo.RegistroUsuario;
 import modelo.Usuario;
 import org.jdom2.JDOMException;
@@ -25,6 +26,7 @@ public class ControlOpciones implements ActionListener {
     private GUIOpciones guiOpciones;
     private PanelOpciones panelOpciones;
     private RegistroUsuario registroUsuario;
+    private RegistroJuego registroJuego;
 
     public ControlOpciones(GUIOpciones guiOpciones, PanelOpciones panelOpciones) {
         this.guiOpciones = guiOpciones;
@@ -43,7 +45,22 @@ public class ControlOpciones implements ActionListener {
             } catch (IOException ex) {
             }
         }
+        existeXml = new File("partidas.xml");
+        if (existeXml.exists()) {
+            try {
+                registroJuego = RegistroJuego.abrirDocumento("partidas.xml");
+            } catch (JDOMException | IOException ex) {
+                GUIOpciones.mensaje("Ha ocurrido un error al obtener la lista de las partidas", 0);
+                System.exit(0);
+            }
+        } else {
+            try {
+                registroJuego = RegistroJuego.crearDocumento("partidas.xml");
+            } catch (IOException ex) {
+            }
+        }
         panelOpciones.setCboUsuarios(registroUsuario.getUsuarios());
+        panelOpciones.setCboPartidas(registroJuego.getPartidas(panelOpciones.getCboUsuarios()));
     }
 
     public void actionPerformed(ActionEvent e) {
@@ -65,7 +82,7 @@ public class ControlOpciones implements ActionListener {
                     }
                 }
                 if (usuarioEscogido != null) {
-                    GUIJuego guiJuego = new GUIJuego(usuarioEscogido);
+                    GUIJuego guiJuego = new GUIJuego(usuarioEscogido, this.registroJuego, true);
                     guiJuego.setVisible(true);
                     guiOpciones.dispose();
                 }
@@ -73,7 +90,13 @@ public class ControlOpciones implements ActionListener {
                 GUIOpciones.mensaje("Seleccione una opción para empezar el juego", 1);
             }
         }
-        if (e.getActionCommand().equalsIgnoreCase(PanelOpciones.BTN_SALIR)) {
+        if (e.getActionCommand().equalsIgnoreCase(PanelOpciones.BTN_CARGAR)) {
+            GUIJuego guiJuego = new GUIJuego(this.registroUsuario.getUsuario(this.panelOpciones.getTxtUsuario()), this.registroJuego, false);
+            this.registroJuego.cargarPartida(this.panelOpciones.getCboPartidas());
+            guiJuego.setVisible(true);
+            guiOpciones.dispose();
+        }
+        if (e.getActionCommand().equalsIgnoreCase(PanelOpciones.BTN_SALIR) || e.getActionCommand().equalsIgnoreCase(PanelOpciones.BTN_CANCELAR)) {
             System.exit(0);
         }
     }
