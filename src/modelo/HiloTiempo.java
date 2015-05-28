@@ -13,6 +13,8 @@ import vista.PnlInfoJuego;
  */
 public class HiloTiempo extends Thread {
 
+    private int minutos;
+    private int segundos;
     private String tiempo;
     private PnlInfoJuego pnlInfoJuego;
 
@@ -22,6 +24,9 @@ public class HiloTiempo extends Thread {
 
     ///////////////////////////////////////////////////////////////////////////
     public void setTiempo(String tiempo) {
+        String[] divTiempo = tiempo.split(":");
+        this.minutos = Integer.parseInt(divTiempo[0]);
+        this.segundos = Integer.parseInt(divTiempo[1]);
         this.tiempo = tiempo;
     }
 
@@ -32,10 +37,12 @@ public class HiloTiempo extends Thread {
 
     ///////////////////////////////////////////////////////////////////////////
     public void run() {
+        int minTemp = minutos;
+        int segTemp = segundos;
         while (true) {
             try {
-                for (int minutos = 0; minutos < 10; minutos++) {
-                    for (int segundos = 0; segundos < 60; segundos++) {
+                for (int minutos = minTemp; minutos < 10; minutos++) {
+                    for (int segundos = segTemp; segundos < 60; segundos++) {
                         if (segundos < 10) {
                             this.tiempo = minutos + ":0" + segundos;
                         } else {

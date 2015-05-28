@@ -62,7 +62,7 @@ public class PnlInfoJuego extends javax.swing.JPanel {
 
         lblTiempo.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
         lblTiempo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lblTiempo.setText("#:##");
+        lblTiempo.setText("0:00");
         lblTiempo.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
         jLabel3.setFont(new java.awt.Font("Purisa", 3, 14)); // NOI18N

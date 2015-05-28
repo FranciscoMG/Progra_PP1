@@ -88,20 +88,15 @@ public class RegistroJuego {
                 hiloTortugas.add(new HiloTortuga(panelJuego, tortugas.get(i)));
                 hiloTortugas.get(i).start();
             }
-
             hiloPlataformas = new HiloPlataformas(jugador, hiloJugador);
             hiloPlataformas.start();
-
             hiloColicionador = new HiloColisionador(tortugas, jugador);
             hiloColicionador.start();
-
             panelJuego.setBala(bala);
             this.hiloBala = new HiloBala(100, 100, bala, jugador, panelJuego);
             this.hiloBala.start();
-
             this.hiloColisionDisparo = new HiloColisionDisparo(bala, tortugas, hiloTortugas);
             this.hiloColisionDisparo.start();
-
             this.hiloColisionGanoPrimerJugador = new HiloColisionGanoPrimerJugador(panelJuego, jugador);
             this.hiloColisionGanoPrimerJugador.start();
         } catch (Exception ex) {
@@ -138,23 +133,27 @@ public class RegistroJuego {
             panelJuego.setTortuga(tortugas);
             for (int i = 0; i < tortugas.size(); i++) {
                 hiloTortugas.add(new HiloTortuga(panelJuego, tortugas.get(i)));
+                if (hiloTortugas.get(i).lado) {
+                    hiloTortugas.get(i).direccionX = 1;
+                } else {
+                    hiloTortugas.get(i).direccionX = -1;
+                }
                 hiloTortugas.get(i).start();
             }
             hiloPlataformas = new HiloPlataformas(jugador, hiloJugador);
             hiloPlataformas.start();
-
             hiloColicionador = new HiloColisionador(tortugas, jugador);
             hiloColicionador.start();
-
             panelJuego.setBala(bala);
             this.hiloBala = new HiloBala(100, 100, bala, jugador, panelJuego);
             this.hiloBala.start();
-
             this.hiloColisionDisparo = new HiloColisionDisparo(bala, tortugas, hiloTortugas);
             this.hiloColisionDisparo.start();
-
             this.hiloColisionGanoPrimerJugador = new HiloColisionGanoPrimerJugador(panelJuego, jugador);
             this.hiloColisionGanoPrimerJugador.start();
+            hiloTiempo = new HiloTiempo(panelInfo);
+            this.hiloTiempo.setTiempo(partidaCargada.getChildText("tiempo"));
+            this.hiloTiempo.start();
         } catch (Exception ex) {
             GUIJuego.mensaje("Ha ocurrido un error al cargar el juego", 0, 0);
         }
@@ -289,11 +288,11 @@ public class RegistroJuego {
     }
 
     public void detenerHilos() {
-        hiloJugador.stop();
-        for (int i = 0; i < tortugas.size(); i++) {
-            hiloTortugas.get(i).stop();
-            hiloTortugas.remove(i);
-            tortugas.remove(i);
+        this.hiloJugador.stop();
+        for (int i = tortugas.size() - 1; i >= 0; i--) {
+            this.hiloTortugas.get(i).stop();
+            this.hiloTortugas.remove(i);
+            this.tortugas.remove(i);
         }
         this.hiloPlataformas.stop();
         this.hiloColicionador.stop();

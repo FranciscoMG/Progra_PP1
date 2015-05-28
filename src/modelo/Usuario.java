@@ -14,8 +14,6 @@ public class Usuario {
     private String nombre;
     private String[] mejoresTiempos = {"9:59", "9:59", "9:59", "9:59", null};
 
-    ;
-
     public Usuario(String nombre, String[] tiempos) {
         this.nombre = nombre;
         if (tiempos != null) {
