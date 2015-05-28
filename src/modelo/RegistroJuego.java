@@ -77,14 +77,12 @@ public class RegistroJuego {
             alas.setImgPers(alas.imgPersIzq);
             this.bala = new Bala(-100, -100);
             jugador = new Jugador(3, 670, 578);
-            tortugas.add(new Tortuga(1, 6, 423, 6, 248));
-            tortugas.add(new Tortuga(1, 514, 423, 514, 756));
-            tortugas.add(new Tortuga(1, 193, 263, 193, 569));
-
-            panelJuego.setAlas(alas);
             panelJuego.setJugador(jugador);
             hiloJugador = new HiloJugador(panelJuego, jugador, alas);
             hiloJugador.start();
+            tortugas.add(new Tortuga(1, 6, 423, 6, 248));
+            tortugas.add(new Tortuga(1, 514, 423, 514, 756));
+            tortugas.add(new Tortuga(1, 193, 263, 193, 569));
             panelJuego.setTortuga(tortugas);
             for (int i = 0; i < tortugas.size(); i++) {
                 hiloTortugas.add(new HiloTortuga(panelJuego, tortugas.get(i)));
@@ -120,16 +118,21 @@ public class RegistroJuego {
             hiloJugador = new HiloJugador(panelJuego, jugador , this.alas);
             hiloJugador.start();
             List<Element> listaTortugas = partidaCargada.getChildren("tortuga");
-            for (Element tortuga : listaTortugas) {
-                if (Integer.parseInt(tortuga.getChildText("pos-x")) < 249 && Integer.parseInt(tortuga.getChildText("pos-y")) == 423) {
-                    tortugas.add(new Tortuga(1, Integer.parseInt(tortuga.getChildText("pos-x")), 423, 6, 248));
+            for (int i = 0; i < listaTortugas.size(); i++) {
+                if (Integer.parseInt(listaTortugas.get(i).getChildText("pos-x")) < 249 && Integer.parseInt(listaTortugas.get(i).getChildText("pos-y")) == 423) {
+                    tortugas.add(new Tortuga(1, Integer.parseInt(listaTortugas.get(i).getChildText("pos-x")), 423, 6, 248));
                 } else {
-                    if (Integer.parseInt(tortuga.getChildText("pos-y")) == 423) {
-                        tortugas.add(new Tortuga(1, Integer.parseInt(tortuga.getChildText("pos-x")), 423, 514, 756));
+                    if (Integer.parseInt(listaTortugas.get(i).getChildText("pos-y")) == 423) {
+                        tortugas.add(new Tortuga(1, Integer.parseInt(listaTortugas.get(i).getChildText("pos-x")), 423, 514, 756));
                     }
                 }
-                if (Integer.parseInt(tortuga.getChildText("pos-y")) == 263) {
-                    tortugas.add(new Tortuga(1, Integer.parseInt(tortuga.getChildText("pos-x")), 263, 193, 569));
+                if (Integer.parseInt(listaTortugas.get(i).getChildText("pos-y")) == 263) {
+                    tortugas.add(new Tortuga(1, Integer.parseInt(listaTortugas.get(i).getChildText("pos-x")), 263, 193, 569));
+                }
+                if (Boolean.parseBoolean(listaTortugas.get(i).getChildText("lado")) == true) {
+                    tortugas.get(i).setImgPers(tortugas.get(i).imgPersDer);
+                } else {
+                    tortugas.get(i).setImgPers(tortugas.get(i).imgPersIzq);
                 }
             }
             panelJuego.setTortuga(tortugas);
@@ -289,6 +292,8 @@ public class RegistroJuego {
         hiloJugador.stop();
         for (int i = 0; i < tortugas.size(); i++) {
             hiloTortugas.get(i).stop();
+            hiloTortugas.remove(i);
+            tortugas.remove(i);
         }
         this.hiloPlataformas.stop();
         this.hiloColicionador.stop();

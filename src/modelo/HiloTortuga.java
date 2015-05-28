@@ -38,6 +38,7 @@ public class HiloTortuga extends Thread {
                     this.tortuga.setImgPers(tortuga.imgPersIzq);
                 }
                 this.tortuga.setPosX(this.tortuga.getPosX() + direccionX);
+                System.out.println(tortuga.getPosX());
             } catch (InterruptedException ex) {
             }
             this.panelJuego.repaint();
