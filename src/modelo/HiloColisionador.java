@@ -42,7 +42,7 @@ public class HiloColisionador extends Thread {
         try {
             while (true) {
                 sleep(500);
-                this.colicionadorJugador.setBounds(jugador.getPosX(), jugador.getPosY(), 50, 50);
+                this.colicionadorJugador.setBounds(jugador.getPosX(), jugador.getPosY(), 60, 60);
                 for (int index = 0; index < listaT.size(); index++) {
                     colicionadorTortugas.setBounds(listaT.get(index).getPosX(), listaT.get(index).getPosY(), 50, 50);
                     if (isColision()) {

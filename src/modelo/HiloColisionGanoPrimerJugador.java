@@ -56,9 +56,7 @@ public class HiloColisionGanoPrimerJugador extends Thread {
         while (true) {
             try {
                 sleep(250);
-
-                colisionadorJugador.setBounds(jugador.getPosX(), jugador.getPosY(), 60, 108);
-
+                colisionadorJugador.setBounds(jugador.getPosX(), jugador.getPosY(), 60, 60);
                 if (jugador.getIsFirstPlayer()) {
                     if (isColisionDerecha()) {
                         jugador.setIsFirstPlayer(false); // Si el jugador coliciona con la meta 
