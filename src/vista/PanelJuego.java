@@ -9,6 +9,7 @@ import java.awt.Graphics;
 import java.awt.Image;
 import java.util.ArrayList;
 import javax.swing.ImageIcon;
+import modelo.Alas;
 import modelo.Bala;
 import modelo.Jugador;
 import modelo.Tortuga;
@@ -23,7 +24,7 @@ public class PanelJuego extends javax.swing.JPanel {
     private ArrayList<Tortuga> tortugas;
     private Bala bala;
     private Image pow;
-    private Image alas;
+    private Alas alas;
 
     /**
      * Creates new form PanelJuego1
@@ -31,7 +32,6 @@ public class PanelJuego extends javax.swing.JPanel {
     public PanelJuego() {
         initComponents();
         pow = new ImageIcon(getClass().getResource("/img/pow0.png")).getImage();
-        alas = new ImageIcon(getClass().getResource("/img/alas.gif")).getImage();
     }
 
     public void activarPow() {
@@ -41,17 +41,11 @@ public class PanelJuego extends javax.swing.JPanel {
     public void activarPuntos() {
         pow = new ImageIcon(getClass().getResource("/img/1.gif")).getImage();
     }
-    public void activarAlas () {
-            alas = new ImageIcon(getClass().getResource("/img/alas.gif")).getImage();
-    }
-    public void desactivarAlas () {
-    
-    }
 
     public void paint(Graphics g) {
         super.paint(g);
         g.drawImage(pow, 383, 473, this);
-        g.drawImage(alas, 100, 550, 140,100, this);
+        alas.pintarPersonaje(g);
         jugador.pintarPersonaje(g);
         for (int i = 0; i < tortugas.size(); i++) {
             tortugas.get(i).pintarPersonaje(g);
@@ -99,6 +93,10 @@ public class PanelJuego extends javax.swing.JPanel {
 
     public void setBala(Bala bala) {
         this.bala = bala;
+    }
+    
+    public void setAlas (Alas alas) {
+        this.alas = alas;
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

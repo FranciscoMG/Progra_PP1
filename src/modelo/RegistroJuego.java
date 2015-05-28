@@ -41,6 +41,7 @@ public class RegistroJuego {
     private Document documento;
     private Element raiz;
     private String ruta;
+    private Alas alas;
 
     private RegistroJuego(String ruta, String raiz) throws IOException {
         this.ruta = ruta;
@@ -72,14 +73,17 @@ public class RegistroJuego {
 
     public void iniciarJuegoNuevo() {
         try {
+            alas = new Alas(0, 0);
+            alas.setImgPers(alas.imgPersIzq);
             this.bala = new Bala(-100, -100);
             jugador = new Jugador(3, 670, 578);
             tortugas.add(new Tortuga(1, 6, 423, 6, 248));
             tortugas.add(new Tortuga(1, 514, 423, 514, 756));
             tortugas.add(new Tortuga(1, 193, 263, 193, 569));
 
+            panelJuego.setAlas(alas);
             panelJuego.setJugador(jugador);
-            hiloJugador = new HiloJugador(panelJuego, jugador);
+            hiloJugador = new HiloJugador(panelJuego, jugador, alas);
             hiloJugador.start();
             panelJuego.setTortuga(tortugas);
             for (int i = 0; i < tortugas.size(); i++) {
@@ -113,7 +117,7 @@ public class RegistroJuego {
             this.bala = new Bala(-100, -100);
             jugador = new Jugador(Integer.parseInt(partidaCargada.getChildText("vidas")), Integer.parseInt(partidaCargada.getChildText("pos-x")), Integer.parseInt(partidaCargada.getChildText("pos-y")));
             panelJuego.setJugador(jugador);
-            hiloJugador = new HiloJugador(panelJuego, jugador);
+            hiloJugador = new HiloJugador(panelJuego, jugador , this.alas);
             hiloJugador.start();
             List<Element> listaTortugas = partidaCargada.getChildren("tortuga");
             for (Element tortuga : listaTortugas) {

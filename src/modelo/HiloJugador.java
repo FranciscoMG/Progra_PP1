@@ -15,16 +15,18 @@ public class HiloJugador extends Thread {
 
     private PanelJuego panelJuego;
     private Jugador jugador;
+    private Alas alas;
     public static int direccionX;
     public int direccionY;
     public int altura = 0;
     public static boolean salto;
     public boolean caida;
 
-    public HiloJugador(PanelJuego panelJuego, Jugador jugador) {
+    public HiloJugador(PanelJuego panelJuego, Jugador jugador , Alas alas) {
         this.panelJuego = panelJuego;
         this.jugador = jugador;
         this.jugador.setImgPers(jugador.imgPersIzq);
+        this.alas = alas;
     }
 
     public void setDireccionX(int direccionx) {
@@ -59,6 +61,14 @@ public class HiloJugador extends Thread {
                 }
                 if (jugador.getPosX() > 760) { // evita que se salga de +x
                     this.jugador.setPosX(jugador.getPosX() - 10);
+                }
+                
+                if (salto || caida) {
+                    this.alas.setImgPers(alas.imgPersDer);
+                    this.alas.setPosX(jugador.getPosX()-39);
+                    this.alas.setPosY(jugador.getPosY()-30);
+                } else {
+                    this.alas.setImgPers(alas.imgPersIzq);
                 }
                
             } catch (InterruptedException ex) {
