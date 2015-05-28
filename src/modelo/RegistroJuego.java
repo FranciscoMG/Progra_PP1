@@ -78,6 +78,7 @@ public class RegistroJuego {
             this.bala = new Bala(-100, -100);
             jugador = new Jugador(3, 670, 578);
             panelJuego.setJugador(jugador);
+            panelJuego.setAlas(alas);
             hiloJugador = new HiloJugador(panelJuego, jugador, alas);
             hiloJugador.start();
             tortugas.add(new Tortuga(1, 6, 423, 6, 248));

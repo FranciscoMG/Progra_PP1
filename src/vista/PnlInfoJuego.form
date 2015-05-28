@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
-  <Properties>
-    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-      <Color blue="fe" green="d5" red="ea" type="rgb"/>
-    </Property>
-  </Properties>
   <AuxValues>
     <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
     <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
@@ -21,23 +16,9 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="1" attributes="0">
-              <EmptySpace max="32767" attributes="0"/>
-              <Group type="103" groupAlignment="1" attributes="0">
-                  <Component id="btnSalir" min="-2" pref="281" max="-2" attributes="0"/>
-                  <Component id="btnNuevaPartida" min="-2" pref="281" max="-2" attributes="0"/>
-                  <Component id="btnCargarPartida" min="-2" pref="281" max="-2" attributes="0"/>
-                  <Component id="btnGuardarPartida" min="-2" pref="281" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
-          </Group>
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
-                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                  </Group>
                   <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="1" max="-2" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
@@ -48,55 +29,37 @@
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="lblTiempo" min="-2" pref="301" max="-2" attributes="0"/>
+                              <Component id="lblTiempo" min="-2" pref="246" max="-2" attributes="0"/>
                           </Group>
-                          <Group type="102" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
                               <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="lblVida" max="32767" attributes="0"/>
+                              <Component id="lblVida" min="-2" pref="277" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace min="20" max="32767" attributes="0"/>
+                      <EmptySpace min="60" pref="46" max="32767" attributes="0"/>
                   </Group>
                   <Group type="102" attributes="0">
-                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jSeparator" alignment="0" min="-2" pref="341" max="-2" attributes="0"/>
+                          <Component id="btnGuardarPartida" alignment="0" max="32767" attributes="0"/>
                           <Component id="btnSalir" alignment="0" max="32767" attributes="0"/>
                           <Component id="btnNuevaPartida" alignment="0" max="32767" attributes="0"/>
                           <Component id="btnCargarPartida" alignment="0" max="32767" attributes="0"/>
-                          <Component id="btnGuardarPartida" alignment="0" max="32767" attributes="0"/>
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="lblPrimerMT" pref="238" max="32767" attributes="0"/>
-                                  <Component id="lblSegundoMT" max="32767" attributes="0"/>
-                                  <Component id="lblTercerMT" max="32767" attributes="0"/>
-                                  <Component id="lblCuartoMT" max="32767" attributes="0"/>
+                                  <Component id="lblCuartoMT" pref="223" max="32767" attributes="0"/>
+                                  <Component id="lblSegundoMT" alignment="0" min="-2" pref="202" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="lblTercerMT" alignment="0" pref="215" max="32767" attributes="0"/>
+                                      <Component id="lblPrimerMT" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
                               </Group>
                           </Group>
                       </Group>
                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                  </Group>
-                  <Group type="102" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jSeparator" max="32767" attributes="0"/>
-                          <Group type="102" attributes="0">
-                              <Group type="103" groupAlignment="1" attributes="0">
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                      <Component id="lblNombreUsuario" min="-2" pref="204" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                      <Component id="lblTiempo" min="-2" pref="194" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
-                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                          </Group>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
                   </Group>
               </Group>
           </Group>
@@ -122,23 +85,23 @@
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
-              <EmptySpace type="unrelated" max="32767" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Component id="lblPrimerMT" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
               <Component id="lblSegundoMT" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
               <Component id="lblTercerMT" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
               <Component id="lblCuartoMT" min="-2" max="-2" attributes="0"/>
-              <EmptySpace type="separate" max="32767" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
               <Component id="jSeparator" min="-2" pref="10" max="-2" attributes="0"/>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Component id="btnGuardarPartida" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
               <Component id="btnCargarPartida" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
               <Component id="btnNuevaPartida" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
               <Component id="btnSalir" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="32767" attributes="0"/>
           </Group>
@@ -149,7 +112,7 @@
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Purisa" size="14" style="3"/>
+          <Font name="Purisa" size="14" style="0"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Usuario:"/>
       </Properties>
@@ -167,7 +130,7 @@
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Purisa" size="14" style="3"/>
+          <Font name="Purisa" size="14" style="0"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Tiempo:"/>
       </Properties>
@@ -185,7 +148,7 @@
     <Component class="javax.swing.JLabel" name="jLabel3">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Purisa" size="14" style="3"/>
+          <Font name="Purisa" size="14" style="0"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Mejores tiempos:"/>
       </Properties>
@@ -226,11 +189,8 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnGuardarPartida">
       <Properties>
-        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="f7" green="a5" red="8e" type="rgb"/>
-        </Property>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="DejaVu Sans" size="14" style="1"/>
+          <Font name="DejaVu Sans" size="14" style="0"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Guardar partida"/>
         <Property name="focusable" type="boolean" value="false"/>
@@ -238,11 +198,8 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnCargarPartida">
       <Properties>
-        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="88" green="fe" red="fe" type="rgb"/>
-        </Property>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="DejaVu Sans" size="14" style="1"/>
+          <Font name="DejaVu Sans" size="14" style="0"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Cargar partida"/>
         <Property name="focusable" type="boolean" value="false"/>
@@ -250,11 +207,8 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnNuevaPartida">
       <Properties>
-        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="99" green="ff" red="7b" type="rgb"/>
-        </Property>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="DejaVu Sans" size="14" style="1"/>
+          <Font name="DejaVu Sans" size="14" style="0"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Nueva partida"/>
         <Property name="focusable" type="boolean" value="false"/>
@@ -262,11 +216,8 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnSalir">
       <Properties>
-        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="74" green="74" red="fd" type="rgb"/>
-        </Property>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="DejaVu Sans" size="14" style="1"/>
+          <Font name="DejaVu Sans" size="14" style="0"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Salir del juego"/>
         <Property name="focusable" type="boolean" value="false"/>
