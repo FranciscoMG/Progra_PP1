@@ -109,11 +109,14 @@ public class RegistroJuego {
     public void cargarPartida(String nombrePartida) {
         Element partidaCargada = buscarPartida("nombre-partida", nombrePartida).get(0);
         try {
+            alas = new Alas(0, 0);
+            alas.setImgPers(alas.imgPersIzq);
             this.bala = new Bala(-100, -100);
             jugador = new Jugador(Integer.parseInt(partidaCargada.getChildText("vidas")), Integer.parseInt(partidaCargada.getChildText("pos-x")), Integer.parseInt(partidaCargada.getChildText("pos-y")));
             jugador.setIsFirstPlayer(Boolean.parseBoolean(partidaCargada.getChildText("jugador")));
             panelJuego.setJugador(jugador);
-            hiloJugador = new HiloJugador(panelJuego, jugador , this.alas);
+            panelJuego.setAlas(alas);
+            hiloJugador = new HiloJugador(panelJuego, jugador, this.alas);
             hiloJugador.start();
             if (jugador.getIsFirstPlayer()) {
                 if (jugador.getLado()) {

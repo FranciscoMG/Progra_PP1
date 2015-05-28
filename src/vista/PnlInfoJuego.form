@@ -42,7 +42,6 @@
                   <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
                           <Component id="jSeparator" alignment="0" min="-2" pref="341" max="-2" attributes="0"/>
-                          <Component id="btnGuardarPartida" alignment="0" max="32767" attributes="0"/>
                           <Component id="btnSalir" alignment="0" max="32767" attributes="0"/>
                           <Component id="btnNuevaPartida" alignment="0" max="32767" attributes="0"/>
                           <Component id="btnCargarPartida" alignment="0" max="32767" attributes="0"/>
@@ -58,6 +57,7 @@
                                   </Group>
                               </Group>
                           </Group>
+                          <Component id="btnGuardarPartida" alignment="0" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                   </Group>
