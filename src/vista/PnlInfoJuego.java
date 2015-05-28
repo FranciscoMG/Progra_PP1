@@ -47,7 +47,9 @@ public class PnlInfoJuego extends javax.swing.JPanel {
         btnNuevaPartida = new javax.swing.JButton();
         btnSalir = new javax.swing.JButton();
 
-        jLabel1.setFont(new java.awt.Font("Purisa", 0, 14)); // NOI18N
+        setBackground(new java.awt.Color(234, 213, 254));
+
+        jLabel1.setFont(new java.awt.Font("Purisa", 3, 14)); // NOI18N
         jLabel1.setText("Usuario:");
 
         lblNombreUsuario.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
@@ -55,7 +57,7 @@ public class PnlInfoJuego extends javax.swing.JPanel {
         lblNombreUsuario.setText("##########");
         lblNombreUsuario.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        jLabel2.setFont(new java.awt.Font("Purisa", 0, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Purisa", 3, 14)); // NOI18N
         jLabel2.setText("Tiempo:");
 
         lblTiempo.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
@@ -63,7 +65,7 @@ public class PnlInfoJuego extends javax.swing.JPanel {
         lblTiempo.setText("#:##");
         lblTiempo.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        jLabel3.setFont(new java.awt.Font("Purisa", 0, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Purisa", 3, 14)); // NOI18N
         jLabel3.setText("Mejores tiempos:");
 
         lblPrimerMT.setFont(new java.awt.Font("DejaVu Sans", 0, 14)); // NOI18N
@@ -78,19 +80,23 @@ public class PnlInfoJuego extends javax.swing.JPanel {
         lblCuartoMT.setFont(new java.awt.Font("DejaVu Sans", 0, 14)); // NOI18N
         lblCuartoMT.setText("4. #:##");
 
-        btnGuardarPartida.setFont(new java.awt.Font("DejaVu Sans", 0, 14)); // NOI18N
+        btnGuardarPartida.setBackground(new java.awt.Color(142, 165, 247));
+        btnGuardarPartida.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
         btnGuardarPartida.setText("Guardar partida");
         btnGuardarPartida.setFocusable(false);
 
-        btnCargarPartida.setFont(new java.awt.Font("DejaVu Sans", 0, 14)); // NOI18N
+        btnCargarPartida.setBackground(new java.awt.Color(254, 254, 136));
+        btnCargarPartida.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
         btnCargarPartida.setText("Cargar partida");
         btnCargarPartida.setFocusable(false);
 
-        btnNuevaPartida.setFont(new java.awt.Font("DejaVu Sans", 0, 14)); // NOI18N
+        btnNuevaPartida.setBackground(new java.awt.Color(123, 255, 153));
+        btnNuevaPartida.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
         btnNuevaPartida.setText("Nueva partida");
         btnNuevaPartida.setFocusable(false);
 
-        btnSalir.setFont(new java.awt.Font("DejaVu Sans", 0, 14)); // NOI18N
+        btnSalir.setBackground(new java.awt.Color(253, 116, 116));
+        btnSalir.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
         btnSalir.setText("Salir del juego");
         btnSalir.setFocusable(false);
 
@@ -98,38 +104,41 @@ public class PnlInfoJuego extends javax.swing.JPanel {
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(btnSalir, javax.swing.GroupLayout.PREFERRED_SIZE, 281, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnNuevaPartida, javax.swing.GroupLayout.PREFERRED_SIZE, 281, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnCargarPartida, javax.swing.GroupLayout.PREFERRED_SIZE, 281, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnGuardarPartida, javax.swing.GroupLayout.PREFERRED_SIZE, 281, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(56, 56, 56))
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jSeparator)
-                        .addContainerGap())
+                        .addComponent(jLabel3)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(lblPrimerMT, javax.swing.GroupLayout.DEFAULT_SIZE, 238, Short.MAX_VALUE)
+                            .addComponent(lblSegundoMT, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(lblTercerMT, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(lblCuartoMT, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                                .addComponent(jLabel1)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(lblNombreUsuario, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                                .addComponent(jLabel2)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(lblTiempo, javax.swing.GroupLayout.PREFERRED_SIZE, 301, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                            .addComponent(btnSalir, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(btnNuevaPartida, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(btnCargarPartida, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(btnGuardarPartida, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                                .addComponent(jLabel3)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(lblPrimerMT, javax.swing.GroupLayout.DEFAULT_SIZE, 238, Short.MAX_VALUE)
-                                    .addComponent(lblSegundoMT, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(lblTercerMT, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(lblCuartoMT, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-                        .addGap(0, 0, Short.MAX_VALUE))))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jSeparator)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                                        .addComponent(jLabel1)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(lblNombreUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, 204, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                                        .addComponent(jLabel2)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(lblTiempo, javax.swing.GroupLayout.PREFERRED_SIZE, 194, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addGap(0, 0, Short.MAX_VALUE)))
+                        .addContainerGap())))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -144,25 +153,25 @@ public class PnlInfoJuego extends javax.swing.JPanel {
                     .addComponent(lblTiempo))
                 .addGap(18, 18, 18)
                 .addComponent(jLabel3)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(lblPrimerMT)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(lblSegundoMT)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(lblTercerMT)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(lblCuartoMT)
-                .addGap(18, 18, 18)
+                .addGap(18, 18, Short.MAX_VALUE)
                 .addComponent(jSeparator, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(btnGuardarPartida)
-                .addGap(18, 18, 18)
+                .addGap(40, 40, 40)
                 .addComponent(btnCargarPartida)
-                .addGap(18, 18, 18)
+                .addGap(40, 40, 40)
                 .addComponent(btnNuevaPartida)
-                .addGap(18, 18, 18)
+                .addGap(41, 41, 41)
                 .addComponent(btnSalir)
-                .addContainerGap(7, Short.MAX_VALUE))
+                .addGap(63, 63, 63))
         );
     }// </editor-fold>//GEN-END:initComponents
 
