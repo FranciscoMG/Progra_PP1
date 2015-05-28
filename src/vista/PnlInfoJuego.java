@@ -46,6 +46,8 @@ public class PnlInfoJuego extends javax.swing.JPanel {
         btnCargarPartida = new javax.swing.JButton();
         btnNuevaPartida = new javax.swing.JButton();
         btnSalir = new javax.swing.JButton();
+        jLabel4 = new javax.swing.JLabel();
+        lblVida = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(234, 213, 254));
 
@@ -100,6 +102,14 @@ public class PnlInfoJuego extends javax.swing.JPanel {
         btnSalir.setText("Salir del juego");
         btnSalir.setFocusable(false);
 
+        jLabel4.setFont(new java.awt.Font("Purisa", 0, 14)); // NOI18N
+        jLabel4.setText("Vidas:");
+
+        lblVida.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
+        lblVida.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lblVida.setText("0");
+        lblVida.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
@@ -149,6 +159,10 @@ public class PnlInfoJuego extends javax.swing.JPanel {
                     .addComponent(lblNombreUsuario))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel4)
+                    .addComponent(lblVida))
+                .addGap(12, 12, 12)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel2)
                     .addComponent(lblTiempo))
                 .addGap(18, 18, 18)
@@ -183,6 +197,10 @@ public class PnlInfoJuego extends javax.swing.JPanel {
         this.lblNombreUsuario.setText(nombre);
     }
 
+    public void setLblVida(String vida) {
+        this.lblVida.setText(vida);
+    }
+
     public String getLblTiempo() {
         return this.lblTiempo.getText().trim();
     }
@@ -206,6 +224,7 @@ public class PnlInfoJuego extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JSeparator jSeparator;
     private javax.swing.JLabel lblCuartoMT;
     private javax.swing.JLabel lblNombreUsuario;
@@ -213,6 +232,7 @@ public class PnlInfoJuego extends javax.swing.JPanel {
     private javax.swing.JLabel lblSegundoMT;
     private javax.swing.JLabel lblTercerMT;
     private javax.swing.JLabel lblTiempo;
+    private javax.swing.JLabel lblVida;
     // End of variables declaration//GEN-END:variables
 
     public static final String BTN_CARGAR = "Cargar partida";
