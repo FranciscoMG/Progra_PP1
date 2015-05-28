@@ -6,8 +6,6 @@
 package modelo;
 
 import java.awt.Rectangle;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import vista.PanelJuego;
 
 /**
@@ -87,7 +85,6 @@ public class HiloColisionGanoPrimerJugador extends Thread {
                 }
 
             } catch (InterruptedException ex) {
-                Logger.getLogger(HiloColisionGanoPrimerJugador.class.getName()).log(Level.SEVERE, null, ex);
             }
 
         }

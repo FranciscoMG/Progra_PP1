@@ -81,18 +81,12 @@ public class ControlJuego implements ActionListener, KeyListener, MouseListener 
         }
         if (e.getActionCommand().equalsIgnoreCase(PnlInfoJuego.BTN_NUEVA)) {
             if (GUIJuego.mensaje("Se cerrará la sesión de juego actual y se perderá el progreso\n¿Deseas iniciar un nuevo juego?", 1, 1) == 0) {
-                GUIOpciones guiOpciones = new GUIOpciones(true, this.panelInfo.getLblNombreUsuario());
-                guiOpciones.setVisible(true);
-                this.guiJuego.dispose();
-                this.registroJuego.detenerHilos();
+                muestraPantalla(true);
             }
         }
         if (e.getActionCommand().equalsIgnoreCase(PnlInfoJuego.BTN_CARGAR)) {
             if (GUIJuego.mensaje("¿Deseas cargar una partida?", 1, 1) == 0) {
-                GUIOpciones guiOpciones = new GUIOpciones(false, this.panelInfo.getLblNombreUsuario());
-                guiOpciones.setVisible(true);
-                this.guiJuego.dispose();
-                this.registroJuego.detenerHilos();
+                muestraPantalla(false);
             }
         }
         if (e.getActionCommand().equalsIgnoreCase(PnlInfoJuego.BTN_SALIR)) {
@@ -116,5 +110,12 @@ public class ControlJuego implements ActionListener, KeyListener, MouseListener 
     }
 
     public void mouseExited(MouseEvent me) {
+    }
+
+    public void muestraPantalla(boolean esNuevoJuego) {
+        GUIOpciones guiOpciones = new GUIOpciones(esNuevoJuego, this.panelInfo.getLblNombreUsuario());
+        guiOpciones.setVisible(true);
+        this.guiJuego.dispose();
+        this.registroJuego.detenerHilos();
     }
 }

@@ -90,7 +90,7 @@ public class RegistroJuego {
             }
             hiloPlataformas = new HiloPlataformas(jugador, hiloJugador);
             hiloPlataformas.start();
-            hiloColicionador = new HiloColisionador(tortugas, jugador);
+            hiloColicionador = new HiloColisionador(panelInfo, tortugas, jugador);
             hiloColicionador.start();
             panelJuego.setBala(bala);
             this.hiloBala = new HiloBala(100, 100, bala, jugador, panelJuego);
@@ -99,6 +99,7 @@ public class RegistroJuego {
             this.hiloColisionDisparo.start();
             this.hiloColisionGanoPrimerJugador = new HiloColisionGanoPrimerJugador(panelJuego, jugador);
             this.hiloColisionGanoPrimerJugador.start();
+            panelInfo.setLblVida(String.valueOf(jugador.getVidas()));
         } catch (Exception ex) {
             GUIJuego.mensaje("Ha ocurrido un error al cargar el juego", 0, 0);
         }
@@ -109,9 +110,23 @@ public class RegistroJuego {
         try {
             this.bala = new Bala(-100, -100);
             jugador = new Jugador(Integer.parseInt(partidaCargada.getChildText("vidas")), Integer.parseInt(partidaCargada.getChildText("pos-x")), Integer.parseInt(partidaCargada.getChildText("pos-y")));
+            jugador.setIsFirstPlayer(Boolean.parseBoolean(partidaCargada.getChildText("jugador")));
             panelJuego.setJugador(jugador);
             hiloJugador = new HiloJugador(panelJuego, jugador , this.alas);
             hiloJugador.start();
+            if (jugador.getIsFirstPlayer()) {
+                if (jugador.getLado()) {
+                    jugador.setImgPers(jugador.imgPersDer);
+                } else {
+                    jugador.setImgPers(jugador.imgPersIzq);
+                }
+            } else {
+                if (jugador.getLado()) {
+                    jugador.setImgPers(jugador.imgPersDer2);
+                } else {
+                    jugador.setImgPers(jugador.imgPersIzq2);
+                }
+            }
             List<Element> listaTortugas = partidaCargada.getChildren("tortuga");
             for (int i = 0; i < listaTortugas.size(); i++) {
                 if (Integer.parseInt(listaTortugas.get(i).getChildText("pos-x")) < 249 && Integer.parseInt(listaTortugas.get(i).getChildText("pos-y")) == 423) {
@@ -125,15 +140,15 @@ public class RegistroJuego {
                     tortugas.add(new Tortuga(1, Integer.parseInt(listaTortugas.get(i).getChildText("pos-x")), 263, 193, 569));
                 }
                 if (Boolean.parseBoolean(listaTortugas.get(i).getChildText("lado")) == true) {
-                    tortugas.get(i).setImgPers(tortugas.get(i).imgPersDer);
-                } else {
                     tortugas.get(i).setImgPers(tortugas.get(i).imgPersIzq);
+                } else {
+                    tortugas.get(i).setImgPers(tortugas.get(i).imgPersDer);
                 }
             }
             panelJuego.setTortuga(tortugas);
             for (int i = 0; i < tortugas.size(); i++) {
                 hiloTortugas.add(new HiloTortuga(panelJuego, tortugas.get(i)));
-                if (hiloTortugas.get(i).lado) {
+                if (hiloTortugas.get(i).tortuga.getLado()) {
                     hiloTortugas.get(i).direccionX = 1;
                 } else {
                     hiloTortugas.get(i).direccionX = -1;
@@ -142,7 +157,7 @@ public class RegistroJuego {
             }
             hiloPlataformas = new HiloPlataformas(jugador, hiloJugador);
             hiloPlataformas.start();
-            hiloColicionador = new HiloColisionador(tortugas, jugador);
+            hiloColicionador = new HiloColisionador(panelInfo, tortugas, jugador);
             hiloColicionador.start();
             panelJuego.setBala(bala);
             this.hiloBala = new HiloBala(100, 100, bala, jugador, panelJuego);
@@ -151,7 +166,8 @@ public class RegistroJuego {
             this.hiloColisionDisparo.start();
             this.hiloColisionGanoPrimerJugador = new HiloColisionGanoPrimerJugador(panelJuego, jugador);
             this.hiloColisionGanoPrimerJugador.start();
-            hiloTiempo = new HiloTiempo(panelInfo);
+            panelInfo.setLblVida(String.valueOf(jugador.getVidas()));
+            hiloTiempo = new HiloTiempo(panelInfo, jugador);
             this.hiloTiempo.setTiempo(partidaCargada.getChildText("tiempo"));
             this.hiloTiempo.start();
         } catch (Exception ex) {
@@ -174,12 +190,14 @@ public class RegistroJuego {
         Element eJugVidas = new Element("vidas");
         Element eJugPosX = new Element("pos-x");
         Element eJugPosY = new Element("pos-y");
+        Element eJugLado = new Element("lado-jugador");
         eNombrePartida.addContent("Partida" + (raiz.getChildren().size() + 1) + "(" + System.nanoTime() + ")");
         eTiempo.addContent(this.panelInfo.getLblTiempo());
         eJug.addContent(String.valueOf(jugador.getIsFirstPlayer()));
         eJugVidas.addContent(String.valueOf(jugador.getVidas()));
         eJugPosX.addContent(String.valueOf(jugador.getPosX()));
         eJugPosY.addContent(String.valueOf(jugador.getPosY()));
+        eJugLado.addContent(String.valueOf(jugador.getLado()));
         ePartida.setAttribute(aUsuario);
         ePartida.addContent(eNombrePartida);
         ePartida.addContent(eTiempo);
@@ -187,13 +205,14 @@ public class RegistroJuego {
         ePartida.addContent(eJugVidas);
         ePartida.addContent(eJugPosX);
         ePartida.addContent(eJugPosY);
+        ePartida.addContent(eJugLado);
         for (HiloTortuga hiloTortuga : hiloTortugas) {
             if (hiloTortuga.isAlive()) {
                 Element eTortuga = new Element("tortuga");
                 Element eLado = new Element("lado");
                 Element eTorPosX = new Element("pos-x");
                 Element eTorPosY = new Element("pos-y");
-                eLado.addContent(String.valueOf(hiloTortuga.lado));
+                eLado.addContent(String.valueOf(hiloTortuga.tortuga.getLado()));
                 eTorPosX.addContent(String.valueOf(hiloTortuga.tortuga.getPosX()));
                 eTorPosY.addContent(String.valueOf(hiloTortuga.tortuga.getPosY()));
                 eTortuga.addContent(eLado);
@@ -228,7 +247,7 @@ public class RegistroJuego {
                 this.jugador.setImgPers(jugador.imgPersIzq2);
             }
         }
-        this.jugador.setDerecha(false);
+        this.jugador.setLado(false);
     }
 
     public void movJugDer(int x, boolean camina) {
@@ -246,12 +265,12 @@ public class RegistroJuego {
                 this.jugador.setImgPers(jugador.imgPersDer2);
             }
         }
-        this.jugador.setDerecha(true);
+        this.jugador.setLado(true);
     }
 
     /////////////////////////////////////////////////////////////////////////
     public void iniciarTiempo() {
-        hiloTiempo = new HiloTiempo(panelInfo);
+        hiloTiempo = new HiloTiempo(panelInfo, jugador);
         hiloTiempo.start();
     }
 

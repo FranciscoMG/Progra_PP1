@@ -17,9 +17,11 @@ public class HiloTiempo extends Thread {
     private int segundos;
     private String tiempo;
     private PnlInfoJuego pnlInfoJuego;
+    private final Jugador jugador;
 
-    public HiloTiempo(PnlInfoJuego panelInfo) {
+    public HiloTiempo(PnlInfoJuego panelInfo, Jugador jugador) {
         this.pnlInfoJuego = panelInfo;
+        this.jugador = jugador;
     }
 
     ///////////////////////////////////////////////////////////////////////////
@@ -48,8 +50,16 @@ public class HiloTiempo extends Thread {
                         } else {
                             this.tiempo = minutos + ":" + segundos;
                         }
-                        this.sleep(1000);
+                        this.sleep(1063);
                         pnlInfoJuego.setLblTiempo(tiempo);
+                    }
+                    jugador.setVidas(jugador.getVidas() - 1);
+                    if (jugador.getIsFirstPlayer()) {
+                        jugador.setPosX(670);
+                        jugador.setPosY(578);
+                    } else {
+                        jugador.setPosX(150);
+                        jugador.setPosY(95);
                     }
                 }
             } catch (InterruptedException ex) {

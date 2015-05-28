@@ -28,9 +28,7 @@ public abstract class Personaje {
     public Image imgPersIzq2;
     public Image imgPersDer2Mov;
     public Image imgPersDer2;
-    private Boolean isFirstPlayer = true;
-
-    private boolean derecha;
+    private boolean lado;
 
     public Personaje(int vidas, int posX, int posY, String imgPersIzq, String imgPersDer, String imgP2Izquierda, String imgP2Derecha, String imgPersIzqMov, String imgPersDerMov, String imgP2IzquierdaMov, String imgP2DerechaMov) {
         this.vidas = vidas;
@@ -74,20 +72,12 @@ public abstract class Personaje {
         return imgPers;
     }
 
-    public boolean isDerecha() {
-        return derecha;
+    public boolean getLado() {
+        return lado;
     }
 
-    public void setDerecha(boolean derecha) {
-        this.derecha = derecha;
-    }
-
-    public Boolean getIsFirstPlayer() {
-        return isFirstPlayer;
-    }
-
-    public void setIsFirstPlayer(Boolean isFirstPlayer) {
-        this.isFirstPlayer = isFirstPlayer;
+    public void setLado(boolean lado) {
+        this.lado = lado;
     }
 
     public void setImgPers(Image imgPers) {

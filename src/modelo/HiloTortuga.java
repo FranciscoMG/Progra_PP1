@@ -16,7 +16,6 @@ public class HiloTortuga extends Thread {
     private PanelJuego panelJuego;
     public Tortuga tortuga;
     public int direccionX;
-    public boolean lado;
 
     public HiloTortuga(PanelJuego panelJuego, Tortuga tortuga) {
         this.panelJuego = panelJuego;
@@ -28,12 +27,12 @@ public class HiloTortuga extends Thread {
             try {
                 HiloTortuga.sleep(20);
                 if (this.tortuga.getPosX() == this.tortuga.getLimiteInicio()) {
-                    lado = true;
+                    this.tortuga.setLado(true);
                     direccionX = 1;
                     this.tortuga.setImgPers(tortuga.imgPersDer);
                 }
                 if (this.tortuga.getPosX() == this.tortuga.getLimiteFinal()) {
-                    lado = false;
+                    this.tortuga.setLado(false);
                     direccionX = -1;
                     this.tortuga.setImgPers(tortuga.imgPersIzq);
                 }

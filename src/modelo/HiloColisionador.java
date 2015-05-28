@@ -7,8 +7,7 @@ package modelo;
 
 import java.awt.Rectangle;
 import java.util.ArrayList;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import vista.PnlInfoJuego;
 
 /**
  *
@@ -18,18 +17,16 @@ public class HiloColisionador extends Thread {
 
     private ArrayList<Tortuga> listaT;
     private Jugador jugador;
-
     private Rectangle colicionadorTortugas;
-//    private Rectangle colicionadorTortugas2;
-//    private Rectangle colicionadorTortugas3;
     private Rectangle colicionadorJugador;
     private int cantidadColiciones = 0;
+    private final PnlInfoJuego panelInfo;
 
     ///----------------------------------------------------------------------
-    public HiloColisionador(ArrayList<Tortuga> listaTortugas, Jugador jugador) {
+    public HiloColisionador(PnlInfoJuego panelInfo, ArrayList<Tortuga> listaTortugas, Jugador jugador) {
         this.listaT = listaTortugas;
         this.jugador = jugador;
-
+        this.panelInfo = panelInfo;
         this.colicionadorJugador = new Rectangle(jugador.getPosX(), jugador.getPosY(), 60, 108);
         this.colicionadorTortugas = new Rectangle();
     }
@@ -45,24 +42,25 @@ public class HiloColisionador extends Thread {
         try {
             while (true) {
                 sleep(500);
-
                 this.colicionadorJugador.setBounds(jugador.getPosX(), jugador.getPosY(), 60, 108);
-
                 for (int index = 0; index < listaT.size(); index++) {
                     colicionadorTortugas.setBounds(listaT.get(index).getPosX(), listaT.get(index).getPosY(), 50, 50);
                     if (isColision()) {
                         cantidadColiciones++;
                         jugador.setVidas(jugador.getVidas() - 1);
-                        if (jugador.getVidas() == 0) {
-                            //terminar juego
+                        panelInfo.setLblVida(String.valueOf(jugador.getVidas()));
+                        if (jugador.getIsFirstPlayer()) {
+                            jugador.setPosX(670);
+                            jugador.setPosY(578);
+                        } else {
+                            jugador.setPosX(150);
+                            jugador.setPosY(95);
                         }
-                        System.err.println("vidas del jugador " + jugador.getVidas());
                         sleep(5000);
                     }
                 } // fin de for
             }
         } catch (InterruptedException ex) {
-            Logger.getLogger(HiloColisionador.class.getName()).log(Level.SEVERE, null, ex);
         }
     } // Fin de metodo run
 

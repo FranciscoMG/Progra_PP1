@@ -5,8 +5,6 @@
  */
 package modelo;
 
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import vista.PanelJuego;
 
 /**
@@ -73,14 +71,11 @@ public class HiloBala extends Thread {
     public void run() {
         try {
             while (true) {
-
                 sleep(50);
-
                 if (disparar) {
                     bala.setX(personaje.getPosX());
                     bala.setY(personaje.getPosY());
-
-                    if (personaje.isDerecha()) {
+                    if (personaje.getLado()) {
                         while (bala.getX() < 840) {
                             sleep(20);
                             bala.setX(bala.getX() + 10);
@@ -98,7 +93,6 @@ public class HiloBala extends Thread {
                 panelJuego.repaint();
             }
         } catch (InterruptedException ex) {
-            Logger.getLogger(HiloBala.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 
