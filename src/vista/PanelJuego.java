@@ -41,9 +41,6 @@ public class PanelJuego extends javax.swing.JPanel {
     public void activarPuntos() {
         pow = new ImageIcon(getClass().getResource("/img/1.gif")).getImage();
     }
-    public void desactivarPuntos () {
-        pow = new ImageIcon(getClass().getResource("/img/pow0.png")).getImage();
-    }
     public void activarAlas () {
             alas = new ImageIcon(getClass().getResource("/img/alas.gif")).getImage();
     }
@@ -54,7 +51,7 @@ public class PanelJuego extends javax.swing.JPanel {
     public void paint(Graphics g) {
         super.paint(g);
         g.drawImage(pow, 383, 473, this);
-        g.drawImage(alas, 100, 550, this);
+        g.drawImage(alas, 100, 550, 140,100, this);
         jugador.pintarPersonaje(g);
         for (int i = 0; i < tortugas.size(); i++) {
             tortugas.get(i).pintarPersonaje(g);

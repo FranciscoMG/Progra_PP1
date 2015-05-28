@@ -41,6 +41,7 @@ public class HiloColisionGanoPrimerJugador extends Thread {
             return false;
         }
     }
+
     public boolean isColisionIzquierda() {
         if (colisionadorJugador.intersects(meta1)) {
             return true;
@@ -48,7 +49,8 @@ public class HiloColisionGanoPrimerJugador extends Thread {
             return false;
         }
     }
-    public boolean isColicionPow () {
+
+    public boolean isColicionPow() {
         return colisionadorJugador.intersects(pow);
     }
 
@@ -59,26 +61,28 @@ public class HiloColisionGanoPrimerJugador extends Thread {
 
                 colisionadorJugador.setBounds(jugador.getPosX(), jugador.getPosY(), 60, 108);
 
-                if (isColisionDerecha()) {
-                    jugador.setIsFirstPlayer(false); // Si el jugador coliciona con la meta 
-                    jugador.setPosX(150);
-                    jugador.setPosY(95);
-                    jugador.setImgPers(jugador.imgPersDer2);
-                    panelJuego.activarPow();
+                if (jugador.getIsFirstPlayer()) {
+                    if (isColisionDerecha()) {
+                        jugador.setIsFirstPlayer(false); // Si el jugador coliciona con la meta 
+                        jugador.setPosX(150);
+                        jugador.setPosY(95);
+                        jugador.setImgPers(jugador.imgPersDer2);
+                        panelJuego.activarPow();
+                    }
+                    if (isColisionIzquierda()) {
+                        jugador.setIsFirstPlayer(false); // Si el jugador coliciona con la meta 
+                        jugador.setPosX(600);
+                        jugador.setPosY(95);
+                        jugador.setImgPers(jugador.imgPersIzq2);
+                        panelJuego.activarPow();
+                    }
                 }
-                if (isColisionIzquierda()) {
-                    jugador.setIsFirstPlayer(false); // Si el jugador coliciona con la meta 
-                    jugador.setPosX(600);
-                    jugador.setPosY(95);
-                    jugador.setImgPers(jugador.imgPersIzq2);
-                    panelJuego.activarPow();
-                }
-                if (jugador.getIsFirstPlayer() == false){
+                if (jugador.getIsFirstPlayer() == false) {
                     if (isColicionPow()) {
                         panelJuego.activarPuntos();
-                        
+                        System.err.println("Estrella  <== HiloColicionGanoPrimero");
                         sleep(2500);
-                        panelJuego.desactivarPuntos();
+                        panelJuego.activarPow();
                     }
                 }
 
