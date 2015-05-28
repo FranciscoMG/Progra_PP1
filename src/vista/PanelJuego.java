@@ -23,6 +23,7 @@ public class PanelJuego extends javax.swing.JPanel {
     private ArrayList<Tortuga> tortugas;
     private Bala bala;
     private Image pow;
+    private Image alas;
 
     /**
      * Creates new form PanelJuego1
@@ -30,21 +31,36 @@ public class PanelJuego extends javax.swing.JPanel {
     public PanelJuego() {
         initComponents();
         pow = new ImageIcon(getClass().getResource("/img/pow0.png")).getImage();
+        alas = new ImageIcon(getClass().getResource("/img/alas.gif")).getImage();
     }
 
     public void activarPow() {
         this.pow = new ImageIcon(getClass().getResource("/img/pow.png")).getImage();
     }
 
+    public void activarPuntos() {
+        pow = new ImageIcon(getClass().getResource("/img/1.gif")).getImage();
+    }
+    public void desactivarPuntos () {
+        pow = new ImageIcon(getClass().getResource("/img/pow0.png")).getImage();
+    }
+    public void activarAlas () {
+            alas = new ImageIcon(getClass().getResource("/img/alas.gif")).getImage();
+    }
+    public void desactivarAlas () {
+    
+    }
+
     public void paint(Graphics g) {
         super.paint(g);
         g.drawImage(pow, 383, 473, this);
+        g.drawImage(alas, 100, 550, this);
         jugador.pintarPersonaje(g);
         for (int i = 0; i < tortugas.size(); i++) {
             tortugas.get(i).pintarPersonaje(g);
         }
         bala.pintarBala(g);
-        
+
     }
 
     /**
