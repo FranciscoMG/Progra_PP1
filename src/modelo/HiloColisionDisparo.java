@@ -43,7 +43,7 @@ public class HiloColisionDisparo extends Thread {
 
                 for (int index = 0; index < listaTortugas.size(); index++) {
                     colicionadorBala.setBounds(bala.getX(), bala.getY(), 50, 25);
-                    colicionadorTortuga.setBounds(listaTortugas.get(index).getPosX(), listaTortugas.get(index).getPosY(), 60, 40);
+                    colicionadorTortuga.setBounds(listaTortugas.get(index).getPosX(), listaTortugas.get(index).getPosY(), 50, 50);
                     if (isColision()) {
                         System.err.println(" la bala colisiono");
                         listaTortugas.remove(index);

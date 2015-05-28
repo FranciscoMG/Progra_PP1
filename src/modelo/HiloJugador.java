@@ -65,8 +65,8 @@ public class HiloJugador extends Thread {
                 
                 if (salto || caida) {
                     this.alas.setImgPers(alas.imgPersDer);
-                    this.alas.setPosX(jugador.getPosX()-39);
-                    this.alas.setPosY(jugador.getPosY()-30);
+                    this.alas.setPosX(jugador.getPosX()-40);
+                    this.alas.setPosY(jugador.getPosY()-24);
                 } else {
                     this.alas.setImgPers(alas.imgPersIzq);
                 }

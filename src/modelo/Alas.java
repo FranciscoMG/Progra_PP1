@@ -19,7 +19,7 @@ public class Alas extends Personaje{
     
     
     public void pintarPersonaje(Graphics g) {
-        g.drawImage(this.getImgPers(), this.getPosX(), this.getPosY(), 140, 110, null);
+        g.drawImage(this.getImgPers(), this.getPosX(), this.getPosY(), 140, 100, null);
     }
     
 }
