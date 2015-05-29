@@ -98,7 +98,7 @@ public class RegistroUsuario {
         List<Element> listaUsuarios = (List<Element>) this.raiz.getChildren();
         for (Element elementoBuscar : listaUsuarios) {
             if (elementoBuscar.getChildText("nombre").equalsIgnoreCase(nombre)) {
-                return new Usuario(elementoBuscar.getChildText("nombre"), new String[]{elementoBuscar.getChildText("MT1"), elementoBuscar.getChildText("MT2"), elementoBuscar.getChildText("MT3"), elementoBuscar.getChildText("MT4")});
+                return new Usuario(elementoBuscar.getChildText("nombre"), new String[]{elementoBuscar.getChildText("MT1"), elementoBuscar.getChildText("MT2"), elementoBuscar.getChildText("MT3"), elementoBuscar.getChildText("MT4"), null});
             }
         }
         return null;
@@ -118,7 +118,7 @@ public class RegistroUsuario {
         ArrayList<Usuario> listaUsuarios = new ArrayList<>();
         List<Element> listaXml = (List<Element>) this.raiz.getChildren();
         for (Element elementos : listaXml) {
-            listaUsuarios.add(new Usuario(elementos.getChildText("nombre"), new String[]{elementos.getChildText("MT1"), elementos.getChildText("MT2"), elementos.getChildText("MT3"), elementos.getChildText("MT4")}));
+            listaUsuarios.add(new Usuario(elementos.getChildText("nombre"), new String[]{elementos.getChildText("MT1"), elementos.getChildText("MT2"), elementos.getChildText("MT3"), elementos.getChildText("MT4"), null}));
         }
         return listaUsuarios;
     }
