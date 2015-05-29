@@ -43,7 +43,8 @@ public class HiloColisionDisparo extends Thread {
                     if (isColision()) {
                         System.err.println(" la bala colisiono");
                         listaTortugas.remove(index);
-                        hiloTortugas.get(index).stop();
+                        hiloTortugas.get(index).stop();   
+                        hiloTortugas.remove(index);
                         sleep(3000);
                     }
                 }

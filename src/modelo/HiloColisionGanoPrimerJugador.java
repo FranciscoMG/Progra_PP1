@@ -76,7 +76,6 @@ public class HiloColisionGanoPrimerJugador extends Thread {
                 if (jugador.getIsFirstPlayer() == false) {
                     if (isColicionPow()) {
                         panelJuego.activarPuntos();
-                        System.err.println("Estrella  <== HiloColicionGanoPrimero");
                         sleep(2500);
                         panelJuego.activarPow();
                     }
