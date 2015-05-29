@@ -24,42 +24,45 @@
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="lblNombreUsuario" max="32767" attributes="0"/>
+                              <Component id="lblNombreUsuario" pref="304" max="32767" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="lblTiempo" min="-2" pref="246" max="-2" attributes="0"/>
+                              <Component id="lblTiempo" max="32767" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="lblVida" min="-2" pref="277" max="-2" attributes="0"/>
+                              <Component id="lblVida" max="32767" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace min="60" pref="46" max="32767" attributes="0"/>
+                      <EmptySpace min="60" max="32767" attributes="0"/>
                   </Group>
                   <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="jSeparator" alignment="0" min="-2" pref="341" max="-2" attributes="0"/>
                           <Component id="btnSalir" alignment="0" max="32767" attributes="0"/>
-                          <Component id="btnNuevaPartida" alignment="0" max="32767" attributes="0"/>
-                          <Component id="btnCargarPartida" alignment="0" max="32767" attributes="0"/>
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="lblCuartoMT" pref="223" max="32767" attributes="0"/>
-                                  <Component id="lblSegundoMT" alignment="0" min="-2" pref="202" max="-2" attributes="0"/>
-                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
-                                      <Component id="lblTercerMT" alignment="0" pref="215" max="32767" attributes="0"/>
-                                      <Component id="lblPrimerMT" alignment="0" max="32767" attributes="0"/>
-                                  </Group>
+                                  <Component id="lblCuartoMT" pref="238" max="32767" attributes="0"/>
+                                  <Component id="lblTercerMT" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="lblSegundoMT" max="32767" attributes="0"/>
+                                  <Component id="lblPrimerMT" alignment="0" max="32767" attributes="0"/>
                               </Group>
                           </Group>
-                          <Component id="btnGuardarPartida" alignment="0" max="32767" attributes="0"/>
+                          <Component id="btnNuevaPartida" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jSeparator" alignment="0" max="32767" attributes="0"/>
                       </Group>
-                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <EmptySpace min="0" pref="6" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="btnCargarPartida" alignment="0" max="32767" attributes="0"/>
+                          <Component id="btnGuardarPartida" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
                   </Group>
               </Group>
           </Group>
