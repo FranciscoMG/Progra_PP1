@@ -22,7 +22,7 @@ public class HiloJugador extends Thread {
     public boolean salto;
     public boolean caida;
 
-    public HiloJugador(PanelJuego panelJuego, Jugador jugador , Alas alas) {
+    public HiloJugador(PanelJuego panelJuego, Jugador jugador, Alas alas) {
         this.panelJuego = panelJuego;
         this.jugador = jugador;
         this.jugador.setImgPers(jugador.imgPersIzq);
@@ -50,9 +50,6 @@ public class HiloJugador extends Thread {
                     altura--;
                     direccionY = 1;
                     this.jugador.setPosY(jugador.getPosY() + direccionY * 3);
-                    if (altura == 0) {
-                        caida = false;
-                    }
                 }
                 this.jugador.setPosX(jugador.getPosX() + direccionX * 5);
                 direccionY = 0;
@@ -62,15 +59,15 @@ public class HiloJugador extends Thread {
                 if (jugador.getPosX() > 760) { // evita que se salga de +x
                     this.jugador.setPosX(jugador.getPosX() - 10);
                 }
-                
+
                 if (salto || caida) {
                     this.alas.setImgPers(alas.imgPersDer);
-                    this.alas.setPosX(jugador.getPosX()-40);
-                    this.alas.setPosY(jugador.getPosY()-24);
+                    this.alas.setPosX(jugador.getPosX() - 40);
+                    this.alas.setPosY(jugador.getPosY() - 24);
                 } else {
                     this.alas.setImgPers(alas.imgPersIzq);
                 }
-               
+
             } catch (InterruptedException ex) {
             }
             this.panelJuego.repaint();
