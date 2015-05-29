@@ -9,6 +9,7 @@ import controlador.ControlJuego;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import org.jdom2.Attribute;
 import org.jdom2.Document;
@@ -198,7 +199,7 @@ public class RegistroJuego {
         Element eJugPosX = new Element("pos-x");
         Element eJugPosY = new Element("pos-y");
         Element eJugLado = new Element("lado-jugador");
-        eNombrePartida.addContent("Partida" + (raiz.getChildren().size() + 1) + "(" + System.nanoTime() + ")");
+        eNombrePartida.addContent("Partida" + (raiz.getChildren().size() + 1) + "(" + String.valueOf(new Date().getDate()) + "/" + String.valueOf(new Date().getMonth() + 1) + "/" + String.valueOf(new Date().getYear() + 1900) + " " + String.valueOf(new Date().getHours()) + ":" + String.valueOf(new Date().getMinutes()) + ":" + String.valueOf(new Date().getSeconds()) + ")");
         eTiempo.addContent(this.panelInfo.getLblTiempo());
         eJug.addContent(String.valueOf(jugador.getIsFirstPlayer()));
         eJugVidas.addContent(String.valueOf(jugador.getVidas()));
