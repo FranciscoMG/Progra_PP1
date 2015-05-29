@@ -214,10 +214,26 @@ public class PnlInfoJuego extends javax.swing.JPanel {
     }
 
     public void setMejoresTiempos(String[] tiempos) {
-        this.lblPrimerMT.setText("1. " + tiempos[0]);
-        this.lblSegundoMT.setText("2. " + tiempos[1]);
-        this.lblTercerMT.setText("3. " + tiempos[2]);
-        this.lblCuartoMT.setText("4. " + tiempos[3]);
+        if (!tiempos[0].equals("9:59")) {
+            this.lblPrimerMT.setText("1. " + tiempos[0]);
+        } else {
+            this.lblPrimerMT.setVisible(false);
+        }
+        if (!tiempos[1].equals("9:59")) {
+            this.lblSegundoMT.setText("2. " + tiempos[1]);
+        } else {
+            this.lblSegundoMT.setVisible(false);
+        }
+        if (!tiempos[2].equals("9:59")) {
+            this.lblTercerMT.setText("3. " + tiempos[2]);
+        } else {
+            this.lblTercerMT.setVisible(false);
+        }
+        if (!tiempos[3].equals("9:59")) {
+            this.lblCuartoMT.setText("4. " + tiempos[3]);
+        } else {
+            this.lblCuartoMT.setVisible(false);
+        }
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
