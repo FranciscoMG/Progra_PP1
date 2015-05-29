@@ -5,8 +5,10 @@
  */
 package modelo;
 
+import controlador.ControlJuego;
 import java.awt.Rectangle;
 import java.util.ArrayList;
+import vista.GUIJuego;
 import vista.PnlInfoJuego;
 
 /**
@@ -21,14 +23,16 @@ public class HiloColisionador extends Thread {
     private Rectangle colicionadorJugador;
     private int cantidadColiciones = 0;
     private final PnlInfoJuego panelInfo;
+    private ControlJuego controlJuego;
 
     ///----------------------------------------------------------------------
-    public HiloColisionador(PnlInfoJuego panelInfo, ArrayList<Tortuga> listaTortugas, Jugador jugador) {
+    public HiloColisionador(PnlInfoJuego panelInfo, ArrayList<Tortuga> listaTortugas, Jugador jugador, ControlJuego controlJuego) {
         this.listaT = listaTortugas;
         this.jugador = jugador;
         this.panelInfo = panelInfo;
         this.colicionadorJugador = new Rectangle(jugador.getPosX(), jugador.getPosY(), 50, 50);
         this.colicionadorTortugas = new Rectangle();
+        this.controlJuego = controlJuego;
     }
 
     //////////////////////////////////////////////////////////////////////////
@@ -57,8 +61,10 @@ public class HiloColisionador extends Thread {
                             jugador.setPosY(95);
                         }
                         if (this.cantidadColiciones == 3) {
+                            GUIJuego.mensaje("Juego terminado", 0, 1);
+                            controlJuego.muestraPantallaInicio(true);
                         }
-                        
+
                         sleep(1000);
                     }
                 } // fin de for

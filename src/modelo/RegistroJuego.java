@@ -95,7 +95,7 @@ public class RegistroJuego {
             }
             hiloPlataformas = new HiloPlataformas(jugador, hiloJugador);
             hiloPlataformas.start();
-            hiloColicionador = new HiloColisionador(panelInfo, tortugas, jugador);
+            hiloColicionador = new HiloColisionador(panelInfo, tortugas, jugador, controlJuego);
             hiloColicionador.start();
             panelJuego.setBala(bala);
             this.hiloBala = new HiloBala(100, 100, bala, jugador, panelJuego);
@@ -165,7 +165,7 @@ public class RegistroJuego {
             }
             hiloPlataformas = new HiloPlataformas(jugador, hiloJugador);
             hiloPlataformas.start();
-            hiloColicionador = new HiloColisionador(panelInfo, tortugas, jugador);
+            hiloColicionador = new HiloColisionador(panelInfo, tortugas, jugador , controlJuego);
             hiloColicionador.start();
             panelJuego.setBala(bala);
             this.hiloBala = new HiloBala(100, 100, bala, jugador, panelJuego);
@@ -315,6 +315,7 @@ public class RegistroJuego {
     }
 
     public void detenerHilos() {
+        this.hiloJugador.direccionX = 0;
         this.hiloJugador.stop();
         for (int i = tortugas.size() - 1; i >= 0; i--) {
             this.hiloTortugas.get(i).stop();

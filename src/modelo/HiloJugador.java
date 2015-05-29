@@ -16,7 +16,7 @@ public class HiloJugador extends Thread {
     private PanelJuego panelJuego;
     private Jugador jugador;
     private Alas alas;
-    public static int direccionX;
+    public int direccionX;
     public int direccionY;
     public int altura = 0;
     public boolean salto;
