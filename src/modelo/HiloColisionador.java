@@ -48,9 +48,9 @@ public class HiloColisionador extends Thread {
                 sleep(200);
                 this.colicionadorJugador.setBounds(jugador.getPosX(), jugador.getPosY(), 60, 60);
                 for (int index = 0; index < listaT.size(); index++) {
-                    colicionadorTortugas.setBounds(listaT.get(index).getPosX(), listaT.get(index).getPosY(), 50, 50);
+                    this.colicionadorTortugas.setBounds(listaT.get(index).getPosX(), listaT.get(index).getPosY(), 50, 50);
                     if (isColision()) {
-                        cantidadColiciones++;
+                        this.cantidadColiciones++;
                         jugador.setVidas(jugador.getVidas() - 1);
                         panelInfo.setLblVida(String.valueOf(jugador.getVidas()));
                         if (jugador.getIsFirstPlayer()) {
@@ -61,10 +61,9 @@ public class HiloColisionador extends Thread {
                             jugador.setPosY(95);
                         }
                         if (this.cantidadColiciones == 3) {
-                            GUIJuego.mensaje("Juego terminado", 0, 1);
+                            GUIJuego.mensaje("Ya no tienes más vidas ¡Juego terminado!", 0, 1);
                             controlJuego.muestraPantallaInicio(true);
                         }
-
                         sleep(1000);
                     }
                 } // fin de for

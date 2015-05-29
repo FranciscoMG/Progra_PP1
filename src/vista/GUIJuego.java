@@ -24,7 +24,6 @@ public class GUIJuego extends javax.swing.JFrame {
         initComponents();
         ControlJuego controlJuego = new ControlJuego(this, panelJuego1, panelInfo2, registroJuego, esNuevo);
         this.setLocationRelativeTo(null);
-        this.panelJuego1.addMouseListener(controlJuego);
         this.panelInfo2.cargarUsuario(registroUsuario, usuario);
         this.panelInfo2.listenPanel(controlJuego);
     }

@@ -14,7 +14,7 @@ import modelo.Usuario;
  * @author francisco
  */
 public class PnlInfoJuego extends javax.swing.JPanel {
-
+    
     public Usuario usuarioActual;
     public RegistroUsuario registroUsuario;
 
@@ -54,60 +54,75 @@ public class PnlInfoJuego extends javax.swing.JPanel {
         setBackground(new java.awt.Color(192, 242, 220));
 
         jLabel1.setFont(new java.awt.Font("Purisa", 0, 14)); // NOI18N
+        jLabel1.setForeground(java.awt.Color.black);
         jLabel1.setText("Usuario:");
 
         lblNombreUsuario.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
+        lblNombreUsuario.setForeground(java.awt.Color.black);
         lblNombreUsuario.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblNombreUsuario.setText("##########");
         lblNombreUsuario.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
         jLabel2.setFont(new java.awt.Font("Purisa", 0, 14)); // NOI18N
+        jLabel2.setForeground(java.awt.Color.black);
         jLabel2.setText("Tiempo:");
 
         lblTiempo.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
+        lblTiempo.setForeground(java.awt.Color.black);
         lblTiempo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblTiempo.setText("0:00");
         lblTiempo.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
         jLabel3.setFont(new java.awt.Font("Purisa", 0, 14)); // NOI18N
+        jLabel3.setForeground(java.awt.Color.black);
         jLabel3.setText("Mejores tiempos:");
 
         lblPrimerMT.setFont(new java.awt.Font("DejaVu Sans", 0, 14)); // NOI18N
+        lblPrimerMT.setForeground(java.awt.Color.black);
         lblPrimerMT.setText("1. #:##");
 
         lblSegundoMT.setFont(new java.awt.Font("DejaVu Sans", 0, 14)); // NOI18N
+        lblSegundoMT.setForeground(java.awt.Color.black);
         lblSegundoMT.setText("2. #:##");
 
         lblTercerMT.setFont(new java.awt.Font("DejaVu Sans", 0, 14)); // NOI18N
+        lblTercerMT.setForeground(java.awt.Color.black);
         lblTercerMT.setText("3. #:##");
 
         lblCuartoMT.setFont(new java.awt.Font("DejaVu Sans", 0, 14)); // NOI18N
+        lblCuartoMT.setForeground(java.awt.Color.black);
         lblCuartoMT.setText("4. #:##");
 
         btnGuardarPartida.setBackground(new java.awt.Color(170, 174, 253));
         btnGuardarPartida.setFont(new java.awt.Font("DejaVu Sans", 0, 14)); // NOI18N
+        btnGuardarPartida.setForeground(java.awt.Color.black);
         btnGuardarPartida.setText("Guardar partida");
         btnGuardarPartida.setFocusable(false);
 
         btnCargarPartida.setBackground(new java.awt.Color(255, 252, 160));
         btnCargarPartida.setFont(new java.awt.Font("DejaVu Sans", 0, 14)); // NOI18N
+        btnCargarPartida.setForeground(java.awt.Color.black);
         btnCargarPartida.setText("Cargar partida");
         btnCargarPartida.setFocusable(false);
 
         btnNuevaPartida.setBackground(new java.awt.Color(182, 253, 184));
         btnNuevaPartida.setFont(new java.awt.Font("DejaVu Sans", 0, 14)); // NOI18N
+        btnNuevaPartida.setForeground(java.awt.Color.black);
         btnNuevaPartida.setText("Nueva partida");
         btnNuevaPartida.setFocusable(false);
 
         btnSalir.setBackground(new java.awt.Color(254, 169, 169));
         btnSalir.setFont(new java.awt.Font("DejaVu Sans", 0, 14)); // NOI18N
+        btnSalir.setForeground(java.awt.Color.black);
         btnSalir.setText("Salir del juego");
         btnSalir.setFocusable(false);
 
         jLabel4.setFont(new java.awt.Font("Purisa", 0, 14)); // NOI18N
+        jLabel4.setForeground(java.awt.Color.black);
         jLabel4.setText("Vidas:");
 
         lblVida.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
+        lblVida.setForeground(java.awt.Color.black);
         lblVida.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblVida.setText("0");
         lblVida.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -135,23 +150,21 @@ public class PnlInfoJuego extends javax.swing.JPanel {
                                 .addComponent(lblVida, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(layout.createSequentialGroup()
+                        .addComponent(jLabel3)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel3)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(lblCuartoMT, javax.swing.GroupLayout.DEFAULT_SIZE, 238, Short.MAX_VALUE)
-                                    .addComponent(lblTercerMT, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(lblSegundoMT, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(lblPrimerMT, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                            .addComponent(jSeparator))
+                            .addComponent(lblCuartoMT, javax.swing.GroupLayout.DEFAULT_SIZE, 238, Short.MAX_VALUE)
+                            .addComponent(lblTercerMT, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(lblSegundoMT, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(lblPrimerMT, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addGap(0, 12, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(btnSalir, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(btnNuevaPartida, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(btnCargarPartida, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(btnGuardarPartida, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jSeparator)
+                            .addComponent(btnSalir, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(btnNuevaPartida, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(btnCargarPartida, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(btnGuardarPartida, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addContainerGap())))
         );
         layout.setVerticalGroup(
@@ -196,23 +209,23 @@ public class PnlInfoJuego extends javax.swing.JPanel {
     public String getLblNombreUsuario() {
         return this.lblNombreUsuario.getText().trim();
     }
-
+    
     public void setLblNombreUsuario(String nombre) {
         this.lblNombreUsuario.setText(nombre);
     }
-
+    
     public void setLblVida(String vida) {
         this.lblVida.setText(vida);
     }
-
+    
     public String getLblTiempo() {
         return this.lblTiempo.getText().trim();
     }
-
+    
     public void setLblTiempo(String tiempo) {
         this.lblTiempo.setText(tiempo);
     }
-
+    
     public void setMejoresTiempos(String[] tiempos) {
         if (!tiempos[0].equals("9:59")) {
             this.lblPrimerMT.setText("1. " + tiempos[0]);
@@ -233,6 +246,10 @@ public class PnlInfoJuego extends javax.swing.JPanel {
             this.lblCuartoMT.setText("4. " + tiempos[3]);
         } else {
             this.lblCuartoMT.setVisible(false);
+        }
+        if (!this.lblPrimerMT.isVisible() && !this.lblSegundoMT.isVisible() && !this.lblTercerMT.isVisible() && !this.lblCuartoMT.isVisible()) {
+            this.lblPrimerMT.setVisible(true);
+            this.lblPrimerMT.setText("¡No hay tiempos registrados!");
         }
     }
 
@@ -259,14 +276,14 @@ public class PnlInfoJuego extends javax.swing.JPanel {
     public static final String BTN_GUARDAR = "Guardar partida";
     public static final String BTN_NUEVA = "Nueva partida";
     public static final String BTN_SALIR = "Salir del juego";
-
+    
     public void listenPanel(ActionListener control) {
         this.btnCargarPartida.addActionListener(control);
         this.btnGuardarPartida.addActionListener(control);
         this.btnNuevaPartida.addActionListener(control);
         this.btnSalir.addActionListener(control);
     }
-
+    
     public void cargarUsuario(RegistroUsuario registroUsuario, Usuario usuario) {
         this.registroUsuario = registroUsuario;
         this.usuarioActual = usuario;

@@ -9,8 +9,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
 import java.io.IOException;
 import modelo.RegistroJuego;
 import vista.GUIJuego;
@@ -22,7 +20,7 @@ import vista.PnlInfoJuego;
  *
  * @author francisco
  */
-public class ControlJuego implements ActionListener, KeyListener, MouseListener {
+public class ControlJuego implements ActionListener, KeyListener {
 
     private GUIJuego guiJuego;
     private PanelJuego panelJuego;
@@ -98,26 +96,10 @@ public class ControlJuego implements ActionListener, KeyListener, MouseListener 
         }
     }
 
-    public void mouseClicked(MouseEvent me) {
-        System.err.println("x " + me.getX() + " y " + me.getY());
-    }
-
-    public void mousePressed(MouseEvent me) {
-    }
-
-    public void mouseReleased(MouseEvent me) {
-    }
-
-    public void mouseEntered(MouseEvent me) {
-    }
-
-    public void mouseExited(MouseEvent me) {
-    }
-
     public void muestraPantallaInicio(boolean esNuevoJuego) {
         guiOpciones = new GUIOpciones(esNuevoJuego, this.panelInfo.getLblNombreUsuario());
-        guiOpciones.setVisible(true);
+        this.guiOpciones.setVisible(true);
         this.guiJuego.dispose();
-        this.registroJuego.detenerHilos();
+        registroJuego.detenerHilos();
     }
 }

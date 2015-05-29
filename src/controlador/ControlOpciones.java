@@ -34,28 +34,28 @@ public class ControlOpciones implements ActionListener {
         File existeXml = new File("usuarios.xml");
         if (existeXml.exists()) {
             try {
-                registroUsuario = RegistroUsuario.abrirDocumento("usuarios.xml");
+                this.registroUsuario = RegistroUsuario.abrirDocumento("usuarios.xml");
             } catch (JDOMException | IOException ex) {
                 GUIOpciones.mensaje("Ha ocurrido un error al obtener la lista de los usuarios", 0);
                 System.exit(0);
             }
         } else {
             try {
-                registroUsuario = RegistroUsuario.crearDocumento("usuarios.xml");
+                this.registroUsuario = RegistroUsuario.crearDocumento("usuarios.xml");
             } catch (IOException ex) {
             }
         }
         existeXml = new File("partidas.xml");
         if (existeXml.exists()) {
             try {
-                registroJuego = RegistroJuego.abrirDocumento("partidas.xml");
+                this.registroJuego = RegistroJuego.abrirDocumento("partidas.xml");
             } catch (JDOMException | IOException ex) {
                 GUIOpciones.mensaje("Ha ocurrido un error al obtener la lista de las partidas", 0);
                 System.exit(0);
             }
         } else {
             try {
-                registroJuego = RegistroJuego.crearDocumento("partidas.xml");
+                this.registroJuego = RegistroJuego.crearDocumento("partidas.xml");
             } catch (IOException ex) {
             }
         }
@@ -65,7 +65,7 @@ public class ControlOpciones implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         if (e.getActionCommand().equalsIgnoreCase(PanelOpciones.BTN_EMPEZAR)) {
             if (panelOpciones.getRbExistente() || panelOpciones.getRbNuevo()) {
-                Usuario usuarioEscogido = registroUsuario.getUsuario(panelOpciones.getCboUsuarios());
+                Usuario usuarioEscogido = this.registroUsuario.getUsuario(panelOpciones.getCboUsuarios());
                 if (panelOpciones.getRbNuevo() && panelOpciones.getTxtNuevo() == null) {
                     GUIOpciones.mensaje("El campo Nuevo usuario no puede estar vacío", 2);
                     usuarioEscogido = null;
@@ -91,7 +91,7 @@ public class ControlOpciones implements ActionListener {
         }
         if (e.getActionCommand().equalsIgnoreCase(PanelOpciones.BTN_CARGAR)) {
             GUIJuego guiJuego = new GUIJuego(this.registroUsuario.getUsuario(this.panelOpciones.getTxtUsuario()), this.registroJuego, this.registroUsuario, false);
-            this.registroJuego.cargarPartida(this.panelOpciones.getCboPartidas());
+            this.registroJuego.cargarPartida(panelOpciones.getCboPartidas());
             guiJuego.setVisible(true);
             guiOpciones.dispose();
         }
