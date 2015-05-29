@@ -94,8 +94,8 @@ public class PanelJuego extends javax.swing.JPanel {
     public void setBala(Bala bala) {
         this.bala = bala;
     }
-    
-    public void setAlas (Alas alas) {
+
+    public void setAlas(Alas alas) {
         this.alas = alas;
     }
 

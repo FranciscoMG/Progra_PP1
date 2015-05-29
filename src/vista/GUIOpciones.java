@@ -32,8 +32,8 @@ public class GUIOpciones extends javax.swing.JFrame {
         this.panelOpciones1.listenPanel(control);
         this.panelOpciones1.setTabActiva(tabActiva);
         if (nombre != null) {
-            this.panelOpciones1.setCboUsuarios(nombre);
             this.panelOpciones1.setTxtUsuario(nombre);
+            this.panelOpciones1.setCboPartidas(control.registroJuego.getPartidas(nombre));
         }
     }
 

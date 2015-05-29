@@ -26,7 +26,7 @@ public class ControlOpciones implements ActionListener {
     private GUIOpciones guiOpciones;
     private PanelOpciones panelOpciones;
     private RegistroUsuario registroUsuario;
-    private RegistroJuego registroJuego;
+    public RegistroJuego registroJuego;
 
     public ControlOpciones(GUIOpciones guiOpciones, PanelOpciones panelOpciones) {
         this.guiOpciones = guiOpciones;
@@ -60,7 +60,6 @@ public class ControlOpciones implements ActionListener {
             }
         }
         panelOpciones.setCboUsuarios(registroUsuario.getUsuarios());
-        panelOpciones.setCboPartidas(registroJuego.getPartidas(panelOpciones.getCboUsuarios()));
     }
 
     public void actionPerformed(ActionEvent e) {

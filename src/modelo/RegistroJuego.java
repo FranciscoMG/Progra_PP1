@@ -165,7 +165,7 @@ public class RegistroJuego {
             }
             hiloPlataformas = new HiloPlataformas(jugador, hiloJugador);
             hiloPlataformas.start();
-            hiloColicionador = new HiloColisionador(panelInfo, tortugas, jugador , controlJuego);
+            hiloColicionador = new HiloColisionador(panelInfo, tortugas, jugador, controlJuego);
             hiloColicionador.start();
             panelJuego.setBala(bala);
             this.hiloBala = new HiloBala(100, 100, bala, jugador, panelJuego);
