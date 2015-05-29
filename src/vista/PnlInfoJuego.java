@@ -51,6 +51,8 @@ public class PnlInfoJuego extends javax.swing.JPanel {
         jLabel4 = new javax.swing.JLabel();
         lblVida = new javax.swing.JLabel();
 
+        setBackground(new java.awt.Color(192, 242, 220));
+
         jLabel1.setFont(new java.awt.Font("Purisa", 0, 14)); // NOI18N
         jLabel1.setText("Usuario:");
 
@@ -82,18 +84,22 @@ public class PnlInfoJuego extends javax.swing.JPanel {
         lblCuartoMT.setFont(new java.awt.Font("DejaVu Sans", 0, 14)); // NOI18N
         lblCuartoMT.setText("4. #:##");
 
+        btnGuardarPartida.setBackground(new java.awt.Color(170, 174, 253));
         btnGuardarPartida.setFont(new java.awt.Font("DejaVu Sans", 0, 14)); // NOI18N
         btnGuardarPartida.setText("Guardar partida");
         btnGuardarPartida.setFocusable(false);
 
+        btnCargarPartida.setBackground(new java.awt.Color(255, 252, 160));
         btnCargarPartida.setFont(new java.awt.Font("DejaVu Sans", 0, 14)); // NOI18N
         btnCargarPartida.setText("Cargar partida");
         btnCargarPartida.setFocusable(false);
 
+        btnNuevaPartida.setBackground(new java.awt.Color(182, 253, 184));
         btnNuevaPartida.setFont(new java.awt.Font("DejaVu Sans", 0, 14)); // NOI18N
         btnNuevaPartida.setText("Nueva partida");
         btnNuevaPartida.setFocusable(false);
 
+        btnSalir.setBackground(new java.awt.Color(254, 169, 169));
         btnSalir.setFont(new java.awt.Font("DejaVu Sans", 0, 14)); // NOI18N
         btnSalir.setText("Salir del juego");
         btnSalir.setFocusable(false);
@@ -130,7 +136,6 @@ public class PnlInfoJuego extends javax.swing.JPanel {
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(btnSalir, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(jLabel3)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -139,11 +144,12 @@ public class PnlInfoJuego extends javax.swing.JPanel {
                                     .addComponent(lblTercerMT, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                     .addComponent(lblSegundoMT, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                     .addComponent(lblPrimerMT, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                            .addComponent(btnNuevaPartida, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jSeparator))
-                        .addGap(0, 6, Short.MAX_VALUE))
+                        .addGap(0, 12, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(btnSalir, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(btnNuevaPartida, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(btnCargarPartida, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(btnGuardarPartida, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addContainerGap())))
