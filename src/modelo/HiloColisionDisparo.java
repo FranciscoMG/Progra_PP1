@@ -7,8 +7,6 @@ package modelo;
 
 import java.awt.Rectangle;
 import java.util.ArrayList;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 /**
  *
@@ -38,9 +36,7 @@ public class HiloColisionDisparo extends Thread {
     public void run() {
         while (true) {
             try {
-
                 sleep(10);
-
                 for (int index = 0; index < listaTortugas.size(); index++) {
                     colicionadorBala.setBounds(bala.getX(), bala.getY(), 50, 25);
                     colicionadorTortuga.setBounds(listaTortugas.get(index).getPosX(), listaTortugas.get(index).getPosY(), 50, 50);
@@ -53,7 +49,6 @@ public class HiloColisionDisparo extends Thread {
                 }
 
             } catch (InterruptedException ex) {
-                Logger.getLogger(HiloColisionDisparo.class.getName()).log(Level.SEVERE, null, ex);
             }
         }
     }
