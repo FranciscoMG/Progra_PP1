@@ -77,32 +77,32 @@ public class RegistroJuego {
 
     public void iniciarJuegoNuevo() {
         try {
-            alas = new Alas(0, 0);
-            alas.setImgPers(alas.imgPersIzq);
+            this.alas = new Alas(0, 0);
+            this.alas.setImgPers(this.alas.imgPersIzq);
             this.bala = new Bala(-100, -100);
-            jugador = new Jugador(3, 670, 578);
-            panelJuego.setJugador(jugador);
-            panelJuego.setAlas(alas);
-            hiloJugador = new HiloJugador(panelJuego, jugador, alas);
-            hiloJugador.start();
-            tortugas.add(new Tortuga(1, 6, 423, 6, 248));
-            tortugas.add(new Tortuga(1, 514, 423, 514, 756));
-            tortugas.add(new Tortuga(1, 193, 263, 193, 569));
-            panelJuego.setTortuga(tortugas);
-            for (int i = 0; i < tortugas.size(); i++) {
-                hiloTortugas.add(new HiloTortuga(panelJuego, tortugas.get(i)));
-                hiloTortugas.get(i).start();
+            this.jugador = new Jugador(3, 670, 578);
+            this.panelJuego.setJugador(this.jugador);
+            this.panelJuego.setAlas(this.alas);
+            this.hiloJugador = new HiloJugador(panelJuego, this.jugador, this.alas);
+            this.hiloJugador.start();
+            this.tortugas.add(new Tortuga(1, 6, 423, 6, 248));
+            this.tortugas.add(new Tortuga(1, 514, 423, 514, 756));
+            this.tortugas.add(new Tortuga(1, 193, 263, 193, 569));
+            panelJuego.setTortuga(this.tortugas);
+            for (int i = 0; i < this.tortugas.size(); i++) {
+                this.hiloTortugas.add(new HiloTortuga(panelJuego, this.tortugas.get(i)));
+                this.hiloTortugas.get(i).start();
             }
-            hiloPlataformas = new HiloPlataformas(jugador, hiloJugador);
-            hiloPlataformas.start();
-            hiloColicionador = new HiloColisionador(panelInfo, tortugas, jugador, controlJuego);
-            hiloColicionador.start();
-            panelJuego.setBala(bala);
-            this.hiloBala = new HiloBala(100, 100, bala, jugador, panelJuego);
+            this.hiloPlataformas = new HiloPlataformas(this.jugador, this.hiloJugador);
+            this.hiloPlataformas.start();
+            this.hiloColicionador = new HiloColisionador(panelInfo, this.tortugas, this.jugador, controlJuego);
+            this.hiloColicionador.start();
+            this.panelJuego.setBala(this.bala);
+            this.hiloBala = new HiloBala(100, 100, this.bala, this.jugador, panelJuego);
             this.hiloBala.start();
-            this.hiloColisionDisparo = new HiloColisionDisparo(bala, tortugas, hiloTortugas);
+            this.hiloColisionDisparo = new HiloColisionDisparo(this.bala, this.tortugas, this.hiloTortugas);
             this.hiloColisionDisparo.start();
-            this.hiloColisionGanoPrimerJugador = new HiloColisionGanoPrimerJugador(panelJuego, jugador, controlJuego);
+            this.hiloColisionGanoPrimerJugador = new HiloColisionGanoPrimerJugador(panelJuego, this.jugador, controlJuego);
             this.hiloColisionGanoPrimerJugador.start();
             panelInfo.setLblVida(String.valueOf(jugador.getVidas()));
         } catch (Exception ex) {
@@ -113,69 +113,69 @@ public class RegistroJuego {
     public void cargarPartida(String nombrePartida) {
         Element partidaCargada = buscarPartida("nombre-partida", nombrePartida).get(0);
         try {
-            alas = new Alas(0, 0);
-            alas.setImgPers(alas.imgPersIzq);
+            this.alas = new Alas(0, 0);
+            this.alas.setImgPers(this.alas.imgPersIzq);
             this.bala = new Bala(-100, -100);
-            jugador = new Jugador(Integer.parseInt(partidaCargada.getChildText("vidas")), Integer.parseInt(partidaCargada.getChildText("pos-x")), Integer.parseInt(partidaCargada.getChildText("pos-y")));
-            jugador.setIsFirstPlayer(Boolean.parseBoolean(partidaCargada.getChildText("jugador")));
-            panelJuego.setJugador(jugador);
-            panelJuego.setAlas(alas);
-            hiloJugador = new HiloJugador(panelJuego, jugador, this.alas);
-            hiloJugador.start();
-            if (jugador.getIsFirstPlayer()) {
-                if (jugador.getLado()) {
-                    jugador.setImgPers(jugador.imgPersDer);
+            this.jugador = new Jugador(Integer.parseInt(partidaCargada.getChildText("vidas")), Integer.parseInt(partidaCargada.getChildText("pos-x")), Integer.parseInt(partidaCargada.getChildText("pos-y")));
+            this.jugador.setIsFirstPlayer(Boolean.parseBoolean(partidaCargada.getChildText("jugador")));
+            this.panelJuego.setJugador(this.jugador);
+            this.panelJuego.setAlas(this.alas);
+            this.hiloJugador = new HiloJugador(panelJuego, this.jugador, this.alas);
+            this.hiloJugador.start();
+            if (this.jugador.getIsFirstPlayer()) {
+                if (this.jugador.getLado()) {
+                    this.jugador.setImgPers(this.jugador.imgPersDer);
                 } else {
-                    jugador.setImgPers(jugador.imgPersIzq);
+                    this.jugador.setImgPers(this.jugador.imgPersIzq);
                 }
             } else {
-                if (jugador.getLado()) {
-                    jugador.setImgPers(jugador.imgPersDer2);
+                if (this.jugador.getLado()) {
+                    this.jugador.setImgPers(this.jugador.imgPersDer2);
                 } else {
-                    jugador.setImgPers(jugador.imgPersIzq2);
+                    this.jugador.setImgPers(this.jugador.imgPersIzq2);
                 }
             }
             List<Element> listaTortugas = partidaCargada.getChildren("tortuga");
             for (int i = 0; i < listaTortugas.size(); i++) {
                 if (Integer.parseInt(listaTortugas.get(i).getChildText("pos-x")) < 249 && Integer.parseInt(listaTortugas.get(i).getChildText("pos-y")) == 423) {
-                    tortugas.add(new Tortuga(1, Integer.parseInt(listaTortugas.get(i).getChildText("pos-x")), 423, 6, 248));
+                    this.tortugas.add(new Tortuga(1, Integer.parseInt(listaTortugas.get(i).getChildText("pos-x")), 423, 6, 248));
                 } else {
                     if (Integer.parseInt(listaTortugas.get(i).getChildText("pos-y")) == 423) {
-                        tortugas.add(new Tortuga(1, Integer.parseInt(listaTortugas.get(i).getChildText("pos-x")), 423, 514, 756));
+                        this.tortugas.add(new Tortuga(1, Integer.parseInt(listaTortugas.get(i).getChildText("pos-x")), 423, 514, 756));
                     }
                 }
                 if (Integer.parseInt(listaTortugas.get(i).getChildText("pos-y")) == 263) {
-                    tortugas.add(new Tortuga(1, Integer.parseInt(listaTortugas.get(i).getChildText("pos-x")), 263, 193, 569));
+                    this.tortugas.add(new Tortuga(1, Integer.parseInt(listaTortugas.get(i).getChildText("pos-x")), 263, 193, 569));
                 }
                 if (Boolean.parseBoolean(listaTortugas.get(i).getChildText("lado")) == true) {
-                    tortugas.get(i).setImgPers(tortugas.get(i).imgPersIzq);
+                    this.tortugas.get(i).setImgPers(tortugas.get(i).imgPersIzq);
                 } else {
-                    tortugas.get(i).setImgPers(tortugas.get(i).imgPersDer);
+                    this.tortugas.get(i).setImgPers(tortugas.get(i).imgPersDer);
                 }
             }
-            panelJuego.setTortuga(tortugas);
-            for (int i = 0; i < tortugas.size(); i++) {
-                hiloTortugas.add(new HiloTortuga(panelJuego, tortugas.get(i)));
-                if (hiloTortugas.get(i).tortuga.getLado()) {
-                    hiloTortugas.get(i).direccionX = 1;
+            panelJuego.setTortuga(this.tortugas);
+            for (int i = 0; i < this.tortugas.size(); i++) {
+                this.hiloTortugas.add(new HiloTortuga(panelJuego, this.tortugas.get(i)));
+                if (this.hiloTortugas.get(i).tortuga.getLado()) {
+                    this.hiloTortugas.get(i).direccionX = 1;
                 } else {
-                    hiloTortugas.get(i).direccionX = -1;
+                    this.hiloTortugas.get(i).direccionX = -1;
                 }
                 hiloTortugas.get(i).start();
             }
-            hiloPlataformas = new HiloPlataformas(jugador, hiloJugador);
-            hiloPlataformas.start();
-            hiloColicionador = new HiloColisionador(panelInfo, tortugas, jugador, controlJuego);
-            hiloColicionador.start();
-            panelJuego.setBala(bala);
-            this.hiloBala = new HiloBala(100, 100, bala, jugador, panelJuego);
+            this.hiloPlataformas = new HiloPlataformas(jugador, this.hiloJugador);
+            this.hiloPlataformas.start();
+            this.hiloColicionador = new HiloColisionador(panelInfo, this.tortugas, this.jugador, controlJuego);
+            this.hiloColicionador.start();
+            this.panelJuego.setBala(this.bala);
+            this.hiloBala = new HiloBala(100, 100, this.bala, this.jugador, panelJuego);
             this.hiloBala.start();
-            this.hiloColisionDisparo = new HiloColisionDisparo(bala, tortugas, hiloTortugas);
+            this.hiloColisionDisparo = new HiloColisionDisparo(this.bala, this.tortugas, this.hiloTortugas);
             this.hiloColisionDisparo.start();
-            this.hiloColisionGanoPrimerJugador = new HiloColisionGanoPrimerJugador(panelJuego, jugador, controlJuego);
+            this.hiloColisionGanoPrimerJugador = new HiloColisionGanoPrimerJugador(panelJuego, this.jugador, controlJuego);
             this.hiloColisionGanoPrimerJugador.start();
             panelInfo.setLblVida(String.valueOf(jugador.getVidas()));
-            hiloTiempo = new HiloTiempo(panelInfo, jugador);
+            this.hiloTiempo = new HiloTiempo(panelInfo, this.jugador);
             this.hiloTiempo.setTiempo(partidaCargada.getChildText("tiempo"));
             this.hiloTiempo.start();
         } catch (Exception ex) {
@@ -200,12 +200,12 @@ public class RegistroJuego {
         Element eJugPosY = new Element("pos-y");
         Element eJugLado = new Element("lado-jugador");
         eNombrePartida.addContent("Partida" + (raiz.getChildren().size() + 1) + " (" + String.valueOf(new Date().getDate()) + "/" + String.valueOf(new Date().getMonth() + 1) + "/" + String.valueOf(new Date().getYear() + 1900) + " " + String.valueOf(new Date().getHours()) + ":" + String.valueOf(new Date().getMinutes()) + ":" + String.valueOf(new Date().getSeconds()) + ")");
-        eTiempo.addContent(this.panelInfo.getLblTiempo());
-        eJug.addContent(String.valueOf(jugador.getIsFirstPlayer()));
-        eJugVidas.addContent(String.valueOf(jugador.getVidas()));
-        eJugPosX.addContent(String.valueOf(jugador.getPosX()));
-        eJugPosY.addContent(String.valueOf(jugador.getPosY()));
-        eJugLado.addContent(String.valueOf(jugador.getLado()));
+        eTiempo.addContent(panelInfo.getLblTiempo());
+        eJug.addContent(String.valueOf(this.jugador.getIsFirstPlayer()));
+        eJugVidas.addContent(String.valueOf(this.jugador.getVidas()));
+        eJugPosX.addContent(String.valueOf(this.jugador.getPosX()));
+        eJugPosY.addContent(String.valueOf(this.jugador.getPosY()));
+        eJugLado.addContent(String.valueOf(this.jugador.getLado()));
         ePartida.setAttribute(aUsuario);
         ePartida.addContent(eNombrePartida);
         ePartida.addContent(eTiempo);
@@ -234,43 +234,43 @@ public class RegistroJuego {
     }
 
     public void movJugAba() {
-        if (hiloJugador.salto == false && hiloJugador.caida == false) {
-            hiloJugador.altura = 0;
-            hiloJugador.salto = true;
+        if (this.hiloJugador.salto == false && this.hiloJugador.caida == false) {
+            this.hiloJugador.altura = 0;
+            this.hiloJugador.salto = true;
         }
     }
 
     public void movJugIzq(int x, boolean camina) {
-        hiloJugador.setDireccionX(x);
-        if (jugador.getIsFirstPlayer()) {
+        this.hiloJugador.setDireccionX(x);
+        if (this.jugador.getIsFirstPlayer()) {
             if (camina == true) {
-                this.jugador.setImgPers(jugador.imgPersIzqMov);
+                this.jugador.setImgPers(this.jugador.imgPersIzqMov);
             } else {
-                this.jugador.setImgPers(jugador.imgPersIzq);
+                this.jugador.setImgPers(this.jugador.imgPersIzq);
             }
         } else {
             if (camina == true) {
-                this.jugador.setImgPers(jugador.imgPersIzq2Mov);
+                this.jugador.setImgPers(this.jugador.imgPersIzq2Mov);
             } else {
-                this.jugador.setImgPers(jugador.imgPersIzq2);
+                this.jugador.setImgPers(this.jugador.imgPersIzq2);
             }
         }
         this.jugador.setLado(false);
     }
 
     public void movJugDer(int x, boolean camina) {
-        hiloJugador.setDireccionX(x);
+        this.hiloJugador.setDireccionX(x);
         if (jugador.getIsFirstPlayer()) {
             if (camina == true) {
-                this.jugador.setImgPers(jugador.imgPersDerMov);
+                this.jugador.setImgPers(this.jugador.imgPersDerMov);
             } else {
-                this.jugador.setImgPers(jugador.imgPersDer);
+                this.jugador.setImgPers(this.jugador.imgPersDer);
             }
         } else {
             if (camina == true) {
-                this.jugador.setImgPers(jugador.imgPersDer2Mov);
+                this.jugador.setImgPers(this.jugador.imgPersDer2Mov);
             } else {
-                this.jugador.setImgPers(jugador.imgPersDer2);
+                this.jugador.setImgPers(this.jugador.imgPersDer2);
             }
         }
         this.jugador.setLado(true);
@@ -278,13 +278,13 @@ public class RegistroJuego {
 
     /////////////////////////////////////////////////////////////////////////
     public void iniciarTiempo() {
-        hiloTiempo = new HiloTiempo(panelInfo, jugador);
-        hiloTiempo.start();
+        this.hiloTiempo = new HiloTiempo(panelInfo, this.jugador);
+        this.hiloTiempo.start();
     }
 
     /////////////////////////////////////////////////////////////////////////
     public void dispara() {
-        hiloBala.setDisparar(true);
+        this.hiloBala.setDisparar(true);
     }
 
     public List<Element> buscarPartida(String filtro, String nombreFiltro) {

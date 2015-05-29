@@ -87,7 +87,7 @@ public class HiloColisionGanoPrimerJugador extends Thread {
                         if (this.contadorGane == 3) {
                             controlJuego.registroJuego.panelInfo.usuarioActual.nuevoTiempo(controlJuego.registroJuego.hiloTiempo.getTiempo());
                             controlJuego.registroJuego.panelInfo.registroUsuario.modificarUsuario(controlJuego.registroJuego.panelInfo.usuarioActual);
-                            GUIJuego.mensaje("¡Felicidades! Ganó el juego.", 0, 1);
+                            GUIJuego.mensaje("¡Felicidades! Ganó el juego", 0, 1);
                             controlJuego.muestraPantallaInicio(true);
                         }
                         panelJuego.activarPow();

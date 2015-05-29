@@ -41,7 +41,6 @@ public class HiloColisionDisparo extends Thread {
                     this.colisionadorBala.setBounds(bala.getX(), bala.getY(), 50, 25);
                     this.colisionadorTortuga.setBounds(listaTortugas.get(index).getPosX(), listaTortugas.get(index).getPosY(), 50, 50);
                     if (isColision()) {
-                        System.err.println(" la bala colisiono");
                         listaTortugas.remove(index);
                         hiloTortugas.get(index).stop();
                         hiloTortugas.remove(index);
