@@ -19,10 +19,10 @@ public class HiloColisionador extends Thread {
 
     private ArrayList<Tortuga> listaT;
     private Jugador jugador;
-    private Rectangle colicionadorTortugas;
-    private Rectangle colicionadorJugador;
+    private Rectangle colisionadorTortugas;
+    private Rectangle colisionadorJugador;
     private int cantidadColiciones = 0;
-    private final PnlInfoJuego panelInfo;
+    private PnlInfoJuego panelInfo;
     private ControlJuego controlJuego;
 
     ///----------------------------------------------------------------------
@@ -30,25 +30,24 @@ public class HiloColisionador extends Thread {
         this.listaT = listaTortugas;
         this.jugador = jugador;
         this.panelInfo = panelInfo;
-        this.colicionadorJugador = new Rectangle(jugador.getPosX(), jugador.getPosY(), 50, 50);
-        this.colicionadorTortugas = new Rectangle();
+        this.colisionadorJugador = new Rectangle(jugador.getPosX(), jugador.getPosY(), 50, 50);
+        this.colisionadorTortugas = new Rectangle();
         this.controlJuego = controlJuego;
     }
 
     //////////////////////////////////////////////////////////////////////////
     public boolean isColision() {
-        return colicionadorJugador.intersects(colicionadorTortugas);
+        return this.colisionadorJugador.intersects(this.colisionadorTortugas);
     }
 
     //////////////////////////////////////////////////////////////////////////
     public void run() {
-
         try {
             while (true) {
                 sleep(200);
-                this.colicionadorJugador.setBounds(jugador.getPosX(), jugador.getPosY(), 60, 60);
+                this.colisionadorJugador.setBounds(jugador.getPosX(), jugador.getPosY(), 60, 60);
                 for (int index = 0; index < listaT.size(); index++) {
-                    this.colicionadorTortugas.setBounds(listaT.get(index).getPosX(), listaT.get(index).getPosY(), 50, 50);
+                    this.colisionadorTortugas.setBounds(listaT.get(index).getPosX(), listaT.get(index).getPosY(), 50, 50);
                     if (isColision()) {
                         this.cantidadColiciones++;
                         jugador.setVidas(jugador.getVidas() - 1);
@@ -71,5 +70,4 @@ public class HiloColisionador extends Thread {
         } catch (InterruptedException ex) {
         }
     } // Fin de metodo run
-
 } // fin de clase

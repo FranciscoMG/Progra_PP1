@@ -17,7 +17,7 @@ public class HiloTiempo extends Thread {
     private int segundos;
     private String tiempo;
     private PnlInfoJuego pnlInfoJuego;
-    private final Jugador jugador;
+    private Jugador jugador;
 
     public HiloTiempo(PnlInfoJuego panelInfo, Jugador jugador) {
         this.pnlInfoJuego = panelInfo;
@@ -34,13 +34,13 @@ public class HiloTiempo extends Thread {
 
     ///////////////////////////////////////////////////////////////////////////
     public String getTiempo() {
-        return tiempo;
+        return this.tiempo;
     }
 
     ///////////////////////////////////////////////////////////////////////////
     public void run() {
-        int minTemp = minutos;
-        int segTemp = segundos;
+        int minTemp = this.minutos;
+        int segTemp = this.segundos;
         while (true) {
             try {
                 for (int minutos = minTemp; minutos < 10; minutos++) {
@@ -67,5 +67,4 @@ public class HiloTiempo extends Thread {
             }
         }
     }
-
 }

@@ -24,13 +24,13 @@ public class HiloPlataformas extends Thread {
         this.jugador = jugador;
         this.hiloJugador = hilo;
         this.colisionadorJugador = new Rectangle();
-        plataformas.add(new Rectangle(5, 474, 293, 27));
-        plataformas.add(new Rectangle(512, 474, 293, 27));
-        plataformas.add(new Rectangle(5, 340, 80, 27));
-        plataformas.add(new Rectangle(725, 340, 80, 27));
-        plataformas.add(new Rectangle(194, 314, 424, 27));
-        plataformas.add(new Rectangle(5, 153, 344, 27));
-        plataformas.add(new Rectangle(461, 153, 344, 27));
+        this.plataformas.add(new Rectangle(5, 474, 293, 27));
+        this.plataformas.add(new Rectangle(512, 474, 293, 27));
+        this.plataformas.add(new Rectangle(5, 340, 80, 27));
+        this.plataformas.add(new Rectangle(725, 340, 80, 27));
+        this.plataformas.add(new Rectangle(194, 314, 424, 27));
+        this.plataformas.add(new Rectangle(5, 153, 344, 27));
+        this.plataformas.add(new Rectangle(461, 153, 344, 27));
     }
 
     public void run() {
@@ -38,11 +38,11 @@ public class HiloPlataformas extends Thread {
             try {
                 sleep(20);
                 this.colisionadorJugador.setBounds(jugador.getPosX(), jugador.getPosY(), 60, 60);
-                if (colisionadorJugador.intersects(suelo)) {
+                if (this.colisionadorJugador.intersects(this.suelo)) {
                     hiloJugador.caida = false;
                 }
                 for (Rectangle plataforma : plataformas) {
-                    if (colisionadorJugador.intersects(plataforma)) {
+                    if (this.colisionadorJugador.intersects(plataforma)) {
                         if (jugador.getPosY() == 500 || jugador.getPosY() == 365 || jugador.getPosY() == 338 || jugador.getPosY() == 179) {
                             hiloJugador.salto = false;
                             hiloJugador.caida = true;

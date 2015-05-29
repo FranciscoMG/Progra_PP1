@@ -24,7 +24,7 @@ public class HiloColisionGanoPrimerJugador extends Thread {
     private int contadorGane;
     private PanelJuego panelJuego;
     private Jugador jugador;
-    private final ControlJuego controlJuego;
+    private ControlJuego controlJuego;
 
     //-------------------------------------------------------------------------
     public HiloColisionGanoPrimerJugador(PanelJuego panelJuego, Jugador jugador, ControlJuego controlJuego) {
@@ -32,14 +32,14 @@ public class HiloColisionGanoPrimerJugador extends Thread {
         this.jugador = jugador;
         this.colisionadorJugador = new Rectangle();
         this.controlJuego = controlJuego;
-        meta1 = new Rectangle(0, 30, 100, 100);
-        meta2 = new Rectangle(710, 30, 100, 100);
-        pow = new Rectangle(385, 474, 50, 50);
+        this.meta1 = new Rectangle(0, 30, 100, 100);
+        this.meta2 = new Rectangle(710, 30, 100, 100);
+        this.pow = new Rectangle(385, 474, 50, 50);
     }
 
     ////////////////////////////////////////////////////////////////////////////
     public boolean isColisionDerecha() {
-        if (colisionadorJugador.intersects(meta2)) {
+        if (this.colisionadorJugador.intersects(this.meta2)) {
             return true;
         } else {
             return false;
@@ -47,7 +47,7 @@ public class HiloColisionGanoPrimerJugador extends Thread {
     }
 
     public boolean isColisionIzquierda() {
-        if (colisionadorJugador.intersects(meta1)) {
+        if (this.colisionadorJugador.intersects(this.meta1)) {
             return true;
         } else {
             return false;
@@ -55,14 +55,14 @@ public class HiloColisionGanoPrimerJugador extends Thread {
     }
 
     public boolean isColicionPow() {
-        return colisionadorJugador.intersects(pow);
+        return this.colisionadorJugador.intersects(this.pow);
     }
 
     public void run() {
         while (true) {
             try {
                 sleep(250);
-                colisionadorJugador.setBounds(jugador.getPosX(), jugador.getPosY(), 60, 60);
+                this.colisionadorJugador.setBounds(jugador.getPosX(), jugador.getPosY(), 60, 60);
                 if (jugador.getIsFirstPlayer()) {
                     if (isColisionDerecha()) {
                         jugador.setIsFirstPlayer(false); // Si el jugador coliciona con la meta 
@@ -83,8 +83,8 @@ public class HiloColisionGanoPrimerJugador extends Thread {
                     if (isColicionPow()) {
                         panelJuego.activarPuntos();
                         sleep(2000);
-                        contadorGane++;
-                        if (contadorGane == 3) {
+                        this.contadorGane++;
+                        if (this.contadorGane == 3) {
                             controlJuego.registroJuego.panelInfo.usuarioActual.nuevoTiempo(controlJuego.registroJuego.hiloTiempo.getTiempo());
                             controlJuego.registroJuego.panelInfo.registroUsuario.modificarUsuario(controlJuego.registroJuego.panelInfo.usuarioActual);
                             GUIJuego.mensaje("¡Felicidades! Ganó el juego.", 0, 1);
@@ -93,13 +93,9 @@ public class HiloColisionGanoPrimerJugador extends Thread {
                         panelJuego.activarPow();
                     }
                 }
-
             } catch (InterruptedException ex) {
             } catch (IOException ex) {
             }
-
         }
-
     }
-
 }

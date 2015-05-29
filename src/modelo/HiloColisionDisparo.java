@@ -16,21 +16,21 @@ public class HiloColisionDisparo extends Thread {
 
     private Bala bala;
     private ArrayList<Tortuga> listaTortugas;
-    private Rectangle colicionadorBala;
-    private Rectangle colicionadorTortuga;
+    private Rectangle colisionadorBala;
+    private Rectangle colisionadorTortuga;
     private ArrayList<HiloTortuga> hiloTortugas;
 
     public HiloColisionDisparo(Bala bala, ArrayList<Tortuga> listaTortugas, ArrayList<HiloTortuga> hiloTortugas) {
         this.bala = bala;
         this.listaTortugas = listaTortugas;
         this.hiloTortugas = hiloTortugas;
-        colicionadorBala = new Rectangle();
-        colicionadorTortuga = new Rectangle();
+        this.colisionadorBala = new Rectangle();
+        this.colisionadorTortuga = new Rectangle();
     }
 
     //////////////////////////////////////////////////////////////////////////
     public boolean isColision() {
-        return colicionadorBala.intersects(colicionadorTortuga);
+        return this.colisionadorBala.intersects(colisionadorTortuga);
     }
 
     public void run() {
@@ -38,8 +38,8 @@ public class HiloColisionDisparo extends Thread {
             try {
                 sleep(10);
                 for (int index = 0; index < listaTortugas.size(); index++) {
-                    colicionadorBala.setBounds(bala.getX(), bala.getY(), 50, 25);
-                    colicionadorTortuga.setBounds(listaTortugas.get(index).getPosX(), listaTortugas.get(index).getPosY(), 50, 50);
+                    this.colisionadorBala.setBounds(bala.getX(), bala.getY(), 50, 25);
+                    this.colisionadorTortuga.setBounds(listaTortugas.get(index).getPosX(), listaTortugas.get(index).getPosY(), 50, 50);
                     if (isColision()) {
                         System.err.println(" la bala colisiono");
                         listaTortugas.remove(index);
@@ -48,10 +48,8 @@ public class HiloColisionDisparo extends Thread {
                         sleep(3000);
                     }
                 }
-
             } catch (InterruptedException ex) {
             }
         }
     }
-
 }

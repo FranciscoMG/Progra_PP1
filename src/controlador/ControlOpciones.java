@@ -99,5 +99,4 @@ public class ControlOpciones implements ActionListener {
             System.exit(0);
         }
     }
-
 }

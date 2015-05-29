@@ -31,7 +31,7 @@ public class PanelJuego extends javax.swing.JPanel {
      */
     public PanelJuego() {
         initComponents();
-        pow = new ImageIcon(getClass().getResource("/img/pow0.png")).getImage();
+        this.pow = new ImageIcon(getClass().getResource("/img/pow0.png")).getImage();
     }
 
     public void activarPow() {
@@ -39,7 +39,7 @@ public class PanelJuego extends javax.swing.JPanel {
     }
 
     public void activarPuntos() {
-        pow = new ImageIcon(getClass().getResource("/img/1.gif")).getImage();
+        this.pow = new ImageIcon(getClass().getResource("/img/1.gif")).getImage();
     }
 
     public void paint(Graphics g) {
@@ -51,7 +51,6 @@ public class PanelJuego extends javax.swing.JPanel {
             tortugas.get(i).pintarPersonaje(g);
         }
         bala.pintarBala(g);
-
     }
 
     /**

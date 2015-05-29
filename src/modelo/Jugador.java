@@ -23,7 +23,7 @@ public class Jugador extends Personaje {
     }
 
     public Boolean getIsFirstPlayer() {
-        return isFirstPlayer;
+        return this.isFirstPlayer;
     }
 
     public void setIsFirstPlayer(Boolean isFirstPlayer) {

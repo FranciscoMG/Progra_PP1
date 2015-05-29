@@ -23,7 +23,7 @@ public class Tortuga extends Personaje {
     }
 
     public int getLimiteInicio() {
-        return limiteInicio;
+        return this.limiteInicio;
     }
 
     public void setLimiteInicio(int limiteInicio) {
@@ -31,7 +31,7 @@ public class Tortuga extends Personaje {
     }
 
     public int getLimiteFinal() {
-        return limiteFinal;
+        return this.limiteFinal;
     }
 
     public void setLimiteFinal(int limiteFinal) {

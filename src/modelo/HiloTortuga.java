@@ -26,19 +26,18 @@ public class HiloTortuga extends Thread {
         while (true) {
             try {
                 HiloTortuga.sleep(20);
-                if (this.tortuga.getPosX() == this.tortuga.getLimiteInicio()) {
-                    this.tortuga.setLado(true);
-                    direccionX = 1;
-                    this.tortuga.setImgPers(tortuga.imgPersDer);
+                if (tortuga.getPosX() == tortuga.getLimiteInicio()) {
+                    tortuga.setLado(true);
+                    this.direccionX = 1;
+                    tortuga.setImgPers(tortuga.imgPersDer);
                 }
-                if (this.tortuga.getPosX() == this.tortuga.getLimiteFinal()) {
-                    this.tortuga.setLado(false);
-                    direccionX = -1;
-                    this.tortuga.setImgPers(tortuga.imgPersIzq);
+                if (tortuga.getPosX() == tortuga.getLimiteFinal()) {
+                    tortuga.setLado(false);
+                    this.direccionX = -1;
+                    tortuga.setImgPers(tortuga.imgPersIzq);
                 }
-                this.tortuga.setPosX(this.tortuga.getPosX() + direccionX);
+                tortuga.setPosX(tortuga.getPosX() + this.direccionX);
             } catch (InterruptedException ex) {
-                System.err.println("Excepsion hiloTortuga");
             }
             this.panelJuego.repaint();
         }

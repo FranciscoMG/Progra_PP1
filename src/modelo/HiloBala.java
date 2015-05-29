@@ -72,7 +72,7 @@ public class HiloBala extends Thread {
         try {
             while (true) {
                 sleep(50);
-                if (disparar) {
+                if (this.disparar) {
                     bala.setX(personaje.getPosX());
                     bala.setY(personaje.getPosY());
                     if (personaje.getLado()) {
@@ -88,12 +88,11 @@ public class HiloBala extends Thread {
                             panelJuego.repaint();
                         }
                     }
-                    disparar = false;
+                    this.disparar = false;
                 }
                 panelJuego.repaint();
             }
         } catch (InterruptedException ex) {
         }
     }
-
 }

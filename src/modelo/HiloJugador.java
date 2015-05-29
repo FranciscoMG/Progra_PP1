@@ -37,40 +37,39 @@ public class HiloJugador extends Thread {
         while (true) {
             try {
                 sleep(20);
-                if (salto) {
-                    altura++;
-                    direccionY = -1;
-                    this.jugador.setPosY(jugador.getPosY() + direccionY * 3);
-                    if (altura == 65) {
-                        salto = false;
-                        caida = true;
+                if (this.salto) {
+                    this.altura++;
+                    this.direccionY = -1;
+                    jugador.setPosY(jugador.getPosY() + this.direccionY * 3);
+                    if (this.altura == 65) {
+                        this.salto = false;
+                        this.caida = true;
                     }
                 }
-                if (caida) {
-                    altura--;
-                    direccionY = 1;
-                    this.jugador.setPosY(jugador.getPosY() + direccionY * 3);
+                if (this.caida) {
+                    this.altura--;
+                    this.direccionY = 1;
+                    jugador.setPosY(jugador.getPosY() + this.direccionY * 3);
                 }
-                this.jugador.setPosX(jugador.getPosX() + direccionX * 5);
-                direccionY = 0;
+                jugador.setPosX(jugador.getPosX() + this.direccionX * 5);
+                this.direccionY = 0;
                 if (jugador.getPosX() < 0) { // evita que se salga de -x
-                    this.jugador.setPosX(jugador.getPosX() + 10);
+                    jugador.setPosX(jugador.getPosX() + 10);
                 }
                 if (jugador.getPosX() > 760) { // evita que se salga de +x
-                    this.jugador.setPosX(jugador.getPosX() - 10);
+                    jugador.setPosX(jugador.getPosX() - 10);
                 }
-
-                if (salto || caida) {
-                    this.alas.setImgPers(alas.imgPersDer);
-                    this.alas.setPosX(jugador.getPosX() - 40);
-                    this.alas.setPosY(jugador.getPosY() - 24);
+                if (this.salto || this.caida) {
+                    alas.setImgPers(alas.imgPersDer);
+                    alas.setPosX(jugador.getPosX() - 40);
+                    alas.setPosY(jugador.getPosY() - 24);
                 } else {
-                    this.alas.setImgPers(alas.imgPersIzq);
+                    alas.setImgPers(alas.imgPersIzq);
                 }
 
             } catch (InterruptedException ex) {
             }
-            this.panelJuego.repaint();
+            panelJuego.repaint();
         }
     }
 }
