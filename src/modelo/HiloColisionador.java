@@ -56,6 +56,8 @@ public class HiloColisionador extends Thread {
                             jugador.setPosX(150);
                             jugador.setPosY(95);
                         }
+                        if (this.cantidadColiciones == 3) {
+                        }
                         
                         sleep(1000);
                     }
