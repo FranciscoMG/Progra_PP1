@@ -53,6 +53,7 @@ public class HiloTiempo extends Thread {
                         this.sleep(1063);
                         pnlInfoJuego.setLblTiempo(tiempo);
                     }
+                    segTemp = 0;
                     jugador.setVidas(jugador.getVidas() - 1);
                     if (jugador.getIsFirstPlayer()) {
                         jugador.setPosX(670);
