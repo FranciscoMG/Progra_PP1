@@ -16,7 +16,7 @@ import modelo.Usuario;
 public class PnlInfoJuego extends javax.swing.JPanel {
 
     public Usuario usuarioActual;
-    private RegistroUsuario registroUsuario;
+    public RegistroUsuario registroUsuario;
 
     /**
      * Creates new form PanelInfoJuego

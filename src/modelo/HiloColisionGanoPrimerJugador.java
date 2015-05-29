@@ -7,6 +7,7 @@ package modelo;
 
 import controlador.ControlJuego;
 import java.awt.Rectangle;
+import java.io.IOException;
 import vista.GUIJuego;
 import vista.PanelJuego;
 
@@ -85,6 +86,7 @@ public class HiloColisionGanoPrimerJugador extends Thread {
                         contadorGane++;
                         if (contadorGane == 3) {
                             controlJuego.registroJuego.panelInfo.usuarioActual.nuevoTiempo(controlJuego.registroJuego.hiloTiempo.getTiempo());
+                            controlJuego.registroJuego.panelInfo.registroUsuario.modificarUsuario(controlJuego.registroJuego.panelInfo.usuarioActual);
                             GUIJuego.mensaje("¡Felicidades! Ganó el juego.", 0, 1);
                             controlJuego.muestraPantallaInicio(true);
                         }
@@ -93,6 +95,7 @@ public class HiloColisionGanoPrimerJugador extends Thread {
                 }
 
             } catch (InterruptedException ex) {
+            } catch (IOException ex) {
             }
 
         }
