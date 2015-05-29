@@ -39,7 +39,7 @@ public class Usuario {
 
     public void nuevoTiempo(String tiempo) {
         String aux;
-        mejoresTiempos[4] = tiempo;
+        mejoresTiempos[3] = tiempo;
         for (int i = 0; i < mejoresTiempos.length; i++) {
             for (int k = 0; k < mejoresTiempos.length - 1; k++) {
                 if (Integer.parseInt(this.mejoresTiempos[k].split(":")[0]) > Integer.parseInt(this.mejoresTiempos[k + 1].split(":")[0])) {
