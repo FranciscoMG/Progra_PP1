@@ -5,7 +5,9 @@
  */
 package modelo;
 
+import controlador.ControlJuego;
 import java.awt.Rectangle;
+import vista.GUIJuego;
 import vista.PanelJuego;
 
 /**
@@ -18,14 +20,17 @@ public class HiloColisionGanoPrimerJugador extends Thread {
     private Rectangle meta1;
     private Rectangle meta2;
     private Rectangle pow;
+    private int contadorGane;
     private PanelJuego panelJuego;
     private Jugador jugador;
+    private final ControlJuego controlJuego;
 
     //-------------------------------------------------------------------------
-    public HiloColisionGanoPrimerJugador(PanelJuego panelJuego, Jugador jugador) {
+    public HiloColisionGanoPrimerJugador(PanelJuego panelJuego, Jugador jugador, ControlJuego controlJuego) {
         this.panelJuego = panelJuego;
         this.jugador = jugador;
-        colisionadorJugador = new Rectangle();
+        this.colisionadorJugador = new Rectangle();
+        this.controlJuego = controlJuego;
         meta1 = new Rectangle(0, 30, 100, 100);
         meta2 = new Rectangle(710, 30, 100, 100);
         pow = new Rectangle(385, 474, 50, 50);
@@ -76,8 +81,13 @@ public class HiloColisionGanoPrimerJugador extends Thread {
                 if (jugador.getIsFirstPlayer() == false) {
                     if (isColicionPow()) {
                         panelJuego.activarPuntos();
-                        System.err.println("Estrella  <== HiloColicionGanoPrimero");
-                        sleep(2500);
+                        sleep(2000);
+                        contadorGane++;
+                        if (contadorGane == 3) {
+                            controlJuego.registroJuego.panelInfo.usuarioActual.nuevoTiempo(controlJuego.registroJuego.hiloTiempo.getTiempo());
+                            GUIJuego.mensaje("¡Felicidades! Ganó el juego.", 0, 1);
+                            controlJuego.muestraPantallaInicio(true);
+                        }
                         panelJuego.activarPow();
                     }
                 }

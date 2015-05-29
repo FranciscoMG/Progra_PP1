@@ -5,6 +5,7 @@
  */
 package modelo;
 
+import controlador.ControlJuego;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
@@ -26,18 +27,19 @@ import vista.PnlInfoJuego;
 public class RegistroJuego {
 
     private PanelJuego panelJuego;
-    private PnlInfoJuego panelInfo;
+    public PnlInfoJuego panelInfo;
     private Jugador jugador;
     private HiloJugador hiloJugador;
     private ArrayList<Tortuga> tortugas = new ArrayList<>();
     private ArrayList<HiloTortuga> hiloTortugas = new ArrayList<>();
-    private HiloTiempo hiloTiempo;
+    public HiloTiempo hiloTiempo;
     private HiloColisionador hiloColicionador;
     private Bala bala;
     private HiloBala hiloBala;
     private HiloColisionDisparo hiloColisionDisparo;
     private HiloPlataformas hiloPlataformas;
     private HiloColisionGanoPrimerJugador hiloColisionGanoPrimerJugador;
+    private ControlJuego controlJuego;
     private Document documento;
     private Element raiz;
     private String ruta;
@@ -66,9 +68,10 @@ public class RegistroJuego {
         return new RegistroJuego(nombre, "partidas");
     }
 
-    public void asignaPaneles(PanelJuego panelJuego, PnlInfoJuego panelInfo) {
+    public void asignaPaneles(PanelJuego panelJuego, PnlInfoJuego panelInfo, ControlJuego controlJuego) {
         this.panelJuego = panelJuego;
         this.panelInfo = panelInfo;
+        this.controlJuego = controlJuego;
     }
 
     public void iniciarJuegoNuevo() {
@@ -98,7 +101,7 @@ public class RegistroJuego {
             this.hiloBala.start();
             this.hiloColisionDisparo = new HiloColisionDisparo(bala, tortugas, hiloTortugas);
             this.hiloColisionDisparo.start();
-            this.hiloColisionGanoPrimerJugador = new HiloColisionGanoPrimerJugador(panelJuego, jugador);
+            this.hiloColisionGanoPrimerJugador = new HiloColisionGanoPrimerJugador(panelJuego, jugador, controlJuego);
             this.hiloColisionGanoPrimerJugador.start();
             panelInfo.setLblVida(String.valueOf(jugador.getVidas()));
         } catch (Exception ex) {
@@ -168,7 +171,7 @@ public class RegistroJuego {
             this.hiloBala.start();
             this.hiloColisionDisparo = new HiloColisionDisparo(bala, tortugas, hiloTortugas);
             this.hiloColisionDisparo.start();
-            this.hiloColisionGanoPrimerJugador = new HiloColisionGanoPrimerJugador(panelJuego, jugador);
+            this.hiloColisionGanoPrimerJugador = new HiloColisionGanoPrimerJugador(panelJuego, jugador, controlJuego);
             this.hiloColisionGanoPrimerJugador.start();
             panelInfo.setLblVida(String.valueOf(jugador.getVidas()));
             hiloTiempo = new HiloTiempo(panelInfo, jugador);

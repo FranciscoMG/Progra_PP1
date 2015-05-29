@@ -27,7 +27,8 @@ public class ControlJuego implements ActionListener, KeyListener, MouseListener 
     private GUIJuego guiJuego;
     private PanelJuego panelJuego;
     private PnlInfoJuego panelInfo;
-    private RegistroJuego registroJuego;
+    public RegistroJuego registroJuego;
+    private GUIOpciones guiOpciones;
 
     public ControlJuego(GUIJuego guiJuego, PanelJuego panelJuego, PnlInfoJuego panelInfo, RegistroJuego registroJuego, boolean esNuevo) {
         this.panelJuego = panelJuego;
@@ -36,7 +37,7 @@ public class ControlJuego implements ActionListener, KeyListener, MouseListener 
         this.guiJuego = guiJuego;
         this.panelInfo = panelInfo;
         this.registroJuego = registroJuego;
-        registroJuego.asignaPaneles(this.panelJuego, this.panelInfo);
+        registroJuego.asignaPaneles(this.panelJuego, this.panelInfo, this);
         if (esNuevo) {
             registroJuego.iniciarJuegoNuevo();
             registroJuego.iniciarTiempo();
@@ -48,6 +49,7 @@ public class ControlJuego implements ActionListener, KeyListener, MouseListener 
     }
 
     public void keyPressed(KeyEvent e) {
+
         if (e.getKeyCode() == KeyEvent.VK_SPACE) {
             this.registroJuego.dispara();
         }
@@ -81,12 +83,12 @@ public class ControlJuego implements ActionListener, KeyListener, MouseListener 
         }
         if (e.getActionCommand().equalsIgnoreCase(PnlInfoJuego.BTN_NUEVA)) {
             if (GUIJuego.mensaje("Se cerrará la sesión de juego actual y se perderá el progreso\n¿Deseas iniciar un nuevo juego?", 1, 1) == 0) {
-                muestraPantalla(true);
+                muestraPantallaInicio(true);
             }
         }
         if (e.getActionCommand().equalsIgnoreCase(PnlInfoJuego.BTN_CARGAR)) {
             if (GUIJuego.mensaje("¿Deseas cargar una partida?", 1, 1) == 0) {
-                muestraPantalla(false);
+                muestraPantallaInicio(false);
             }
         }
         if (e.getActionCommand().equalsIgnoreCase(PnlInfoJuego.BTN_SALIR)) {
@@ -112,8 +114,8 @@ public class ControlJuego implements ActionListener, KeyListener, MouseListener 
     public void mouseExited(MouseEvent me) {
     }
 
-    public void muestraPantalla(boolean esNuevoJuego) {
-        GUIOpciones guiOpciones = new GUIOpciones(esNuevoJuego, this.panelInfo.getLblNombreUsuario());
+    public void muestraPantallaInicio(boolean esNuevoJuego) {
+        guiOpciones = new GUIOpciones(esNuevoJuego, this.panelInfo.getLblNombreUsuario());
         guiOpciones.setVisible(true);
         this.guiJuego.dispose();
         this.registroJuego.detenerHilos();

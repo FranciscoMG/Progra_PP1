@@ -82,7 +82,7 @@ public class ControlOpciones implements ActionListener {
                     }
                 }
                 if (usuarioEscogido != null) {
-                    GUIJuego guiJuego = new GUIJuego(usuarioEscogido, this.registroJuego, true);
+                    GUIJuego guiJuego = new GUIJuego(usuarioEscogido, this.registroJuego, null, true);
                     guiJuego.setVisible(true);
                     guiOpciones.dispose();
                 }
@@ -91,7 +91,7 @@ public class ControlOpciones implements ActionListener {
             }
         }
         if (e.getActionCommand().equalsIgnoreCase(PanelOpciones.BTN_CARGAR)) {
-            GUIJuego guiJuego = new GUIJuego(this.registroUsuario.getUsuario(this.panelOpciones.getTxtUsuario()), this.registroJuego, false);
+            GUIJuego guiJuego = new GUIJuego(this.registroUsuario.getUsuario(this.panelOpciones.getTxtUsuario()), this.registroJuego, null, false);
             this.registroJuego.cargarPartida(this.panelOpciones.getCboPartidas());
             guiJuego.setVisible(true);
             guiOpciones.dispose();

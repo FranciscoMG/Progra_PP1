@@ -6,6 +6,7 @@
 package vista;
 
 import java.awt.event.ActionListener;
+import modelo.RegistroUsuario;
 import modelo.Usuario;
 
 /**
@@ -14,7 +15,8 @@ import modelo.Usuario;
  */
 public class PnlInfoJuego extends javax.swing.JPanel {
 
-    private Usuario usuarioActual;
+    public Usuario usuarioActual;
+    private RegistroUsuario registroUsuario;
 
     /**
      * Creates new form PanelInfoJuego
@@ -241,7 +243,8 @@ public class PnlInfoJuego extends javax.swing.JPanel {
         this.btnSalir.addActionListener(control);
     }
 
-    public void cargarUsuario(Usuario usuario) {
+    public void cargarUsuario(RegistroUsuario registroUsuario, Usuario usuario) {
+        this.registroUsuario = registroUsuario;
         this.usuarioActual = usuario;
         this.lblNombreUsuario.setText(usuario.getNombre());
         setMejoresTiempos(usuario.getMejoresTiempos());
